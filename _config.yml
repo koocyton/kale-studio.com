@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 一洼绿地
-subtitle: 1202.615163
+title: kale-studio.com
+subtitle: kale-studio.com
 author: koocyton
 timezone: Asia/Shanghai
 
@@ -22,7 +22,7 @@ langselect:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://onote.doopp.com      # Note: don't forget to modify the CNAME file to your url
+url: https://kale-studio.com      # Note: don't forget to modify the CNAME file to your url
 root: /
 permalink: :lang/:title/
 permalink_defaults:
@@ -39,8 +39,8 @@ permalink_defaults:
 # Custom Setting Start
 
 # Site settings
-SEOTitle: koocyton`s blog
-email: koocyton@gmail.com
+SEOTitle: kale-studio.com
+email: henry@5163.xyz
 description: "It's an IT blog..."
 keyword: "javascript java php emacs spring linux"
 header-img: img/header_img/newhome_bg.jpg
@@ -62,7 +62,7 @@ wave: true
 
 # SNS Settings
 # RSS: true
-github_username: koocyton
+github_username: henry
 # twitter_username: V_Vincen_
 # instagram_username: v_vincen_
 # facebook_username:  yourAccount
