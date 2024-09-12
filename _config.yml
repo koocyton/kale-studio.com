@@ -380,7 +380,8 @@ theme: livemylife
 ##
 deploy:
   type: git
-  repo: https://github.com/koocyton/kale-studio.git
+  # repo: https://github.com/koocyton/kale-studio.com.git
+  repo: git@github.com:koocyton/kale-studio.com.git
   branch: public
   # token: /Users/henry/.ssh/id_rsa_github
   token: C:\Users\koocyton\.ssh\github_rsa
