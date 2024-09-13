@@ -365,7 +365,7 @@ search:
 # Theme config
 ## Themes: https://hexo.io/themes/
 ##
-theme: livemylife
+theme: hexo-theme-twboostrap
 
 
 # Gitter
