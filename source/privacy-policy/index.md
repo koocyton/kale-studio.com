@@ -3,6 +3,66 @@ title: Privacy policy
 date: 2025-04-01
 ---
 
+## Privacy Policy
+
+This app places great importance on user privacy and strictly abides by relevant legal regulations. Please read this **Privacy Policy** carefully before continuing to use the app. By continuing to use our services, you indicate that you have fully read and understood all the contents of our agreement.
+
+### 1
+
+　　This app respects and protects the personal privacy rights of all users who use its services. To provide you with more accurate and high-quality services, the app will use and disclose your personal information in accordance with this Privacy Policy. Except as otherwise provided in this Privacy Policy, the app will not disclose or provide this information to third parties without your prior permission. This Privacy Policy may be updated from time to time. By agreeing to the app's Terms of Service, you are deemed to have accepted the full contents of this Privacy Policy.
+
+#### 1. Scope of Application
+
+##### (a) The personal registration information you provide when registering an account with this app as required;
+
+##### (b) When you use the network services of this app or visit its platform web pages, the app automatically receives and records information from your browser and computer, including but not limited to your IP address, browser type, language used, access date and time, hardware and software characteristics, and records of web pages you access;
+
+© Personal data about users obtained legally by this app from business partners.
+
+##### (d) This app strictly prohibits users from publishing harmful content, such as nudity, pornography, and profanity. Posted content will be reviewed, and if any harmful content is found, the user's permissions will be disabled and the account will be banned.
+
+#### 2. Use of Information
+
+##### (a) This app will not provide, sell, rent, share, or trade your personal login information to any unrelated third party. If system maintenance or upgrades are needed, we will send you a push notification in advance; please enable notifications from this app.
+
+##### (b) This app also prohibits any third party from collecting, editing, selling, or freely distributing your personal information in any way. If any user is found engaging in such activities, the app has the right to immediately terminate their service agreement.
+
+© To serve users, the app may use your personal information to provide content you may be interested in, including but not limited to sending you product and service information, or sharing information with partners so they can send you relevant product and service information (with your prior consent).
+
+#### 3. Disclosure of Information
+
+In the following situations, this app will disclose your personal information in whole or in part according to your personal consent or legal requirements:
+
+##### (a) Without your prior consent, we will not disclose your information to third parties;
+
+##### (b) Disclosure is necessary to provide the products and services you request;
+
+© Disclosure is required by relevant laws, or by administrative or judicial authorities;
+
+##### (d) If you violate Chinese laws, regulations, or the app’s Terms of Service or related rules, disclosure to third parties may be necessary;
+
+##### (e) If you are a qualified intellectual property complainant who has filed a complaint, disclosure may be made to the respondent at their request to help resolve potential rights disputes;
+
+#### 4. Information Storage and Transfer
+
+The information and data collected about you will be stored on servers of this app and/or its affiliated companies. This information and data may be transmitted to, accessed from, stored and displayed in countries or regions outside of where you are located or where the data was collected.
+
+#### 5. Use of Cookies
+
+##### (a) Unless you refuse to accept cookies, this app will set or access cookies on your computer to allow you to log in or use services or features that rely on cookies. Cookies help the app provide you with more thoughtful and personalized services, including promotional content.
+
+##### (b) You have the right to accept or refuse cookies. You can refuse cookies by modifying your browser settings. However, if you refuse cookies, you may not be able to log in or use services or features of the app that rely on cookies.
+
+© The information collected through cookies set by this app will be governed by this policy.
+
+#### 6. Changes to This Privacy Policy
+
+##### (a) If we decide to change our Privacy Policy, we will post the changes in this policy, on our official website, and in other locations we deem appropriate so that you are aware of how we collect, use, and disclose your personal information.
+
+Please protect your personal information and only provide it to others when necessary. If you discover that your personal information has been leaked, especially your app username or password, please contact our customer support immediately so we can take appropriate action.
+
+
+
 ## 隐私政策
 
 本应用非常重视用户隐私政策并严格遵守相关的法律规定。请您仔细阅读《隐私政策》后再继续使用。如果您继续使用我们的服务，表示您已经充分阅读和理解我们协议的全部内容。
