@@ -3,9 +3,9 @@ menu:
   Home: /
   KenNote: /ken-note
   Privacy policy: /privacy-policy
-  Archives: /archives
-  Categories: /categories
-  Tags: /tags
+#  Archives: /archives
+#  Categories: /categories
+#  Tags: /tags
   About: /about
 rss: /atom.xml
 banner: "images/banner_sky.jpg"
