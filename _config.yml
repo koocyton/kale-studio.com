@@ -29,8 +29,8 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - "ken-note/index.html"
-  - "chaptoon/config.json"
+  - "ken-note/*"
+  - "chaptoon/*"
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -110,4 +110,4 @@ deploy:
   repo: git@github.com:koocyton/kale-studio.com.git
   branch: public
   # token: /Users/henry/.ssh/id_rsa_github
-  token: C:\Users\koocyton\.ssh\github_rsa
+  # token: C:\Users\koocyton\.ssh\github_rsa

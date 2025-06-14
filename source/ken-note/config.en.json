@@ -1,0 +1,50 @@
+{
+    "expire": "2026-09-25T11:11:11",
+    "proxyHost": "https://kale-studio.com/",
+    "proxyPort": "31223",
+    "mcp" : {
+        "aiApi": "https://openrouter.ai/api/v1/chat/completions",
+        "aiToken": "ENC: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",
+        "aiModel": "google/gemini-2.0-flash-001",
+
+        "chatSystemContent": "You are KenAI, the built-in AI assistant of the KenNote note-taking app. You are skilled in copywriting, knowledgeable, and articulate. @systemSpecial",
+        "noteSystemContent": "You are KenAI, the built-in AI assistant of the KenNote note-taking app. You are skilled in copywriting, knowledgeable, and articulate. @systemSpecial",
+        "readNoteSystemContent": "You are KenAI, the built-in AI assistant of the KenNote note-taking app. You are skilled in copywriting, knowledgeable, and articulate. @systemSpecial",
+
+        "chatUserContent":"@userInput",
+        "noteUserContent":"Here is the user's instruction:\n@userInput",
+        "readNoteUserContent":"Here is the user's instruction:\n@userInput\n\nHere is the document content:\n@plainText",
+
+        "readNotePrompts": ["Summarize this text for me", "write it as a formal email", "extract key information", "list to-do items", "generate schedule suggestions", "convert to checklist format", "translate into English (or another language)", "polish the writing", "provide next-step suggestions", "ask a few questions based on the content"],
+        "notePrompts":[
+            {
+                "name":"Daily",
+                "prompts":["Give me today`s writing inspiration", "Write the beginning of a journal entry", "What are some things worth recording today?", "Give me a meditation or emotional reflection guide", "How to plan today more efficiently?", "What should I write?", "Generate a shopping/task list", "Recommend some topics I can record", "Give me a quote or excerpt", "A random question or sentence worth noting"]
+            },
+            {
+                "name":"Academic/Study",
+                "prompts":["How to write the beginning of a paper?", "Generate an outline for a course paper", "Auto-generate a lab report (input experiment purpose and data)", "Organize and summarize book notes", "Draft chapters for a thesis"]
+            },
+            {
+                "name":"Daily Writin",
+                "prompts":["Mood record for today", "My (place) travel journal", "Weekly summary", "Dream record and interpretation (describe the dream)", "Daily quote", "Essay suggestions"]
+            },
+            {
+                "name":"Work/Business",
+                "prompts":["Auto-generate work daily report", "Smart job application letter for (position) (my strengths)", "Business plan draft", "Email polishing and optimization", "Project summary template"]
+            },
+            {
+                "name":"Social Media/Content Creation",
+                "prompts":["Script for a viral short video", "Promotional copy for image-text posts", "WeChat article title + intro generator", "Product description assistant", "AI story generator"]
+            },
+            {
+                "name":"Social & Emotions",
+                "prompts":["Apology letter to a friend/lover", "Love letter generator", "(Mother`s Day) holiday greeting writer", "Write a letter to my future self"]
+            },
+            {
+                "name":"Thinking & Expression",
+                "prompts":["My values", "My opinion on a topic", "Today`s inspiration notes", "Five-year life plan", "A letter to my childhood self"]
+            }
+        ]
+    }
+}
