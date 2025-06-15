@@ -1,0 +1,245 @@
+{
+  "expire": "2026-09-25T11:11:11",
+  "proxyHost": "https://kale-studio.com/",
+  "proxyPort": "31223",
+  "mcp": {
+    "aiApi": "https://ecoaoklzxxdmxqloeikb.supabase.co/functions/v1/proxy-ai",
+    "aiToken": "",
+    "aiModel": null,
+    "chatSystemContent": "",
+    "noteSystemContent": "",
+    "readNoteSystemContent": "",
+    "systemContent": "You are KenAI, a smart, efficient, and professional note-writing assistant designed specifically for knowledge-based content creation. Your goal is to help users organize and write content that is well-structured, semantically accurate, and compliant with Markdown syntax.\n\nPlease follow these guidelines:\n1. Accurate and authoritative content: You must provide high-quality information in fields such as education, workplace, writing, science, psychology, healthcare, philosophy, media, and creative writing, based on general consensus and scientific knowledge.\n2. Clear logic and organization: Each note should have a clear title, subsection headings, and appropriate lists, code blocks, or quotes for better readability and organization.\n3. Use standard Markdown formatting:\n  3.1 Titles use # to ###\n  3.2 Lists use - or 1.\n  3.3 Code examples use ```language\n  3.4 Quotes start with >\n  3.5 Keywords can be **bold** or *italicized* for emphasis\n4. Tone should be professional yet friendly, suitable for note-taking, review, sharing, or personal organization.\n5. Encourage background or extended reading suggestions, such as 'You can further explore XX theory' or 'This topic is also widely applied in XX field.'",
+    "chatUserContent": "@userInput",
+    "noteUserContent": "@userInput",
+    "readNoteUserContent": "Based on this content, @userInput\n\nReference content:\n@plainText"
+  },
+  "prompts": [
+    {
+      "name": "Daily",
+      "prompts": [
+        "What’s a healthy thing to eat?",
+        "Help me think of a birthday greeting",
+        "What are the hottest TV shows right now?",
+        "Plan a three‑day travel itinerary",
+        "What’s a good dinner for one person?",
+        "Write an apology message",
+        "Use one sentence to encourage myself to face difficulties",
+        "Recommend a simple meditation method",
+        "A book worth reading recently?",
+        "Any simple tips to improve efficiency?"
+      ],
+      "scopePrompts": [
+        "Summarize key points",
+        "Smart rewrite",
+        "Translate into [English/Japanese/...]", 
+        "Expand writing",
+        "Generate a title",
+        "Convert into a to‑do list",
+        "Add comments",
+        "Polish the text",
+        "Give next‑step suggestions",
+        "Ask questions about this content",
+        "Add more details",
+        "Help me continue writing",
+        "Summarize this experience",
+        "Paraphrase",
+        "Organize as a diary",
+        "Convert to social media style",
+        "Convert to a checklist",
+        "Translate into English",
+        "Add an introductory sentence",
+        "Extract key information"
+      ]
+    },
+    {
+      "name": "Education",
+      "prompts": [
+        "Explain the meaning of Newton’s first law",
+        "Help me summarize the key points of junior high school physics",
+        "List 5 science experiments suitable for third‑grade elementary students",
+        "Generate a mini‑quiz on 'cell structure', with answers",
+        "Explain monotonicity of functions in high school math",
+        "Recommend 5 natural science picture books for children",
+        "Teach me how to memorize English vocabulary fast",
+        "What are real‑world applications of trigonometric functions? Please give examples",
+        "How can I design an interactive history teaching activity?",
+        "Write an opening on 'Introduction to Philosophy' for high school freshmen"
+      ],
+      "scopePrompts": [
+        "Rewrite in simpler terms:",
+        "Help me condense into an outline of key points",
+        "Generate 3 multiple‑choice questions",
+        "Design a classroom discussion question",
+        "Translate into Chinese and simplify appropriately",
+        "Design a blackboard teaching plan",
+        "Write an in‑class exercise for students",
+        "Extract 3 key knowledge points",
+        "A ~150‑word book reflection",
+        "Design a role‑play activity"
+      ]
+    },
+    {
+      "name": "Writing",
+      "prompts": [
+        "Help me design a modern‑set romance storyline",
+        "List 5 modern‑city protagonist character profiles with personality contrasts",
+        "Write a paragraph describing the atmosphere of an urban night street, suitable for a story opening",
+        "I want a campus conflict—help me create a scene with clash",
+        "Generate a female character around age 30 with appearance, occupation, life status",
+        "Give me 5 common high‑energy plot twists in modern urban dramas",
+        "Help me write the start of a modern revenge story with emotional tension",
+        "Write an inner monologue for a character after a breakup, melancholic style",
+        "Design a suspense twist scene set in modern day with a reversal",
+        "Give me some common narrative structures for modern urban novels"
+      ],
+      "scopePrompts": [
+        "Analyze the protagonist’s personality and suggest future plot directions",
+        "Optimize the tone to be more natural and realistic",
+        "This part feels too slow, can you tighten it?",
+        "Write the same scene from the male lead’s perspective",
+        "Help me add character background and growth",
+        "Write three possible developmental branches for continuation",
+        "This scene lacks tension—can you strengthen the conflict?",
+        "Extract a concise and catchy chapter title for this scene",
+        "Is this too cliché? Help me come up with a more innovative version",
+        "Recommend some reference films or novels"
+      ]
+    },
+    {
+      "name": "Workplace",
+      "prompts": [
+        "Help me write a leave request email for cold and fever",
+        "Help me draft a meeting notice with subject 'Team performance summary'",
+        "Help me write a client thank‑you letter with professional and friendly tone",
+        "Help me compose a project progress report highlighting completed milestones",
+        "Help me organize a concise weekly report template",
+        "Help me draft a DingTalk/WeChat reminder for tomorrow’s meeting",
+        "Help me come up with an internal training course title about team collaboration",
+        "Help me outline the structure for an annual work summary",
+        "Help me polish a sentence reporting to a superior to make it more formal",
+        "Help me write a short congratulatory message on a promotion, suitable for group chat"
+      ],
+      "scopePrompts": [
+        "Optimize this email to be more concise and proper:",
+        "Rewrite the notice to be more upbeat and motivational:",
+        "Convert following minutes into a PPT talk outline:",
+        "Organize these work logs into a daily report:",
+        "Polish the following proposal draft into formal document:",
+        "Translate this into English business email format:",
+        "Analyze client reply and suggest follow‑up communication:",
+        "From the following report content, write a short opening line:",
+        "Simplify this content into a social‑media post:",
+        "Summarize discussion points into three key takeaways:"
+      ]
+    },
+    {
+      "name": "Content Creator",
+      "prompts": [
+        "Write a short video script about workplace communication skills",
+        "Give me eye‑catching titles for a video on 'promotion and raise' theme",
+        "Give me a set of workplace quotes for videos aimed at beginners",
+        "Write a warning line about workplace PUA, suitable for short‑video start",
+        "Give me an outline for a 'working ant internal conflict' video",
+        "Design a 30‑second hook for a workplace video",
+        "Write motivational voice‑over for 'growing while working'",
+        "Tell a crisis‑to‑turnaround workplace story in first‑person",
+        "I need a short drama script about office politics",
+        "Write a voice line for 'emotional stability at work' suitable for video subtitles"
+      ],
+      "scopePrompts": [
+        "Rewrite into a TikTok‑style workplace skit",
+        "Convert into short‑video narration tone",
+        "Optimize dialogue rhythm and logic to be more punchy",
+        "Turn this PPT copy into a short‑video explanation script",
+        "Generate 3 catchphrases fitting a short‑video pace from this draft",
+        "Convert interview text into a YouTube channel interview copy",
+        "Generate a closing call‑to‑action for likes/comments based on text",
+        "Convert this paragraph into a storyboard script suitable for short drama",
+        "Generate a few voice‑over lines suitable for narration",
+        "Rewrite into a 60‑second short‑video pacing script"
+      ]
+    },
+    {
+      "name": "Science",
+      "prompts": [
+        "Why is the sky blue? Explain in simple terms.",
+        "How do volcanoes erupt? Can you draw a diagram?",
+        "Write a short introduction to dinosaurs suitable for third‑grade students.",
+        "Introduce the most special planet in the solar system for classroom sharing.",
+        "What is a black hole? Explain in kid‑friendly language.",
+        "Tell how the water cycle happens, with diagram explanation.",
+        "What is evolution? Explain using a giraffe example.",
+        "Recommend a fun and safe home science experiment.",
+        "How does electricity work? How can I understand it intuitively?",
+        "Tell a true, fascinating science story."
+      ],
+      "scopePrompts": [
+        "Help me draw a complete flowchart.",
+        "Generate a set of quiz questions kids can play.",
+        "Explain again more simply.",
+        "Convert this into a 60‑second video script.",
+        "I still don’t fully get it—can you clarify again?",
+        "This mentions 'ecosystem'—list some daily examples.",
+        "Extract three science fun facts to share with friends.",
+        "Create a concept map for 'black holes'.",
+        "This text is about cells—I don’t understand; explain cartoon‑style.",
+        "I read this, but could you show its principle as an animation script?"
+      ]
+    },
+    {
+      "name": "Philosophy",
+      "prompts": [
+        "What is free will? How do different philosophers view it?",
+        "Explain Kant’s concept of 'Practical Reason'.",
+        "Why did Nietzsche say 'God is dead'? What does it mean?",
+        "What does Socrates’ 'I know that I know nothing' mean?",
+        "What’s the relationship between Plato’s ideal world and reality?",
+        "Contrast the core differences between pragmatism and existentialism.",
+        "How did Descartes’ 'I think therefore I am' influence modern philosophy?",
+        "Explain in plain language the Daoist idea of 'wu wei' (non‑action).",
+        "How can we understand Heidegger’s concept of 'Dasein'?",
+        "What philosophical discussions exist about whether consciousness exists independently?"
+      ],
+      "scopePrompts": [
+        "Analyze whether the author endorses utilitarianism.",
+        "Judge if it aligns with Kant’s moral law concept.",
+        "Point out which philosophical school is represented.",
+        "Summarize the existentialist viewpoint in it.",
+        "Explain 'justice' according to Plato.",
+        "From a philosophical logic perspective, point out fallacies.",
+        "Judge if it reflects a skeptical stance.",
+        "Analyze the author’s view of human nature.",
+        "Identify any implicit causal assumptions.",
+        "Compare Eastern and Western philosophical views on 'self'."
+      ]
+    },
+    {
+      "name": "Emotions",
+      "prompts": [
+        "How to confess without seeming too sudden but still sincere?",
+        "She always replies instantly—does that mean she likes me?",
+        "Why do I always like people who don’t like me back?",
+        "How can I tell if he really loves me?",
+        "We chat well, but he never takes the initiative—does that mean he’s not interested?",
+        "How to keep a long‑distance relationship from cooling down?",
+        "I want a relationship but I’m afraid of getting hurt—what to do?",
+        "How to break dependency on an ex?",
+        "What topics to talk about on a first date?",
+        "Should I text him/her first? Will that be too forward?"
+      ],
+      "scopePrompts": [
+        "Do you think he likes me? Please analyze:",
+        "I wrote a confession—can you polish it to be more touching:",
+        "Here’s my feeling after the date—tell me if I’m overthinking:",
+        "Here’s my draft love letter—make it more romantic:",
+        "I feel I’m too immersed—here are my thoughts; tell if I’m too anxious:",
+        "Here’s her recent social media post—can you analyze her mood:",
+        "I wrote a relationship review—tell me where issues may lie:",
+        "Here’s a ‘Are you there?’ text draft—help me craft a more natural opener:",
+        "I just argued with her—this is the chat log; can you suggest how to ease the conflict:",
+        "I’m writing an apology to her—this is my draft; can you polish it to be more easily accepted:"
+      ]
+    }
+  ]
+}
