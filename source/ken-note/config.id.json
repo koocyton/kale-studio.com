@@ -1,0 +1,249 @@
+{
+  "expire": "2026-09-25T11:11:11",
+  "proxyHogst": "https://kale-studio.com/",
+  "proxyPort": "31223",
+  "version": "1.2.62",
+  "minVersion": "1.2.62",
+  "mcp": {
+    "aiApi": "https://ecoaoklzxxdmxqloeikb.supabase.co/functions/v1/proxy-ai",
+    "aiToken": "",
+    "aiModel": null,
+
+    "chatSystemContent": "",
+    "noteSystemContent": "",
+    "readNoteSystemContent": "",
+    "systemContent": "Anda adalah KenAI, asisten penulisan catatan yang cerdas, efisien, dan profesional, dirancang khusus untuk pembuatan konten berbasis pengetahuan. Tujuan Anda adalah membantu pengguna mengatur dan menulis konten dengan struktur yang jelas, makna yang akurat, dan sesuai dengan standar sintaks Markdown.\n\nHarap ikuti prinsip berikut:\n1. Konten harus akurat dan otoritatif: Anda harus menyediakan konten berkualitas tinggi di bidang pendidikan, pekerjaan, penulisan, sains, psikologi, medis, filsafat, media sosial, dan kreasi, dengan informasi berdasarkan konsensus umum dan pengetahuan ilmiah.\n2. Logika jelas dan teratur: Setiap catatan harus memiliki judul yang jelas, subjudul setiap bagian, serta daftar, blok kode, atau kutipan yang sesuai agar mudah dibaca dan diatur ulang.\n3. Format menggunakan Markdown standar:\n  3.1 Gunakan # sampai ### untuk judul\n  3.2 Gunakan - atau 1. untuk daftar\n  3.3 Contoh kode dibungkus dengan bahasa pemrograman\n  3.4 Kutipan diawali dengan >\n  3.5 Kata kunci dapat ditebalkan (**tebal**) atau dimiringkan (*miring*) untuk penekanan\n4. Nada suara profesional namun ramah, konten cocok untuk catatan, review, berbagi, atau pengorganisasian pribadi.\n5. Dorong penambahan latar belakang atau saran bacaan lanjutan, misalnya “Anda bisa membaca lebih lanjut teori XX”, “Topik ini juga banyak digunakan di bidang XX”.",
+
+    "chatUserContent": "@userInput",
+    "noteUserContent": "@userInput",
+    "readNoteUserContent": "Berdasarkan isi ini, @userInput\n\nReferensi konten:\n@plainText"
+  },
+  "prompts": [
+    {
+      "name": "Sehari-hari",
+      "prompts": [
+        "Makan apa yang lebih sehat?",
+        "Bantu saya membuat ucapan selamat ulang tahun",
+        "Apa saja drama TV paling populer saat ini?",
+        "Rencanakan itinerary perjalanan selama tiga hari",
+        "Apa yang cocok untuk makan malam sendiri?",
+        "Tulis sebuah pesan permintaan maaf",
+        "Gunakan satu kalimat untuk menyemangati diri menghadapi kesulitan",
+        "Ada metode meditasi sederhana yang direkomendasikan?",
+        "Buku apa yang layak dibaca akhir-akhir ini?",
+        "Ada tips sederhana untuk meningkatkan efisiensi?"
+      ],
+      "scopePrompts": [
+        "Ringkas poin penting",
+        "Tulis ulang dengan cerdas",
+        "Terjemahkan ke [Bahasa Inggris/Jepang/...]",
+        "Perluas penulisan",
+        "Buat judul",
+        "Ubah menjadi daftar tugas",
+        "Tambahkan komentar",
+        "Perbaiki tulisan",
+        "Berikan saran langkah berikutnya",
+        "Ajukan pertanyaan tentang isi ini",
+        "Tambahkan lebih banyak detail",
+        "Bantu saya melanjutkan menulis",
+        "Ringkas pengalaman ini",
+        "Ubah dengan cara lain",
+        "Susun sebagai format jurnal",
+        "Ubah menjadi gaya media sosial",
+        "Konversi ke daftar",
+        "Terjemahkan ke bahasa Inggris",
+        "Tambahkan kalimat pengantar",
+        "Ekstrak informasi kunci"
+      ]
+    },
+    {
+      "name": "Pendidikan",
+      "prompts": [
+        "Jelaskan arti 'Hukum Pertama Newton'",
+        "Bantu saya merangkum poin penting fisika SMP",
+        "Sebutkan 5 eksperimen sains yang cocok untuk siswa kelas tiga SD",
+        "Buat kuis singkat tentang 'struktur sel', lengkap dengan jawaban",
+        "Jelaskan 'monoton fungsi' dalam matematika SMA",
+        "Rekomendasikan 5 buku bergambar sains alam untuk anak-anak",
+        "Ajari saya cara cepat menghafal kosa kata bahasa Inggris",
+        "Apa aplikasi nyata 'fungsi trigonometri'? Berikan contohnya",
+        "Bagaimana merancang aktivitas pengajaran sejarah interaktif?",
+        "Tulis pengantar 'Filsafat untuk pemula' untuk siswa kelas 10"
+      ],
+      "scopePrompts": [
+        "Tulis ulang agar lebih mudah dipahami:",
+        "Bantu ringkas menjadi poin-poin penting",
+        "Buat 3 soal pilihan ganda",
+        "Rancang sebuah pertanyaan diskusi kelas",
+        "Terjemahkan ke bahasa Mandarin dan sederhanakan",
+        "Rancang skema papan tulis",
+        "Buat latihan kelas untuk siswa",
+        "Ekstrak 3 poin pengetahuan utama",
+        "Tulis resensi singkat sekitar 150 kata",
+        "Rancang aktivitas peran bermain"
+      ]
+    },
+    {
+      "name": "Penulisan",
+      "prompts": [
+        "Bantu saya buat kerangka cerita cinta berlatar modern.",
+        "Sebutkan 5 karakter utama dengan kepribadian kontras dalam cerita kota modern.",
+        "Tulis paragraf menggambarkan suasana malam di jalan kota, cocok untuk pembuka cerita.",
+        "Saya ingin menulis konflik di sekolah, tolong buatkan adegan konflik.",
+        "Buat profil karakter wanita usia 30-an, lengkap dengan penampilan, pekerjaan, dan kehidupan.",
+        "Berikan 5 plot twist yang sering muncul di drama modern.",
+        "Buat pembukaan cerita balas dendam modern dengan ketegangan emosional.",
+        "Tulis monolog batin karakter setelah putus, dengan suasana sedih.",
+        "Rancang plot misteri berlatar modern dengan twist yang harus ada.",
+        "Berikan rekomendasi struktur narasi umum dalam novel kota modern."
+      ],
+      "scopePrompts": [
+        "Analisis kepribadian karakter utama dan saran jalur cerita selanjutnya.",
+        "Bantu optimalkan nada supaya lebih natural dan realistis.",
+        "Cerita ini terlalu lambat, bisa buat lebih padat?",
+        "Tulis dari sudut pandang tokoh pria di tempat yang sama.",
+        "Tambahkan latar belakang perkembangan tokoh.",
+        "Tulis kemungkinan pengembangan cerita berikutnya dengan 3 cabang.",
+        "Cerita ini kurang tegang, bisa buat konflik lebih kuat?",
+        "Tarik sebuah judul bab singkat dan menarik dari cerita ini.",
+        "Apakah plot ini terlalu klise? Tolong buat versi yang lebih orisinal.",
+        "Berikan beberapa karya film atau novel referensi serupa."
+      ]
+    },
+    {
+      "name": "Tempat Kerja",
+      "prompts": [
+        "Bantu saya menulis email izin sakit demam",
+        "Buat pengumuman rapat dengan tema evaluasi kinerja tim",
+        "Tulis surat terima kasih kepada klien dengan nada profesional dan ramah",
+        "Buat laporan kemajuan proyek dengan menonjolkan pencapaian",
+        "Susun template laporan mingguan yang ringkas dan jelas",
+        "Tulis pesan pengingat rapat besok untuk grup WeChat/DingTalk",
+        "Buat judul pelatihan internal perusahaan tentang kerja tim",
+        "Buat kerangka ringkas laporan tahunan pekerjaan",
+        "Perbaiki kalimat laporan ke atasan agar lebih formal",
+        "Tulis ucapan singkat selamat promosi yang cocok untuk grup chat"
+      ],
+      "scopePrompts": [
+        "Optimalkan email berikut supaya lebih singkat dan sopan:",
+        "Tulis ulang pengumuman ini agar nada lebih positif dan membangkitkan semangat:",
+        "Susun poin-poin presentasi PPT dari notulen rapat berikut:",
+        "Susun log kerja berikut menjadi laporan harian:",
+        "Perbaiki isi proposal berikut agar menjadi dokumen resmi:",
+        "Terjemahkan isi berikut ke dalam email bisnis berbahasa Inggris:",
+        "Analisis balasan klien berikut dan berikan saran komunikasi lanjutan:",
+        "Buat kalimat pembuka singkat dari laporan berikut:",
+        "Sederhanakan teks berikut menjadi satu kalimat untuk media sosial:",
+        "Ringkas poin diskusi rapat berikut menjadi tiga poin utama:"
+      ]
+    },
+    {
+      "name": "Video Blogger",
+      "prompts": [
+        "Buat skrip video pendek tentang teknik komunikasi di tempat kerja",
+        "Buat beberapa judul menarik untuk video bertema 'promosi dan kenaikan gaji'",
+        "Buat kumpulan kutipan keren untuk pemula kerja sebagai naskah video",
+        "Buat peringatan singkat tentang PUA di tempat kerja untuk pembuka video",
+        "Buat kerangka skrip video tentang 'konflik internal pekerja'",
+        "Buat kalimat pembuka video kerja yang menarik dalam 30 detik",
+        "Tulis narasi motivasi tentang bekerja sambil berkembang",
+        "Ceritakan pengalaman krisis kerja dan balik keadaan dalam sudut pandang orang pertama",
+        "Saya butuh skrip drama singkat tentang politik kantor",
+        "Buat kalimat tips stabil emosi kerja untuk subtitle video"
+      ],
+      "scopePrompts": [
+        "Ubah menjadi skenario drama singkat untuk TikTok",
+        "Ubah ke gaya naskah video pendek yang mudah disampaikan",
+        "Perbaiki ritme dan logika supaya video lebih menarik",
+        "Ubah teks PPT ini jadi skrip penjelasan video pendek",
+        "Buat 3 kutipan keren sesuai naskah berikut untuk video pendek",
+        "Ubah wawancara berikut jadi naskah khusus untuk channel YouTube",
+        "Buat kalimat penutup untuk ajakan like dan komentar dari teks berikut",
+        "Ubah artikel ini menjadi skrip scene-by-scene untuk drama singkat",
+        "Buat beberapa kalimat naskah video untuk voice-over dari konten ini",
+        "Ubah teks ini menjadi skrip video 60 detik dengan tempo pas"
+      ]
+    },
+    {
+      "name": "Eksplorasi Sains",
+      "prompts": [
+        "Kenapa langit berwarna biru? Jelaskan dengan cara mudah dimengerti.",
+        "Bagaimana gunung berapi meletus? Bisa buatkan gambar?",
+        "Tulis teks pendek tentang dinosaurus untuk siswa kelas 3 SD.",
+        "Perkenalkan planet paling unik di tata surya, cocok untuk presentasi kelas.",
+        "Apa itu lubang hitam? Jelaskan dengan bahasa anak-anak.",
+        "Jelaskan bagaimana siklus air terjadi, sertakan diagram.",
+        "Apa itu teori evolusi? Berikan contoh tentang jerapah.",
+        "Saya ingin eksperimen sains kecil di rumah, ada yang menarik dan aman?",
+        "Darimana listrik berasal? Bagaimana cara memahaminya dengan mudah?",
+        "Ceritakan kisah nyata terkait sains yang menakjubkan."
+      ],
+      "scopePrompts": [
+        "Buat diagram alur lengkap.",
+        "Buat kumpulan soal tanya jawab untuk siswa SD.",
+        "Jelaskan ulang dengan bahasa yang lebih mudah.",
+        "Ubah menjadi narasi video berdurasi 60 detik.",
+        "Saya masih kurang paham, bisa jelaskan lagi?",
+        "Artikel ini bicara tentang ‘ekosistem’, sebutkan contoh yang biasa ditemukan sehari-hari.",
+        "Ambil 3 fakta sains menarik untuk dibagikan ke teman.",
+        "Buat gambar konsep tentang ‘lubang hitam’.",
+        "Tuliskan dalam bentuk komik tentang sel, saya kurang paham.",
+        "Tolong buatkan naskah animasi yang menjelaskan prinsipnya."
+      ]
+    },
+    {
+      "name": "Filsafat",
+      "prompts": [
+        "Apa itu kehendak bebas? Bagaimana pandangan para filsuf berbeda?",
+        "Jelaskan konsep 'rasio praktis' menurut Kant.",
+        "Mengapa Nietzsche berkata 'Tuhan telah mati'? Apa artinya?",
+        "Apa makna 'ketidaktahuan adalah kebijaksanaan' menurut Socrates?",
+        "Apa hubungan dunia bentuk Plato dengan dunia nyata?",
+        "Bandingkan perbedaan inti antara pragmatisme dan eksistensialisme.",
+        "Bagaimana 'Aku berpikir maka aku ada' dari Descartes mempengaruhi filsafat modern?",
+        "Jelaskan secara sederhana konsep 'wu wei' dalam Taoisme.",
+        "Bagaimana memahami konsep 'Dasein' menurut Heidegger?",
+        "Apa diskusi filosofis tentang apakah kesadaran itu berdiri sendiri?"
+      ],
+      "scopePrompts": [
+        "Analisis apakah penulis mendukung utilitarianisme.",
+        "Tentukan apakah sesuai dengan moralitas Kant.",
+        "Tunjukkan aliran filsafat mana yang tercermin.",
+        "Ringkas pandangan eksistensialisnya.",
+        "Jelaskan definisi 'keadilan' menurut Plato.",
+        "Tunjukkan kesalahan logika dalam argumen ini.",
+        "Tentukan apakah mewakili sikap skeptisisme.",
+        "Analisis pandangan penulis tentang hakikat manusia.",
+        "Tunjukkan asumsi kausal tersembunyi.",
+        "Bandingkan konsep 'diri' dalam filsafat Timur dan Barat."
+      ]
+    },
+    {
+      "name": "Emosi",
+      "prompts": [
+        "Bagaimana cara menyatakan cinta agar tidak terkesan tiba-tiba tapi tetap tulus?",
+        "Dia sering cepat membalas pesan, apakah itu berarti dia suka saya?",
+        "Kenapa saya sering jatuh cinta pada orang yang tidak menyukai saya?",
+        "Bagaimana saya tahu apakah dia benar-benar mencintai saya?",
+        "Kami sering ngobrol tapi dia tidak pernah mengajak dulu, apakah dia tidak tertarik?",
+        "Bagaimana menjaga hubungan jarak jauh agar tetap hangat?",
+        "Saya ingin pacaran tapi takut terluka, bagaimana?",
+        "Bagaimana melepaskan ketergantungan pada mantan?",
+        "Apa topik yang bisa dibicarakan saat kencan pertama?",
+        "Haruskah saya menghubunginya dulu? Apakah terlalu agresif?"
+      ],
+      "scopePrompts": [
+        "Menurutmu dia suka saya tidak? Tolong analisis:",
+        "Saya baru saja menulis ungkapan cinta, tolong poles supaya lebih menyentuh:",
+        "Ini perasaan saya setelah kencan, apakah saya terlalu peduli? Berikut isinya:",
+        "Ini draft surat cinta untuk dia, bisa buat lebih romantis? Tolong perbaiki:",
+        "Saya merasa terlalu tenggelam, ini pikiran saya, tolong cek apakah saya terlalu cemas:",
+        "Ini konten terbaru di medsos dia, bisa analisis emosinya?",
+        "Saya menulis ulasan tentang hubungan kami, tolong cek kemungkinan masalahnya:",
+        "Ini pesan 'lagi ada?' untuk dia, bisa buat pembuka yang lebih alami?",
+        "Saya baru saja bertengkar dengannya, ini chatnya, tolong bantu meredakan:",
+        "Saya sedang menulis surat permintaan maaf, ini drafnya, tolong poles supaya lebih mudah diterima:"
+      ]
+    }
+  ]
+}
