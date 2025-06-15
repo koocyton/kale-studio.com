@@ -1,0 +1,248 @@
+{
+  "expire": "2026-09-25T11:11:11",
+  "proxyHogst": "https://kale-studio.com/",
+  "proxyPort": "31223",
+  "version": "1.2.62",
+  "minVersion": "1.2.62",
+  "mcp": {
+    "aiApi": "https://ecoaoklzxxdmxqloeikb.supabase.co/functions/v1/proxy-ai",
+    "aiToken": "",
+    "aiModel": null,
+
+    "chatSystemContent": "",
+    "noteSystemContent": "",
+    "readNoteSystemContent": "",
+    "systemContent": "Du bist KenAI, ein intelligenter, effizienter und professioneller Notiz-Schreibassistent, speziell für wissensbasierte Inhalte konzipiert. Dein Ziel ist es, dem Nutzer dabei zu helfen, klar strukturierte, semantisch präzise Inhalte zu erstellen und zu organisieren, die den Markdown-Syntax-Regeln entsprechen.\n\nBitte beachte die folgenden Leitlinien:\n1. **Genau und vertrauenswürdig**: Biete hochwertige Inhalte in den Bereichen Bildung, Beruf, Schreiben, Wissenschaft, Psychologie, Medizin, Philosophie, Medien, Kreativität usw. Die Informationen sollten auf allgemeinem Konsens und wissenschaftlichen Kenntnissen basieren.\n2. **Logisch und strukturiert**: Jede Notiz sollte einen klaren Titel, Abschnittsüberschriften, Listen, Codeblöcke oder Zitate enthalten, um Lesbarkeit und Organisation zu erleichtern.\n3. **Standard-Markdown-Format**:\n   3.1 Überschriften mit # bis ###\n   3.2 Listen mit - oder 1.\n   3.3 Codebeispiele in ```Sprache eingerahmt\n   3.4 Zitate mit > beginnen\n   3.5 Hervorhebung von Schlüsselwörtern mit **Fett** oder *Kursiv*\n4. **Professioneller, aber freundlicher Ton**, geeignet zum Notieren, Wiederholen, Teilen oder persönlichen Organisieren.\n5. Ermutige zur Ergänzung von Hintergrundinformationen oder weiterführenden Lesevorschlägen, z. B. „Du kannst dich weiter informieren, indem du Theorie X liest“, „Dieses Thema wird auch häufig im Bereich Y verwendet“.",
+    "chatUserContent": "@userInput",
+    "noteUserContent": "@userInput",
+    "readNoteUserContent": "Aus diesem Inhalt, @userInput\n\nReferenztext:\n@plainText"
+  },
+  "prompts": [
+    {
+      "name": "Alltag",
+      "prompts": [
+        "Was sollte man essen, um gesünder zu leben?",
+        "Hilf mir, einen Geburtstagsgruß zu formulieren",
+        "Welche Fernsehserien sind gerade besonders beliebt?",
+        "Plane eine dreitägige Reise",
+        "Was ist ein einfaches Abendessen für eine Person?",
+        "Schreibe eine Entschuldigung per SMS",
+        "Ein Satz, um sich selbst zu ermutigen, Schwierigkeiten zu meistern",
+        "Kennst du eine einfache Meditationsmethode?",
+        "Welches Buch lohnt sich derzeit zu lesen?",
+        "Gibt es einfache Tipps zur Effizienzsteigerung?"
+      ],
+      "scopePrompts": [
+        "Fasse die wichtigsten Punkte zusammen",
+        "Intelligent umformulieren",
+        "Übersetze ins [Englische / Japanische / ...]",
+        "Text erweitern",
+        "Einen Titel erstellen",
+        "In Aufgabenliste umwandeln",
+        "Kommentare hinzufügen",
+        "Text stilistisch optimieren",
+        "Empfehlungen für den nächsten Schritt geben",
+        "Fragen zu diesem Inhalt stellen",
+        "Mehr Details hinzufügen",
+        "Hilf mir beim Weiterschreiben",
+        "Diese Erfahrung zusammenfassen",
+        "Dasselbe anders formulieren",
+        "Als Tagebuch formatieren",
+        "In sozialen Medien-Stil umwandeln",
+        "In eine Liste umwandeln",
+        "Ins Englische übersetzen",
+        "Einen motivierenden Satz hinzufügen",
+        "Schlüsselelemente extrahieren"
+      ]
+    },
+    {
+      "name": "Bildung",
+      "prompts": [
+        "Erkläre das erste Newtonsche Gesetz",
+        "Fasse die zentralen physikalischen Inhalte der Mittelstufe zusammen",
+        "Nenne fünf naturwissenschaftliche Experimente für Drittklässler",
+        "Erstelle ein Quiz mit Antworten über Zellstruktur",
+        "Erkläre die Monotonie von Funktionen in der Oberstufe",
+        "Empfiehl fünf naturwissenschaftliche Bilderbücher für Kinder",
+        "Wie lernt man englische Vokabeln schnell?",
+        "Welche praktischen Anwendungen haben trigonometrische Funktionen?",
+        "Wie plant man eine interaktive Geschichtsstunde?",
+        "Schreibe eine Einführung in die Philosophie für Zehntklässler"
+      ],
+      "scopePrompts": [
+        "Einfacher umformulieren:",
+        "In Stichpunkten zusammenfassen",
+        "Drei Multiple-Choice-Fragen erstellen",
+        "Eine Diskussionsfrage für den Unterricht entwerfen",
+        "Ins vereinfachte Chinesisch übersetzen",
+        "Tafelbild erstellen",
+        "Eine Übung für Schüler schreiben",
+        "Drei zentrale Konzepte extrahieren",
+        "150 Wörter Rezension schreiben",
+        "Eine Rollenspiel-Aktivität entwerfen"
+      ]
+    },
+    {
+      "name": "Schreiben",
+      "prompts": [
+        "Hilf mir, ein Gerüst für eine moderne Liebesgeschichte zu entwickeln",
+        "Nenne fünf Hauptcharaktere für einen modernen Großstadtroman mit gegensätzlichen Persönlichkeiten",
+        "Schreibe einen Absatz, der die nächtliche Atmosphäre in einer Stadtstraße beschreibt – passend für den Storybeginn",
+        "Ich möchte eine schulische Auseinandersetzung schreiben – hilf mir, die Szene zu konzipieren",
+        "Erstelle ein Charakterprofil einer etwa 30‑jährigen Frau mit Aussehen, Beruf und Lebensstil",
+        "Nenne fünf Plot-Twists, die in modernen Dramen häufig vorkommen",
+        "Hilf mir, den Anfang einer modernen Rachegeschichte mit emotionaler Spannung zu skizzieren",
+        "Schreibe ein melancholisches inneres Monolog nach einer Trennung",
+        "Entwerfe eine Spannungsszene mit Überraschung in einem modernen Thriller",
+        "Liste übliche narrative Strukturen in modernen Großstadtromanen auf"
+      ],
+      "scopePrompts": [
+        "Analysiere die Persönlichkeit der Hauptfigur und schlage den weiteren Handlungsverlauf vor",
+        "Optimiere den Ton natürlicher und realistischer zu gestalten",
+        "Der Text ist zu langsam – kannst du ihn straffen?",
+        "Schreibe denselben Abschnitt aus der Perspektive des männlichen Protagonisten",
+        "Hilf, dem Charakter eine Hintergrundgeschichte hinzuzufügen",
+        "Schlage drei mögliche Fortsetzungsrichtungen vor",
+        "Erhöhe die Spannung, falls der Konflikt zu schwach ist",
+        "Finde einen eingängigen Kapiteltitel für diesen Abschnitt",
+        "Ist der Plot zu stereotyp? Schlage eine originellere Variante vor",
+        "Gib einige vergleichbare Referenzwerke oder -serien"
+      ]
+    },
+    {
+      "name": "Beruf",
+      "prompts": [
+        "Schreibe eine Krankmeldung per E‑Mail wegen Erkältung und Fieber",
+        "Formuliere eine Meeting-Einladung zum Teamleistungsbericht",
+        "Verfasse ein professionell-freundliches Dankesschreiben an einen Kunden",
+        "Schreibe einen Projektfortschrittsbericht mit Fokus auf erreichte Ergebnisse",
+        "Erstelle eine einfache, klare Wochenbericht-Vorlage",
+        "Schicke eine WeChat-/DingTalk-Erinnerung für das morgige Meeting",
+        "Erfinde einen Titel für ein internes Training zur Teamzusammenarbeit",
+        "Gliedere eine Jahresarbeitszusammenfassung",
+        "Überarbeite einen Satz im Bericht formeller für die Führungsebene",
+        "Schreibe eine kurze Glückwunschbotschaft zur Beförderung für eine Gruppe"
+      ],
+      "scopePrompts": [
+        "Optimiere diese E‑Mail – kürzer und angemessen:",
+        "Formuliere diese Nachricht motivierender:",
+        "Wandeln Sie dieses Protokoll in eine PPT-Gliederung um:",
+        "Verwandle dieses Arbeitsjournal in eine Tagesnotiz:",
+        "Bearbeite den Vorschlag in eine formelle Vorlage:",
+        "Übersetze dies in ein englisches Business‑E‑Mail:",
+        "Analysiere die Kundenantwort und gib eine Empfehlung:",
+        "Schreibe einen mündlichen Einstiegssatz für den Bericht:",
+        "Formuliere dies als Beitrag für soziale Medien:",
+        "Fasse die Besprechungsinhalte in drei Punkten zusammen:"
+      ]
+    },
+    {
+      "name": "Video Creator",
+      "prompts": [
+        "Schreibe ein kurzes Video-Skript über Kommunikationstechniken am Arbeitsplatz",
+        "Finde eingängige Titel zu Thema Beförderung und Gehalt",
+        "Gib knackige Copy-Sätze für professionelle Videos",
+        "Schreibe eine Warnung vor PUA-Methoden am Arbeitsplatz als Video-Einstieg",
+        "Erstelle ein Drehplan für ein Video über Burn-out",
+        "Schreibe einen 30‑Sekunden-Video-Einstieg zum Thema Beruf",
+        "Verfasse einen motivierenden Voice-over-Text über „Arbeiten und persönliches Wachstum“",
+        "Erzähle aus der Ich‑Perspektive von einer überwundenen beruflichen Krise",
+        "Ich brauche ein kurzes Skript zu „Büropolitik“",
+        "Schreibe ein Script für Video-Untertitel über emotionale Stabilität am Arbeitsplatz"
+      ],
+      "scopePrompts": [
+        "Umschreiben im TikTok-Kurzformat",
+        "In passenden gesprochenen Kurzvideo-Stil umwandeln",
+        "Optimieren von Rhythmus und Logik für mehr Spannung",
+        "Konvertiere PPT-Text in Video-Skript",
+        "Erstelle drei prägnante Schlusszeilen",
+        "Verwandle Interviewtext in YouTube-Channel-Beschreibung",
+        "Formuliere Abschluss, der zu Like/Kommentar auffordert",
+        "Gestalte als Storyboard für Kurzsketch",
+        "Schreibe Voice‑over-Sätze für Video",
+        "Passe das Skript auf 60 Sekunden an"
+      ]
+    },
+    {
+      "name": "Wissenschaft",
+      "prompts": [
+        "Warum ist der Himmel blau? Einfach erklären",
+        "Wie bricht ein Vulkan aus? Kannst du es zeichnen?",
+        "Schreibe einen kurzen Text über Dinosaurier, geeignet für Viertklässler",
+        "Stelle einen besonderen Planeten unseres Sonnensystems vor",
+        "Was ist ein Schwarzes Loch? Erkläre kindgerecht",
+        "Wie funktioniert der Wasserkreislauf? Am besten mit Grafik",
+        "Was ist die Evolutionstheorie? Gib ein Beispiel mit Giraffen",
+        "Ein sicheres, lustiges Experiment für zu Hause?",
+        "Wie erklärt man Strom anschaulich?",
+        "Erzähle eine wahre, faszinierende Wissenschaftsgeschichte"
+      ],
+      "scopePrompts": [
+        "Erstelle ein vollständiges Prozessdiagramm",
+        "Erstelle ein Wahr‑/Falsch-Quiz für Schüler",
+        "Erkläre es noch einmal einfacher",
+        "Verwandle es in ein 60‑Sekunden-Video-Skript",
+        "Ich verstehe nicht gut, bitte nochmal erklären",
+        "Nenne Beispiele für Ökosysteme um mich herum",
+        "Gib drei faszinierende wissenschaftliche Fakten",
+        "Visualisiere ein Konzeptdiagramm zu schwarzen Löchern",
+        "Erkläre Zellstrukturen im Comic-Stil",
+        "Erstelle ein Animationsskript zur Demonstration"
+      ]
+    },
+    {
+      "name": "Philosophie",
+      "prompts": [
+        "Was ist freier Wille? Was sagen verschiedene Philosoph:innen?",
+        "Erkläre Kants Begriff der \"praktischen Vernunft\"",
+        "Warum sagte Nietzsche 'Gott ist tot'? Was meinte er damit?",
+        "Was bedeutet Sokrates' 'Ich weiß, dass ich nichts weiß'?",
+        "Was ist die Beziehung zwischen Platons Ideenwelt und der realen Welt?",
+        "Vergleiche die grundlegenden Unterschiede zwischen Pragmatismus und Existenzialismus",
+        "Wie beeinflusste Descartes' 'Ich denke, also bin ich' die moderne Philosophie?",
+        "Erkläre einfach den taoistischen Begriff 'Wu Wei'",
+        "Wie verstehen wir Heideggers Begriff 'Dasein'?",
+        "Welche philosophischen Diskussionen gibt es über die Unabhängigkeit des Bewusstseins?"
+      ],
+      "scopePrompts": [
+        "Analysiere, ob der Autor den Utilitarismus unterstützt",
+        "Bestimme, ob es Kants moralischem Gesetz entspricht",
+        "Weise die philosophische Richtung, die vertreten wird, aus",
+        "Fasse die existentialistischen Ideen zusammen",
+        "Erkläre Platons Definition von 'Gerechtigkeit'",
+        "Zeige logische Fehler aus analytischer Perspektive auf",
+        "Beurteile, ob es skeptische Haltungen widerspiegelt",
+        "Analysiere die Sicht des Autors auf die menschliche Natur",
+        "Identifiziere implizite Kausalannahmen",
+        "Vergleiche das Konzept des 'Selbst' im Osten und Westen"
+      ]
+    },
+    {
+      "name": "Emotionen",
+      "prompts": [
+        "Wie gestehe ich Gefühle ehrlich, ohne zu überrumpeln?",
+        "Sie antwortet immer sofort – heißt das, sie mag mich?",
+        "Warum verliebe ich mich immer in Menschen, die mich nicht mögen?",
+        "Wie weiß ich, ob er mich wirklich liebt?",
+        "Wir schreiben viel, aber er meldet sich nie zuerst – ist er uninteressiert?",
+        "Wie hält man eine Fernbeziehung lebendig?",
+        "Ich will eine Beziehung, habe aber Angst vor Verletzung – was tun?",
+        "Wie löse ich mich emotional von meinem Ex?",
+        "Worüber rede ich beim ersten Date?",
+        "Soll ich zuerst schreiben? Wirkt das aufdringlich?"
+      ],
+      "scopePrompts": [
+        "Glaubst du, er/sie steht auf mich? Analysiere:",
+        "Ich habe ein Geständnis geschrieben – mach es berührender:",
+        "Das sind meine Gefühle nach unserem Treffen – merke ich zu viel?", 
+        "Das ist mein Liebesbriefentwurf – mach ihn romantischer:",
+        "Ich denke, ich hänge zu sehr – ist das besorgniserregend?",
+        "Hier ist ihr Beitrag – analysiere ihre Gefühle:",
+        "Ich habe unsere Beziehung rückblickend beschrieben – erkennst du mögliche Probleme?",
+        "Meine Nachricht 'Bist du da?' – kannst du einen natürlicheren Einstieg vorschlagen?",
+        "Wir hatten gerade Streit – hier ist der Chat; schlägst du Deeskalation vor?",
+        "Entwurf einer Entschuldigung – kannst du ihn so verbessern, dass er besser ankommt?"
+      ]
+    }
+  ]
+}

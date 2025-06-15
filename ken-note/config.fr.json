@@ -1,0 +1,249 @@
+{
+  "expire": "2026-09-25T11:11:11",
+  "proxyHogst": "https://kale-studio.com/",
+  "proxyPort": "31223",
+  "version": "1.2.62",
+  "minVersion": "1.2.62",
+  "mcp": {
+    "aiApi": "https://ecoaoklzxxdmxqloeikb.supabase.co/functions/v1/proxy-ai",
+    "aiToken": "",
+    "aiModel": null,
+
+    "chatSystemContent": "",
+    "noteSystemContent": "",
+    "readNoteSystemContent": "",
+    "systemContent": "Vous êtes KenAI, un assistant intelligent, efficace et professionnel pour la rédaction de notes, conçu spécialement pour la création de contenus à caractère informatif. Votre objectif est d’aider l’utilisateur à organiser et rédiger des contenus structurés, sémantiquement précis, conformes à la syntaxe Markdown.\n\nVeuillez respecter les principes suivants :\n1. Contenu précis et autoritaire : fournissez des contenus de haute qualité dans les domaines de l’éducation, du travail, de la rédaction, des sciences, de la psychologie, de la médecine, de la philosophie, des médias, de la création, etc. Les informations doivent reposer sur le consensus général et des connaissances scientifiques.\n2. Logique claire et structuration : chaque note doit comporter un titre clair, des sous-titres de section, des listes, des blocs de code ou des citations appropriées, pour faciliter la lecture et l’organisation.\n3. Format Markdown standard :\n  3.1 Titres avec # jusqu’à ###\n  3.2 Listes avec - ou 1.\n  3.3 Exemples de code encadrés par ```langage\n  3.4 Citations précédées de >\n  3.5 Mots-clés en **gras** ou *italique* pour mettre en valeur\n4. Ton professionnel mais cordial, adapté à la prise de notes, la révision, le partage ou l’organisation personnelle.\n5. Encouragez les compléments de contexte ou les suggestions de lecture complémentaire, par exemple « vous pouvez approfondir en lisant la théorie X », « ce sujet est également largement utilisé dans le domaine Y ».",
+
+    "chatUserContent": "@userInput",
+    "noteUserContent": "@userInput",
+    "readNoteUserContent": "À partir de ce contenu, @userInput\n\nRéférences :\n@plainText"
+  },
+  "prompts": [
+    {
+      "name": "Quotidien",
+      "prompts": [
+        "Que manger pour être en meilleure santé ?",
+        "Aide-moi à imaginer un message de vœux d'anniversaire",
+        "Quelles sont les séries télé les plus populaires en ce moment ?",
+        "Planifie un itinéraire de voyage de trois jours",
+        "Qu’y a‑t‑il de simple à préparer pour un dîner en solo ?",
+        "Rédige un SMS d’excuse",
+        "Une phrase motivante pour affronter la difficulté",
+        "Des méthodes simples de méditation à recommander ?",
+        "Un livre récent qui mérite d’être lu ?",
+        "Des astuces pour augmenter l’efficacité ?"
+      ],
+      "scopePrompts": [
+        "Résumer les points clés",
+        "Réécrire intelligemment",
+        "Traduire en [anglais / japonais / ...]",
+        "Développer le texte",
+        "Générer un titre",
+        "Convertir en liste de tâches",
+        "Ajouter des commentaires",
+        "Améliorer la formulation",
+        "Donner des suggestions pour l’étape suivante",
+        "Poser des questions sur ce contenu",
+        "Ajouter plus de détails",
+        "Aide-moi à continuer l’écriture",
+        "Résumer cette expérience",
+        "Dire la même chose autrement",
+        "Organiser sous forme de journal",
+        "Adapter au style réseaux sociaux",
+        "Transformer en liste",
+        "Traduire en anglais",
+        "Ajouter un incitatif",
+        "Extraire les informations clés"
+      ]
+    },
+    {
+      "name": "Éducation",
+      "prompts": [
+        "Explique-moi la première loi de Newton",
+        "Aide-moi à résumer les notions clés de physique en collège",
+        "Donne cinq expériences scientifiques adaptées aux élèves de CM1",
+        "Génère un petit quiz sur la structure des cellules avec réponses",
+        "Explique la monotonie des fonctions en mathématiques de lycée",
+        "Recommande cinq livres illustrés de sciences pour enfants",
+        "Apprends-moi à mémoriser rapidement des mots d’anglais",
+        "Quels sont des exemples concrets d’application des fonctions trigonométriques ?",
+        "Comment concevoir une activité d’histoire interactive ?",
+        "Rédige une introduction à la philosophie pour des élèves de seconde"
+      ],
+      "scopePrompts": [
+        "Réécrire de façon plus simple et accessible:",
+        "Aide-moi à condenser en points essentiels",
+        "Générer trois questions à choix multiple",
+        "Concevoir une question de discussion en classe",
+        "Traduire en chinois (simplifié) en simplifiant",
+        "Proposer un plan de tableau pour la classe",
+        "Rédiger un exercice pour les élèves",
+        "Extraire trois notions clés",
+        "Un résumé de lecture d’environ 150 mots",
+        "Concevoir une activité de jeu de rôle"
+      ]
+    },
+    {
+      "name": "Rédaction",
+      "prompts": [
+        "Aide-moi à concevoir le squelette d’une histoire d’amour en contexte moderne.",
+        "Propose cinq personnages principaux pour un drame urbain moderne, avec contraste de caractère.",
+        "Écris un passage décrivant l’atmosphère nocturne d’une rue citadine, idéal pour débuter une histoire.",
+        "Je veux écrire une dispute dans un cadre scolaire, aide-moi à imaginer la scène de conflit.",
+        "Génère un profil de personnage féminin d’environ 30 ans, incluant apparence, métier, style de vie.",
+        "Donne-moi cinq rebondissements fréquents dans les drames contemporains.",
+        "Aide-moi à imaginer le début d’une histoire de vengeance contemporaine, avec tension émotionnelle.",
+        "Écris un monologue intérieur mélancolique après une rupture.",
+        "Conçois un passage de suspense moderne avec un retournement.",
+        "Donne des structures narratives communes dans les romans urbains modernes"
+      ],
+      "scopePrompts": [
+        "Analyse la personnalité du protagoniste et suggère la suite de l’intrigue.",
+        "Optimise le ton pour le rendre plus naturel et authentique.",
+        "Ce passage est trop lent, peux-tu le rendre plus rythmé ?",
+        "Rédige la version du même passage du point de vue du protagoniste masculin.",
+        "Aide-moi à ajouter un background de personnage.",
+        "Propose trois directions possibles pour la suite.",
+        "Renforce le sentiment de tension si l’ambiance manque de conflit.",
+        "Trouve un titre de chapitre accrocheur pour ce passage.",
+        "Ce scénario est-il trop conventionnel ? Propose une version plus originale.",
+        "Donne-moi quelques œuvres ou séries de référence similaires."
+      ]
+    },
+    {
+      "name": "Professionnel",
+      "prompts": [
+        "Rédige un e‑mail de congé pour un rhume et de la fièvre.",
+        "Rédige un message de réunion sur le bilan de performance de l’équipe.",
+        "Rédige une lettre de remerciement client, ton professionnel et chaleureux.",
+        "Rédige un rapport d’avancement de projet, en mettant en avant les progrès.",
+        "Fais-moi un modèle de rapport hebdo simple et clair.",
+        "Rédige un rappel sur WeChat/DingTalk pour la réunion de demain.",
+        "Propose un titre de formation interne sur la collaboration d’équipe.",
+        "Liste la structure d’un bilan annuel de travail.",
+        "Améliore une phrase de rapport à la direction pour qu’elle soit plus formelle.",
+        "Rédige un message court de félicitations pour une promotion, à partager en groupe."
+      ],
+      "scopePrompts": [
+        "Optimise cet e‑mail pour qu’il soit plus concis et approprié :",
+        "Réécris cette annonce pour la rendre plus positive et motivante :",
+        "Formate ce compte‑rendu en plan de présentation PPT :",
+        "Transforme ce journal de travail en une note quotidienne :",
+        "Rédige ce contenu de projet en version proposition formelle :",
+        "Traduits ce texte en e‑mail professionnel en anglais :",
+        "Analyse la réponse du client ci‑dessous et propose une suite :",
+        "Rédige une phrase d’introduction orale pour ce rapport :",
+        "Transforme ce contenu en phrase pour réseaux sociaux :",
+        "Résume ces points de réunion en trois points :"
+      ]
+    },
+    {
+      "name": "Créateur vidéo",
+      "prompts": [
+        "Rédige un script court sur les techniques de communication au travail.",
+        "Propose des titres accrocheurs pour une vidéo sur la promotion au travail.",
+        "Donne des phrases percutantes à utiliser comme copy pour vidéos professionnelles.",
+        "Écris un avertissement sur les techniques de PUA au travail pour l’intro d’une vidéo.",
+        "Propose un plan de script sur le “burn‑out” au travail.",
+        "Crée une accroche d’ouverture vidéo en 30 secondes sur le monde pro.",
+        "Écris une voix off motivante sur “travailler tout en progressant”.",
+        "Raconte en première personne une histoire de crise au travail ayant été surmontée.",
+        "J’ai besoin d’un mini‑sketch sur la “politique de bureau”.",
+        "Rédige du texte adapté pour sous‑titres vidéo sur la stabilité émotionnelle au travail."
+      ],
+      "scopePrompts": [
+        "Réécris au format sketch TikTok sur le travail.",
+        "Adapte le texte au ton oral du format court.",
+        "Optimise le rythme et la logique pour capter l’attention.",
+        "Convertis ce texte de PPT en script de mini‑vidéo.",
+        "Génère trois punchlines à partir de ce discours.",
+        "Transforme ce texte d’interview en copy pour chaîne YouTube.",
+        "Génère une phrase de conclusion pour encourager like/commentaire.",
+        "Adapte le passage en storyboard pour mini‑sketch.",
+        "Crée des formulations adaptées pour voix off vidéo.",
+        "Réécris ce texte pour qu’il soit percutable en 60 secondes."
+      ]
+    },
+    {
+      "name": "Science",
+      "prompts": [
+        "Pourquoi le ciel est‑il bleu ? Explique simplement.",
+        "Comment un volcan entre‑t‑il en éruption ? Peux‑tu dessiner ?",
+        "Rédige un court texte sur les dinosaures adapté au CM1.",
+        "Présente une planète du système solaire, idéal pour un exposé.",
+        "Qu’est‑ce qu’un trou noir ? Explique de façon compréhensible pour un enfant.",
+        "Explique le cycle de l’eau, idéalement avec un schéma.",
+        "Qu’est‑ce que la théorie de l’évolution ? Donne un exemple avec la girafe.",
+        "Une expérience scientifique amusante et sûre à faire à la maison ?",
+        "Comment expliquer l’électricité de façon imagée ?",
+        "Raconte une histoire vraie et fascinante liée à la science."
+      ],
+      "scopePrompts": [
+        "Dessine un diagramme complet du processus.",
+        "Génère un quizz enfant de type vrai/faux.",
+        "Réexplique de façon plus simple.",
+        "Transforme en texte vidéo de 60 s.",
+        "Je ne comprends pas bien, peux‑tu réexpliquer ?",
+        "Donne des exemples d’écosystèmes autour de moi.",
+        "Donne trois anecdotes scientifiques intéressantes.",
+        "Produit un schéma conceptuel sur les trous noirs.",
+        "Explique ce passage sur les cellules comme dans une bande‑dessinée.",
+        "Crée un script d’animation pour montrer le principe."
+      ]
+    },
+    {
+      "name": "Philosophie",
+      "prompts": [
+        "Qu’est‑ce que le libre arbitre ? Quels sont les points de vue des différents philosophes ?",
+        "Explique le concept de « raison pratique » de Kant.",
+        "Pourquoi Nietzsche a‑t‑il déclaré « Dieu est mort » ? Que signifie‑t‑ce ?",
+        "Que signifie « je sais que je ne sais rien » de Socrate ?",
+        "Quel est le rapport entre le monde des idées de Platon et le monde réel ?",
+        "Compare les différences fondamentales entre le pragmatisme et l’existentialisme.",
+        "Comment le « je pense, donc je suis » de Descartes a‑t‑il influencé la philosophie moderne ?",
+        "Explique simplement le concept de « wu wei » dans le taoïsme.",
+        "Comment comprendre la notion de « Dasein » chez Heidegger ?",
+        "Quelles sont les discussions philosophiques autour de l’existence indépendante de la conscience ?"
+      ],
+      "scopePrompts": [
+        "Analyse si l’auteur soutient l’utilitarisme.",
+        "Détermine si cela correspond à la loi morale kantienne.",
+        "Indique quelle école philosophique est représentée.",
+        "Résume les idées existentialistes qui s’y trouvent.",
+        "Explique ce que Platon entendait par « justice ».",
+        "Montre les erreurs logiques du point de vue de la philosophie analytique.",
+        "Évalue si cela reflète une posture sceptique.",
+        "Analyse la vision de l’auteur sur la nature humaine.",
+        "Indique les hypothèses de causalité implicites.",
+        "Compare la notion de « soi » dans les philosophies orientale et occidentale."
+      ]
+    },
+    {
+      "name": "Émotions",
+      "prompts": [
+        "Comment avouer ses sentiments de façon sincère sans brusquer ?",
+        "Elle répond toujours instantanément, ça veut dire qu’elle m’aime ?",
+        "Pourquoi je suis toujours attiré par des personnes qui ne m’aiment​ pas ?",
+        "Comment savoir s’il m’aime vraiment ?",
+        "Nous parlons beaucoup mais il ne prend jamais l’initiative, est‑il désintéressé ?",
+        "Comment maintenir une relation à distance sans perdre la flamme ?",
+        "Je veux vraiment être en couple mais j’ai peur de me blesser, que faire ?",
+        "Comment me détacher de mon ex ?",
+        "Quels sujets aborder lors d’un premier rendez‑vous ?",
+        "Dois‑je le/la contacter en premier ? Est‑ce trop insistant ?"
+      ],
+      "scopePrompts": [
+        "Penses‑tu qu’il/elle a des sentiments pour moi ? Analyse :",
+        "Je viens d’écrire un aveu, peux‑tu l’améliorer pour qu’il soit plus touchant :",
+        "Voici mes ressentis après notre date, dis‑moi si je m’inquiète​ trop : (contenu)…",
+        "Voici mon brouillon de lettre d’amour, peux‑tu le rendre plus romantique ?",
+        "Je crois être trop attaché, voici mes pensées, est‑ce anxieux ?",
+        "Voici une story qu’il/elle a postée, peux‑tu analyser son émotion ?",
+        "J’ai rédigé un retour sur notre relation, peux‑tu identifier des problèmes ?",
+        "Voici mon message “Tu es là ?”, peux‑tu proposer un message d’ouverture plus naturel ?",
+        "Nous venons de nous disputer, voici l’échange, peux‑tu suggérer une désescalade ?",
+        "Je prépare un email d’excuses, voici le brouillon, peux‑tu le polir ?"
+      ]
+    }
+  ]
+}
