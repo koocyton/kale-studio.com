@@ -1,7 +1,11 @@
 {
-  "expire": "2026-09-25T11:11:11",
-  "proxyHost": "https://kale-studio.com/",
-  "proxyPort": "31223",
+  "base":{
+    "expire": "2026-09-25T11:11:11",
+    "proxyHogst": "https://kale-studio.com/",
+    "proxyPort": "31223",
+    "version": "1.2.62",
+    "minVersion": "1.2.62"
+  },
   "mcp": {
     "aiApi": "https://ecoaoklzxxdmxqloeikb.supabase.co/functions/v1/proxy-ai",
     "aiToken": "",
