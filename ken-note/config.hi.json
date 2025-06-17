@@ -6,7 +6,7 @@
     "version": "1.2.65",
     "minVersion": "1.2.65",
     "updateUrl": "https://play.google.com/store/apps/details?id=xyz.onote.gg.ml.app",
-    "enableAd":false
+    "enableAd":true
   },
   "mcp": {
     "aiApi": "https://ecoaoklzxxdmxqloeikb.supabase.co/functions/v1/proxy-ai",
