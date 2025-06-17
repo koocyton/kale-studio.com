@@ -5,7 +5,8 @@
     "proxyPort": "31223",
     "version": "1.2.62",
     "minVersion": "1.2.62",
-    "updateUrl": "https://play.google.com/store/apps/details?id=xyz.onote.gg.ml.app"
+    "updateUrl": "https://play.google.com/store/apps/details?id=xyz.onote.gg.ml.app",
+    "enableAd":true
   },
   "mcp": {
     "aiApi": "https://ecoaoklzxxdmxqloeikb.supabase.co/functions/v1/proxy-ai",
