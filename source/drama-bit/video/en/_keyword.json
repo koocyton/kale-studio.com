@@ -1,0 +1,10 @@
+[
+  { "title": "emotional",    "json_file": "emotional.json" },
+  { "title":"heart touching", "json_file": "heart_touching.json" },
+  { "title": "hight school", "json_file": "hight_school.json" },
+  { "title": "romantic",     "json_file": "romantic.json" },
+  { "title": "suspense",     "json_file": "suspense.json" },
+  { "title": "thriller",     "json_file": "thriller.json" },
+  { "title": "viral",        "json_file": "viral.json" },
+  { "title": "funny",        "json_file": "funny.json" }
+]
