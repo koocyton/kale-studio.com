@@ -30,7 +30,8 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - "ken-note/*"
-  - "chaptoon/*"
+  - "ken-ai/*"
+  - "color-toon/*"
   - "drama-bit/*"
 
 # Writing
