@@ -3,8 +3,8 @@
     "expire": "2046-09-25T11:11:11",
     "proxyHogst": "https://kale-studio.com/",
     "proxyPort": "31223",
-    "version": "1.2.65",
-    "minVersion": "1.2.65",
+    "version": "1.2.78",
+    "minVersion": "1.2.78",
     "updateUrl": "https://play.google.com/store/apps/details?id=xyz.onote.gg.ml.app",
     "enableAd":true
   },
