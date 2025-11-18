@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>Play Tube</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        
+        #player {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        #error {
+            display: none;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            background: #000;
+            color: #fff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        #error.show {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <iframe id="player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div id="error">
+        <div>
+            <h2>无法加载视频</h2>
+            <p style="margin-top: 10px; opacity: 0.7;">请检查视频 ID 是否正确</p>
+        </div>
+    </div>
+
+    <script>
+        function getVideoId() {
+            const hash = window.location.hash;
+            if (hash && hash.includes('vid=')) {
+                const match = hash.match(/vid=([^&]+)/);
+                return match ? match[1] : null;
+            }
+            return null;
+        }
+
+        function loadVideo() {
+            const videoId = getVideoId();
+            const player = document.getElementById('player');
+            const error = document.getElementById('error');
+
+            if (videoId) {
+                player.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&controls=1`;
+                player.style.display = 'block';
+                error.classList.remove('show');
+            } else {
+                player.style.display = 'none';
+                error.classList.add('show');
+            }
+        }
+
+        // 页面加载时执行
+        loadVideo();
+
+        // 监听 hash 变化
+        window.addEventListener('hashchange', loadVideo);
+    </script>
+</body>
+</html>
