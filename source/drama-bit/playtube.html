@@ -47,8 +47,8 @@
     <iframe id="player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     <div id="error">
         <div>
-            <h2>无法加载视频</h2>
-            <p style="margin-top: 10px; opacity: 0.7;" id="errorMsg">请检查视频 ID 是否正确</p>
+            <h2>Unable to load video</h2>
+            <p style="margin-top: 10px; opacity: 0.7;" id="errorMsg">Please check if the video ID is correct.</p>
             <button id="openBtn" style="
                 margin-top: 20px;
                 padding: 12px 24px;
@@ -59,7 +59,7 @@
                 font-size: 16px;
                 cursor: pointer;
                 display: none;
-            ">在 YouTube 应用中打开</button>
+            ">Open in the YouTube app</button>
         </div>
     </div>
 
@@ -110,11 +110,11 @@
                 setTimeout(() => {
                     // 如果 iframe 加载失败，提供备用方案
                     player.onerror = function() {
-                        showError('此视频无法嵌入播放，可能由于版权限制');
+                        showError('This video cannot be embedded and played, possibly due to copyright restrictions.');
                     };
                 }, 3000);
             } else {
-                showError('请在 URL 中提供视频 ID（格式：#vid=视频ID）');
+                showError('Please include the video ID in the URL (format: #vid=video ID).');
             }
         }
 
