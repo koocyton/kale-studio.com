@@ -102,7 +102,8 @@
 
             if (videoId) {
                 // 尝试使用 nocookie 域名，更好的隐私和兼容性
-                player.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&controls=1&playsinline=1&rel=0`;
+                // player.src = `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&controls=1&playsinline=1&rel=0`;
+                player.src = `https://www.youtube.com/watch?v=${videoId}`;
                 player.style.display = 'block';
                 error.classList.remove('show');
 
