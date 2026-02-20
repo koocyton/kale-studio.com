@@ -1,0 +1,16 @@
+[
+  { "title": "创业奋斗", "json_file": "创业奋斗.json" },
+  { "title": "反派逆袭", "json_file": "反派逆袭.json" },
+  { "title": "反转剧情", "json_file": "反转剧情.json" },
+  { "title": "古装美人", "json_file": "古装美人.json" },
+  { "title": "契约婚姻", "json_file": "契约婚姻.json" },
+  { "title": "女主逆袭", "json_file": "女主逆袭.json" },
+
+  { "title": "家庭纠纷", "json_file": "家庭纠纷.json" },
+  { "title": "悬疑短剧", "json_file": "悬疑短剧.json" },
+  { "title": "推理剧情", "json_file": "推理剧情.json" },
+  { "title": "穿越成妃", "json_file": "穿越成妃.json" },
+
+  { "title": "职场宫斗", "json_file": "职场宫斗.json" },
+  { "title": "牛马逆袭", "json_file": "打工人逆袭.json" }
+]
