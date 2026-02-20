@@ -33,6 +33,7 @@ skip_render:
   - "ken-ai/*"
   - "color-toon/*"
   - "drama-bit/*"
+  - "kennote-web/*"
 
 # Writing
 new_post_name: :title.md # File name of new posts
