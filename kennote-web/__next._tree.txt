@@ -1,4 +1,4 @@
-:HL["_next/static/chunks/7cb7c32c14d93263.css","style"]
-:HL["_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["_next/static/chunks/fef56bc598709c05.css","style"]
-0:{"buildId":"KIyL_Rz7T14uxy3WMaivW","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/kennote-web/_next/static/chunks/615a2609e7c22e23.css","style"]
+:HL["/kennote-web/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/kennote-web/_next/static/chunks/fef56bc598709c05.css","style"]
+0:{"buildId":"BFB48aQcBw9vW2QE0yMmV","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
