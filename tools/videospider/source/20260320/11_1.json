@@ -1,0 +1,1718 @@
+{
+  "category": {
+    "id": 11,
+    "title": "创业奋斗"
+  },
+  "query": {
+    "q": "创业奋斗",
+    "part": "snippet",
+    "order": "rating"
+  },
+  "page": {
+    "page_index": 1,
+    "max_results": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KfeuzxbqCi3caw_cscpEoCkLKC8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OlmQfAh42kU"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-16T12:12:38Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》03 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OlmQfAh42kU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OlmQfAh42kU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OlmQfAh42kU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-16T12:12:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zCn1wlFP8E1JJsUn_crUU-j1zwg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cWwknFHSJn4"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-19T12:11:39Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》14 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cWwknFHSJn4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cWwknFHSJn4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cWwknFHSJn4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-19T12:11:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "503Zk35aqBdF4p3-qLoxLqaRNEQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ov6Sm4yRHJ4"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-24T12:03:43Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》28 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ov6Sm4yRHJ4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ov6Sm4yRHJ4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ov6Sm4yRHJ4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-24T12:03:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zCZzmItCyzxrFfu1BW2OeQf0kiI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_SkXTp4O8m0"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-20T13:37:46Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》17 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_SkXTp4O8m0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_SkXTp4O8m0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_SkXTp4O8m0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-20T13:37:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vANdEg3AK8tSzayGaNqXzfELYts",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YAoZRO9JqGg"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-22T12:06:58Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》19 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YAoZRO9JqGg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YAoZRO9JqGg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YAoZRO9JqGg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-22T12:06:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EwBVeoZYv0G4wrQxkF5F2kte3vQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RCgrhj0AtUk"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-17T11:57:06Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》06 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RCgrhj0AtUk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RCgrhj0AtUk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RCgrhj0AtUk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-17T11:57:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kdWI0bEwt0fpkMvRarK77646Ja8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SegoXCkvRgU"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-17T11:57:07Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》05 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SegoXCkvRgU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SegoXCkvRgU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SegoXCkvRgU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-17T11:57:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "CJHvjOkxQB7h9-KheAjOo6YqrlE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IhH9eS-cuuY"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-18T18:55:41Z",
+        "channelId": "UCv5zXu3G7pjzYxxpRhUNu9g",
+        "title": "休息好了就该好好的奋斗了#摆摊创业 #炒粉 #炒饭 #摆摊人",
+        "description": "欢迎来到“来一碗炒饭- 刘松” 的摆摊美食频道！这里是街头烟火气的聚集地+ 炒饭炒面的美味课堂，一口锅、一个小摊，记录摆摊创业 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IhH9eS-cuuY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IhH9eS-cuuY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IhH9eS-cuuY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "来一碗炒饭-刘松",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-18T18:55:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JFht1wP5qLxk6ynmXx2zHjbI5GY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1l1gBn-5ezw"
+      },
+      "snippet": {
+        "publishedAt": "2024-09-19T12:00:10Z",
+        "channelId": "UCx1UjlXhdDyPVAuK23abiVA",
+        "title": "（不平）我陪女友创业，给她投资，陪她奋斗。可当她的公司走上正轨，我因帮她熬夜加班陪酒弄垮身体，被医院通知胃癌时，她却嫌弃我一事无成提了分手。",
+        "description": "催眠曲#漫画#漫画動画#爽文#反转#一口气看完#全文已完结#小说.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1l1gBn-5ezw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1l1gBn-5ezw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1l1gBn-5ezw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "晴天听书",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-09-19T12:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7iGOiLADK6LyUEwhYvUXLljYdn4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yAqSSj6o4x0"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-22T12:06:58Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》22 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yAqSSj6o4x0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yAqSSj6o4x0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yAqSSj6o4x0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-22T12:06:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fJ0Thj5y9uM5L8tFeBSSB7ANVME",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BS7wwg9NO_8"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-16T12:12:38Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》02 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BS7wwg9NO_8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BS7wwg9NO_8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BS7wwg9NO_8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-16T12:12:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iZwU_FHnnLYIGO_KpFB0en8vOmE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qpl0rO7rJdI"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-19T12:11:39Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》13 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qpl0rO7rJdI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qpl0rO7rJdI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qpl0rO7rJdI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-19T12:11:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "B65XHTbmcCHyAodmOnS9BAk3Uy8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zBBcJmIW23k"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-16T12:12:38Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》04 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zBBcJmIW23k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zBBcJmIW23k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zBBcJmIW23k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-16T12:12:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "F_jFJ3OZmuEREwkMeCas_696Uaw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XiqUDQdtasY"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-20T13:37:50Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》18 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XiqUDQdtasY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XiqUDQdtasY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XiqUDQdtasY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-20T13:37:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ivTINp1ku8xtLslukCmhGkXAZ54",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8pPlY59QIRM"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-22T12:06:58Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》21 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8pPlY59QIRM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8pPlY59QIRM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8pPlY59QIRM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-22T12:06:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uCT3v4BW833xys6gcGFNx_0rFLo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5hJPTQYjjAo"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-19T12:11:39Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》15 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5hJPTQYjjAo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5hJPTQYjjAo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5hJPTQYjjAo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-19T12:11:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "y_6urbbSe9orOubiA-J2_IZoNJw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kUX0uInShnU"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-31T13:00:32Z",
+        "channelId": "UCbPGTXpszh94pJYVfJ8lHbQ",
+        "title": "回首《创业》历程 奋斗者《血，总是热的》 | 第艺流「电影中的印记」20210828",
+        "description": "本期看点： 特邀主持人王鸥将和众位嘉宾一起，带领大家重温《创业》、《血，总是热的》两部电影。本期节目邀请到了电影《 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kUX0uInShnU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kUX0uInShnU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kUX0uInShnU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "第艺流",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-08-31T13:00:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fM4RBgvhCHsVVZrPStQXThAhU8M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "7b_KSbNi1hI"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-07T09:31:12Z",
+        "channelId": "UCv5zXu3G7pjzYxxpRhUNu9g",
+        "title": "休息好了就该好好的奋斗了#摆摊创业 #炒粉 #炒饭 #摆摊人",
+        "description": "欢迎来到“来一碗炒饭- 刘松” 的摆摊美食频道！这里是街头烟火气的聚集地+ 炒饭炒面的美味课堂，一口锅、一个小摊，记录摆摊创业 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/7b_KSbNi1hI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/7b_KSbNi1hI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/7b_KSbNi1hI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "来一碗炒饭-刘松",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-07T09:31:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mQ54DY8BhqBkUX-zmjQAU9LSB6c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "azi6wCmpr4Y"
+      },
+      "snippet": {
+        "publishedAt": "2024-10-29T08:30:01Z",
+        "channelId": "UCm3EOudss-V3et-xuRYQa1g",
+        "title": "《本是布衣，创业为妻过上好日子》EP1~117  千金大小姐为吃一口热饭，嫁给我这样一个混混，刚嫁我就穿越过来，为了妻子和家庭努力创业奋斗！#柒柒漫舍 #沙雕动画 #穿越 #历史 #逆袭",
+        "description": "唯一正版授权纯原创沙雕动画！盗用必究！ 欢迎大家来到柒柒     柒柒每天给大家带来精彩的沙雕动画！！！ 每天都会在这陪伴 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/azi6wCmpr4Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/azi6wCmpr4Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/azi6wCmpr4Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "柒柒漫舍",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-10-29T08:30:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "3D0ZQZYMCWTVZ3eb_GWyLW6JHV0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-SCNHg0nbQA"
+      },
+      "snippet": {
+        "publishedAt": "2024-09-12T08:30:00Z",
+        "channelId": "UCm3EOudss-V3et-xuRYQa1g",
+        "title": "《本是布衣，创业为妻过上好日子》EP1~93  千金大小姐为吃一口热饭，嫁给我这样一个混混，刚嫁我就穿越过来，为了妻子和家庭努力创业奋斗！#柒柒漫舍 #沙雕动画 #穿越 #历史 #逆袭",
+        "description": "唯一正版授权纯原创沙雕动画！盗用必究！ 欢迎大家来到柒柒     柒柒每天给大家带来精彩的沙雕动画！！！ 每天都会在这陪伴 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-SCNHg0nbQA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-SCNHg0nbQA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-SCNHg0nbQA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "柒柒漫舍",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-09-12T08:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "U7M5aaX8BbeGbQxr8rshGEqPRw4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mUjhWtEooQg"
+      },
+      "snippet": {
+        "publishedAt": "2024-05-17T15:50:36Z",
+        "channelId": "UC09SZZcPKBK7WEMmkYYKm2A",
+        "title": "糖糖叫大宝留下陪他一起创业，一起奋斗，一起做茶叶生意！大宝会听糖糖的话留下来吗！？【探山记】#凉山#彝族姑娘#阿子#阿伟#糖糖#二妹#记录生活",
+        "description": "大凉山的彝族风情！ #大凉山#吉连#阿梅#叶安安#王飞#小果#藏族美女#乡村生活#新农人计划#中国少数民族#抖音#tiktok #Chinese ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mUjhWtEooQg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mUjhWtEooQg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mUjhWtEooQg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "探山小记",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-05-17T15:50:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "98Ct6IGJRUB-B68NyzQtq-_cri8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "B5XmcHEygg4"
+      },
+      "snippet": {
+        "publishedAt": "2024-04-20T12:00:10Z",
+        "channelId": "UCm3EOudss-V3et-xuRYQa1g",
+        "title": "《本是布衣，创业为妻过上好日子》EP1~30  千金大小姐为吃一口热饭，嫁给我这样一个混混，刚嫁我就穿越过来，为了妻子和家庭努力创业奋斗！#柒柒漫舍 #沙雕动画 #穿越 #历史 #逆袭",
+        "description": "唯一正版授权纯原创沙雕动画！盗用必究！ 欢迎大家来到柒柒     柒柒每天给大家带来精彩的沙雕动画！！！ 每天都会在这陪伴 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/B5XmcHEygg4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/B5XmcHEygg4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/B5XmcHEygg4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "柒柒漫舍",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-04-20T12:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SKxOrSt0RcOWxewgoxpO62fTUyI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1Xkjs7v4Q8U"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-12T16:45:10Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP14 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1Xkjs7v4Q8U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1Xkjs7v4Q8U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1Xkjs7v4Q8U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-12T16:45:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wWuVLEytMCgt75UJwMvXABSBr7s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dp1KakpEowU"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-03T16:00:14Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP34 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dp1KakpEowU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dp1KakpEowU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dp1KakpEowU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-03T16:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9DsDEbCRZQJjvsY7F7TcRZuP8x4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "urNg9Mg6liA"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-09T17:30:12Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP11 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/urNg9Mg6liA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/urNg9Mg6liA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/urNg9Mg6liA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-09T17:30:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AFAbMal9lEmY0_j47KF3im-jgok",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "O5KqsoEqHzY"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-25T16:00:10Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP26 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/O5KqsoEqHzY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/O5KqsoEqHzY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/O5KqsoEqHzY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-25T16:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gkKmT7-5Gr8rG8J0cQSNF_QHA_8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AvLtEkEzcUU"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-01T16:00:13Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP32 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AvLtEkEzcUU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AvLtEkEzcUU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AvLtEkEzcUU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-01T16:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AN6G8x9MJiuxeezZ1YK8YOrYgLc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NrshSDZfyXU"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-10T16:00:13Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP12 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NrshSDZfyXU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NrshSDZfyXU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NrshSDZfyXU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-10T16:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YbzjlXZTgk6kK96XjpzjE3tmVj8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "P-GqvkvsPTs"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-04T16:00:13Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP35 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/P-GqvkvsPTs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/P-GqvkvsPTs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/P-GqvkvsPTs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-04T16:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zWahcCQpjSgyIbsDvFxpIRVS9O4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kg_FHjGUNdQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-19T16:00:13Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP20 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kg_FHjGUNdQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kg_FHjGUNdQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kg_FHjGUNdQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-19T16:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XiA9EcPvrpj7MbTUoegbqDslLVw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CRVG1FlhJhQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-22T16:00:10Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP23 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CRVG1FlhJhQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CRVG1FlhJhQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CRVG1FlhJhQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-22T16:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BcvicxXxu4b6BvbkcSDjGiRvwPg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ytfDO_uijDg"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-15T16:00:12Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP17 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ytfDO_uijDg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ytfDO_uijDg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ytfDO_uijDg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-15T16:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "o45Tx8KtRv_sPFqcbRHvQgOI_0Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "q9I5QwbT0KQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-23T16:00:11Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP24 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/q9I5QwbT0KQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/q9I5QwbT0KQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/q9I5QwbT0KQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-23T16:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KEuWsN9QHhdJS1_g-J1qpNVRAyk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9jLZFWTllJ0"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-10T13:03:44Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP06 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9jLZFWTllJ0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9jLZFWTllJ0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9jLZFWTllJ0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-10T13:03:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RdyYKILDFbhZg-9_5RIggFjyHFU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AbwrAxz4vxA"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-27T16:00:28Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP28 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AbwrAxz4vxA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AbwrAxz4vxA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AbwrAxz4vxA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-27T16:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "RSZwMUEFTmQlE4OwV9MtIcmwj0Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0e7jmt1keGg"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-24T16:00:12Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP25 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0e7jmt1keGg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0e7jmt1keGg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0e7jmt1keGg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-24T16:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Q8M6coXo7VEeQIskx1d1bFv5do4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mqrYGl4Ln9U"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-08T16:45:13Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP40 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mqrYGl4Ln9U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mqrYGl4Ln9U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mqrYGl4Ln9U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-08T16:45:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LVRXeKNQmbzJw6xP4K4p2wkBrVs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LJJXTwB7QKI"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-16T16:00:11Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP18 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LJJXTwB7QKI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LJJXTwB7QKI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LJJXTwB7QKI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-16T16:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MwaaDldihrpV3DpEyjNiywd36SQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oZuGX4D22qM"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-05T16:00:12Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP36 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oZuGX4D22qM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oZuGX4D22qM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oZuGX4D22qM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-05T16:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Xwz5emComohDi3iiSWwB_tbDVOM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-GN1MrkPJa4"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-21T16:00:10Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP22 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-GN1MrkPJa4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-GN1MrkPJa4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-GN1MrkPJa4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-21T16:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "blFNG2rI-IqFYbnNssel3gcgCg4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "BbJpp5qaC3c"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-29T16:00:12Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP30 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/BbJpp5qaC3c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/BbJpp5qaC3c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/BbJpp5qaC3c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-29T16:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8xozOrAVPK0iNA5gO5gK9cmkLEU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Q1yS98eqfjs"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-13T16:00:12Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP15 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Q1yS98eqfjs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Q1yS98eqfjs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Q1yS98eqfjs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-13T16:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XIVLVLhhA4hVkinEmgqKVP0-KPs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1JybgSndfSQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-26T16:00:11Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP27 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1JybgSndfSQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1JybgSndfSQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1JybgSndfSQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-26T16:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "IjPu9_hQc1HsqsnELHtYyeyodTE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KgmKPIpHt3g"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-12T16:00:14Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP13 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KgmKPIpHt3g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KgmKPIpHt3g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KgmKPIpHt3g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-12T16:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "M_4GThAYA_HNqQEo7rsQesDnqEA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fB0GbAb7TJg"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-12T09:45:12Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP07 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fB0GbAb7TJg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fB0GbAb7TJg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fB0GbAb7TJg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-12T09:45:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "74APfZOTKXzoemKowvR-lvjBjKQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3GiR0aCcoIo"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-17T16:00:10Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP19 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3GiR0aCcoIo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3GiR0aCcoIo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3GiR0aCcoIo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-17T16:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "adA8bT7JXeYYmslMm8TODFVzd3Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fv4l6dgr72g"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-01T16:00:38Z",
+        "channelId": "UCEgEBQ0WNRKdnseCGAq2KmQ",
+        "title": "《奋斗·美国·梦》美国洛杉矶第一代创业的故事",
+        "description": "这个记录片献给你，献给我，献给在美国奋斗的人们，因为我们值得被歌颂。",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fv4l6dgr72g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fv4l6dgr72g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fv4l6dgr72g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Aligcus Development & Construction【阿里建筑】",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-01T16:00:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ES3rDoI6Kb9xMH6m31veajf882c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CuHeJP0De3I"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-12T10:05:35Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP08 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞 | 都市情感片 | 优酷 YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CuHeJP0De3I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CuHeJP0De3I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CuHeJP0De3I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-12T10:05:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LddgQccXu3o6q-CD-nNAN-c88zo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iBbCapaXZm8"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-20T16:00:10Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP21 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iBbCapaXZm8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iBbCapaXZm8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iBbCapaXZm8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-20T16:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-goeE410Xh0D-bFJPuqjpf0AkS0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vyHMGBbfE70"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-17T11:57:06Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》08 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vyHMGBbfE70/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vyHMGBbfE70/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vyHMGBbfE70/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-17T11:57:06Z"
+      }
+    }
+  ],
+  "nextPageToken": "CDIQAA"
+}

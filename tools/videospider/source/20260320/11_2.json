@@ -1,0 +1,596 @@
+{
+  "category": {
+    "id": 11,
+    "title": "创业奋斗"
+  },
+  "query": {
+    "q": "创业奋斗",
+    "part": "snippet",
+    "order": "rating"
+  },
+  "page": {
+    "page_index": 2,
+    "max_results": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2W9nBraSDZK6AOjtK1Br-DuLAZI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9p1QsYXAQuc"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-16T12:12:38Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》01 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9p1QsYXAQuc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9p1QsYXAQuc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9p1QsYXAQuc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-16T12:12:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "r6R_-DtAJ66N3WsHdk0tAusgfcA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ypcZHMdH3Ts"
+      },
+      "snippet": {
+        "publishedAt": "2021-11-30T16:00:12Z",
+        "channelId": "UCYQPTeY3HOk0BprrGuCWCaA",
+        "title": "ENGSUB【星辰大海 Star of Ocean】EP31 | 刘涛林峯上演创业奋斗史 | 刘涛/林峯/芦芳生/柴碧云/张晨光/谭耀文/恬妞/徐嘉雯 | 都市情感片 | 优酷YOUKU",
+        "description": "Click to join YOUKU Memberships to unlock the latest episodes: http://bit.ly/youkumembership 【星辰大海Star of Ocean】90年代 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ypcZHMdH3Ts/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ypcZHMdH3Ts/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ypcZHMdH3Ts/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "YOUKU-Get APP now",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-11-30T16:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uEpy5H_zvho1hg6Y10Hsij2u9P4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ze5ggMYvQSQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-23T12:04:11Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》25 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ze5ggMYvQSQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ze5ggMYvQSQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ze5ggMYvQSQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-23T12:04:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7SP_1fTB_1mIo8l8c1ginsy1ZPQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bMvenSFaZCw"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-22T12:06:58Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》20 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bMvenSFaZCw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bMvenSFaZCw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bMvenSFaZCw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-22T12:06:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WaixpPmxgcO30D5u9acnmZn7lJs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WIQfxFlDoA8"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-23T12:04:06Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》23 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WIQfxFlDoA8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WIQfxFlDoA8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WIQfxFlDoA8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-23T12:04:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nqPWecE7-FSE5ue7ks-JUGq3xFw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wXPROlaWXVQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-18T12:11:00Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》09 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wXPROlaWXVQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wXPROlaWXVQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wXPROlaWXVQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-18T12:11:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Lz5NN6FQH2elGqmGfSaJ15zhveg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bdCaZzR0l_E"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-24T12:03:38Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》26 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bdCaZzR0l_E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bdCaZzR0l_E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bdCaZzR0l_E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-24T12:03:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GZdQN1NQyCTwx_dWrFslXSTTgOU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5L8-NMj2kN0"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-23T12:04:09Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》24 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5L8-NMj2kN0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5L8-NMj2kN0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5L8-NMj2kN0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-23T12:04:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "M99qbtL9h7_5pSZ8nHmlYZmVakA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iS-QCDO4yiM"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-18T12:11:00Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》12 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iS-QCDO4yiM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iS-QCDO4yiM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iS-QCDO4yiM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-18T12:11:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6fiBVqkDSe3sx1Lr1U9fbh_agqU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TUdT7ricIiU"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-18T12:11:00Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》11 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TUdT7ricIiU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TUdT7ricIiU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TUdT7ricIiU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-18T12:11:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QkJc8HgogU4FCkiiMUxVJczN7kg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mk1ejzJrrmw"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-17T11:57:06Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》07 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mk1ejzJrrmw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mk1ejzJrrmw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mk1ejzJrrmw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-17T11:57:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uxzD2W5iUUplR5lT9J1zQHMmybQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "r_1qcRDfho8"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-19T12:11:40Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》16 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/r_1qcRDfho8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/r_1qcRDfho8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/r_1qcRDfho8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-19T12:11:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lz0q5mfNQP7GWOiNFWKAvtc3Q40",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8r03TMfSH5E"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-18T12:11:00Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》10 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8r03TMfSH5E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8r03TMfSH5E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8r03TMfSH5E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-18T12:11:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dajnle9l-BKTSL1XVdR2dIXF7Go",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u99ajKjAjqU"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-24T12:03:40Z",
+        "channelId": "UCmVkJ1oYeLGTotzWCfx1-cA",
+        "title": "《恋爱定律》27 | 从打工人到奋斗创业的男人与爱人不离不弃的感人故事",
+        "description": "《恋爱定律》全集：http://bit.ly/3THr4TJ ➤ 点击多看好剧: https://bit.ly/3fI4msA 导演：宋业明，王艺伦主演：靳东、李佳、刘立淇、 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u99ajKjAjqU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u99ajKjAjqU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u99ajKjAjqU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "中国好剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-24T12:03:40Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kVUjj23jUU-vkoFe-7JyNhsiSpw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WRCEZvxG7Dk"
+      },
+      "snippet": {
+        "publishedAt": "2024-12-23T11:00:41Z",
+        "channelId": "UCA4oBDJNxTx7x4LlduKK97g",
+        "title": "我陪女友创业，给她投资，陪她奋斗。可当她的公司走上正轨，我因帮她熬夜加班陪酒弄垮身体，被医院通知胃癌时，她却嫌弃我一事无成提了分手。",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WRCEZvxG7Dk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WRCEZvxG7Dk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WRCEZvxG7Dk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "七月漫画",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-12-23T11:00:41Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ANcFHbB8RsVpb_P--LLu4hogSxY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_u7IyuB9jGk"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-26T06:30:14Z",
+        "channelId": "UCbSvbTId7IuxJHHADt5ASyw",
+        "title": "我和丈夫一起奋斗了五年创业，他承诺永远不会辜负我，但在我们的三周年纪念日，我收到了第三者的消息，发来了一张怀孕12周的检查单。我冷笑着保存了证据并扔下离婚协议，当晚他回到家打开门时惊呆了。",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_u7IyuB9jGk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_u7IyuB9jGk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_u7IyuB9jGk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "keushe",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-26T06:30:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HJ-Z3VYCI4C7hio0egH4m5V76WY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cdonJtNDSnE"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-29T05:16:27Z",
+        "channelId": "UCO6xJd6EcagZ5yQlatXlKTA",
+        "title": "孙中山创业奋斗简史",
+        "description": "孙中山，广东香山人，年轻时学医，却很快发现中国的问题不在病人身上，而在制度本身。此后几十年，他不是在起义，就是在筹 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cdonJtNDSnE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cdonJtNDSnE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cdonJtNDSnE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "史話古今",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-29T05:16:27Z"
+      }
+    }
+  ],
+  "nextPageToken": null
+}

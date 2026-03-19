@@ -1,0 +1,188 @@
+{
+  "category": {
+    "id": 20,
+    "title": "古装美人"
+  },
+  "query": {
+    "q": "古装美人",
+    "part": "snippet",
+    "order": "rating"
+  },
+  "page": {
+    "page_index": 2,
+    "max_results": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "M2FzkPqJtqNjmdHCl-axTTcHNS0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WBVZi11KBxA"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-28T10:45:06Z",
+        "channelId": "UCHVvTaYGSkjD1HoqX74Yxiw",
+        "title": "超好看的古装剧【寒潭医女传】13 医女意外卷入朝堂纷争，联手先帝遗孤破长生药阴谋，在王朝权谋中书写乱世医者传奇。（贾静雯 刘诗诗 赵文卓 刘雪华）",
+        "description": "古装剧#刘诗诗#贾静雯#赵文卓#刘雪华#高圆圆#chinesedrama 翻译字幕为机翻【#寒潭医女传】全集 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WBVZi11KBxA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WBVZi11KBxA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WBVZi11KBxA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "华剧经典大赏",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-28T10:45:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pKGT7-9mHFWCWSJ-gv0616e5RDA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9rrkdrMRM5Y"
+      },
+      "snippet": {
+        "publishedAt": "2025-10-27T11:45:06Z",
+        "channelId": "UCxGl2gInULM7IqWLVcWv6Ng",
+        "title": "【好看的古装剧】锦衣卫 12 | 明末第一美女客印月周旋于三位锦衣卫之间，其美貌引发一场交织爱恨情仇的权谋乱局。（汤唯、朱亚文、任嘉伦）",
+        "description": "古装剧#年代剧#古装情感剧#汤唯#朱亚文#任嘉伦#黄志忠#王劲松#马伊琍#文章#chinesedrama 《#锦衣卫》全集观看： ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9rrkdrMRM5Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9rrkdrMRM5Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9rrkdrMRM5Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "熱劇獨播",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-10-27T11:45:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "phQ8MNdc_7DXJDc2O7xeqkdDsHI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PpuooVQ1OaA"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-25T12:00:06Z",
+        "channelId": "UCHVvTaYGSkjD1HoqX74Yxiw",
+        "title": "超好看的古装剧【寒潭医女传】08 医女意外卷入朝堂纷争，联手先帝遗孤破长生药阴谋，在王朝权谋中书写乱世医者传奇。（贾静雯 刘诗诗 赵文卓 刘雪华）",
+        "description": "古装剧#刘诗诗#贾静雯#赵文卓#刘雪华#高圆圆#chinesedrama 翻译字幕为机翻【#寒潭医女传】全集 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PpuooVQ1OaA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PpuooVQ1OaA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PpuooVQ1OaA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "华剧经典大赏",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-25T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9-BrMZdldf8xL1o1PmIBrkMXXDk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DyE2x18lKgw"
+      },
+      "snippet": {
+        "publishedAt": "2025-10-12T12:45:06Z",
+        "channelId": "UCxGl2gInULM7IqWLVcWv6Ng",
+        "title": "【好看的古装剧】神医侠侣 06 | 小医仙贾静雯家破人亡后，联手先帝遗孤破解吕雉长生阴谋，却陷入公主的三角纠葛。（贾静雯、霍建华、刘雪华）",
+        "description": "古装剧#年代剧#古装情感剧#贾静雯#刘雪华#霍建华#赵文卓#chinesedrama 《#神医侠侣》全集观看： ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DyE2x18lKgw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DyE2x18lKgw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DyE2x18lKgw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "熱劇獨播",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-10-12T12:45:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hNLt0KhtptEg3aXRgMOyK7ywaoI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vwOPNsqvRw8"
+      },
+      "snippet": {
+        "publishedAt": "2025-10-25T11:45:12Z",
+        "channelId": "UCxGl2gInULM7IqWLVcWv6Ng",
+        "title": "【好看的古装剧】锦衣卫 08 | 明末第一美女客印月周旋于三位锦衣卫之间，其美貌引发一场交织爱恨情仇的权谋乱局。（汤唯、朱亚文、任嘉伦）",
+        "description": "古装剧#年代剧#古装情感剧#汤唯#朱亚文#任嘉伦#黄志忠#王劲松#马伊琍#文章#chinesedrama 《#锦衣卫》全集观看： ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vwOPNsqvRw8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vwOPNsqvRw8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vwOPNsqvRw8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "熱劇獨播",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-10-25T11:45:12Z"
+      }
+    }
+  ],
+  "nextPageToken": "CAoQAA"
+}

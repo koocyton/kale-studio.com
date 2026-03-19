@@ -1,0 +1,766 @@
+{
+  "category": {
+    "id": 15,
+    "title": "推理剧情"
+  },
+  "query": {
+    "q": "推理剧情",
+    "part": "snippet",
+    "order": "rating"
+  },
+  "page": {
+    "page_index": 1,
+    "max_results": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qTnMMf4pSsBL21FRyhLRZy84y_k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "f4zZ4VXcwt0"
+      },
+      "snippet": {
+        "publishedAt": "2025-07-14T12:01:16Z",
+        "channelId": "UCAvz7LAZZK22tmq_-4E9FAw",
+        "title": "食人猪精 #悬疑推理 #完结文 #睡前故事 #惊悚悬疑 #一口气看完系列",
+        "description": "食人猪精#悬疑推理#完结文#睡前故事#惊悚悬疑#一口气看完系列感谢大家的支持，你们的点赞和订阅就是我更新最大的动力！",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/f4zZ4VXcwt0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/f4zZ4VXcwt0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/f4zZ4VXcwt0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "清瑶茉茉",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-07-14T12:01:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Rj6gcp03wzc98L5x8FYBmyF73t4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uIGHlCZILmg"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-08T10:01:42Z",
+        "channelId": "UCdO7ycR9eYwqoDSQlkMDEWw",
+        "title": "中式恐怖 悬疑推理剧情游戏【Fools, Maniacs And Lairs 乌合之众】Demo 1: 会吃人的弥陀？？？",
+        "description": "老鼠laoshu #乌合之众#gaming #中式恐怖.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uIGHlCZILmg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uIGHlCZILmg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uIGHlCZILmg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "老鼠laoshu",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-08T10:01:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SbOPQYxjz1N_E04D3W0y4qq9bkg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CXJYHtGvFg8"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-11T10:18:55Z",
+        "channelId": "UC6Q56dPn2hNmxSXMq4Rx6Mg",
+        "title": "剧情出色量大管饱，古风悬疑推理AVG《再见断刀》中文试玩来啦",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CXJYHtGvFg8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CXJYHtGvFg8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CXJYHtGvFg8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "游戏速爆君",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-11T10:18:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0uKn3McTJbuYV0qAp4LQF6PW4tY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "e74aknFjtcs"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-22T23:00:24Z",
+        "channelId": "UCGFtk2qrT7NuRKcS21mNulQ",
+        "title": "【悬疑故事】《不在场证明》 |有声小说|",
+        "description": "【悬疑故事】《不在场证明》",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e74aknFjtcs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e74aknFjtcs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e74aknFjtcs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "那月有声",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-22T23:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tOtvKswPIdIxkN8cVpk_7PdGRXo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IVGFZG2CG8A"
+      },
+      "snippet": {
+        "publishedAt": "2023-01-26T10:30:06Z",
+        "channelId": "UCITEBDlyNUZhZtch96orpsg",
+        "title": "这才叫推理电影，90分钟剧情全是细节，全面解读《煦阳岭的疑云》",
+        "description": "电影：《煦阳岭的疑云》 在英国煦阳岭小镇，发生了一起离奇的密室杀人事件，死者是一位年近古稀的老人，因为患有心脏病，再加 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IVGFZG2CG8A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IVGFZG2CG8A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IVGFZG2CG8A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "止戈电影",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-01-26T10:30:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "J6Tv_dCHcD2JyI-xwuNmgFsR9ds",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_wAayw0dk38"
+      },
+      "snippet": {
+        "publishedAt": "2024-02-03T05:53:13Z",
+        "channelId": "UCMv71f94kK7c1TmG-EJJaRQ",
+        "title": "《山河旅探》剧情解说：国风本格推理，2024开年惊喜 | 游戏剧情 | 剧情解说",
+        "description": "沈仲平这一路走来曾见过为文学创新奔波于乡野的修撰也曾见过为突破工业封锁废寝忘食的匠目他还知道一位官员即便只有图纸， ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_wAayw0dk38/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_wAayw0dk38/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_wAayw0dk38/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "火力地堡FireBase",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-02-03T05:53:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6MQpNjZyPQZM7PXYj47gXZZDHlY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yi3wo22O3Sw"
+      },
+      "snippet": {
+        "publishedAt": "2024-12-30T01:38:16Z",
+        "channelId": "UCnM99r8n2gZQP60uJhwY1ug",
+        "title": "【懸疑|推理】一口氣看完，十歲那年的夏天，妹妹消失在給爸媽送飯的路上。全文27分鐘已完結|懸疑推理|睡前小故事",
+        "description": "推文#夜语轶事#動漫解說#小说#小說#完結文#完结文#短篇小說#短篇小说喜歡小說推文的一定要關注夜语轶事 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yi3wo22O3Sw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yi3wo22O3Sw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yi3wo22O3Sw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "夜语轶事Nighttime Anecdotes",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-12-30T01:38:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9uXIw4ycBpyhibidjMzhThEMwuM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Hx-KplmM63g"
+      },
+      "snippet": {
+        "publishedAt": "2024-10-03T09:16:12Z",
+        "channelId": "UCv9Vecf0C16rOfPbwvjBrVA",
+        "title": "一口气看完悬疑推理日剧，获奖小说改编，结局让人大呼过瘾！",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Hx-KplmM63g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Hx-KplmM63g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Hx-KplmM63g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "噔噔悬疑社",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-10-03T09:16:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "v_NdYQIYSpIQ4d-2_Xcumoqfk74",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "e2fWTdQjE9I"
+      },
+      "snippet": {
+        "publishedAt": "2024-11-20T07:07:42Z",
+        "channelId": "UCPkO5SvLkNdIiODsEdkaYeQ",
+        "title": "一口气看完悬疑推理剧《真相》剧情解说；失窃案反转不断，究竟谁在隐瞒真相？白羽生前留下“解谜游戏”告别挚友，组成证据链最重要一环！",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/e2fWTdQjE9I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/e2fWTdQjE9I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/e2fWTdQjE9I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "午夜超人",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-11-20T07:07:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1e9KNvbBVIPPgmV5axjiDfRa4Qs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "veRfS_DoAV4"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-16T23:28:47Z",
+        "channelId": "UCRG7vgAbc2jTjrdkVUInQvQ",
+        "title": "尺子被橡皮吃了，竟然是因为….#侦探 #安全 #推理 #搞笑 #反转",
+        "description": "欢迎来到星星来探案频道！这里是侦探推理爱好者的专属推理乐园，主打烧脑的侦探推理、沉浸式的剧情演绎，还有反转不断的悬疑 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/veRfS_DoAV4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/veRfS_DoAV4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/veRfS_DoAV4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "星星来探案",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-16T23:28:47Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mQwb5KI--LOQXSpKV9RCevd4gPk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3yNCmykYLTw"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-16T04:00:16Z",
+        "channelId": "UCHemn6tfHHqnyZ6d3xxVb5Q",
+        "title": "【开始推理吧3】EP2-2：前方剧情大反转！白宇拿到复仇剧本！刘宇宁白切黑好带感！ #开始推理吧3 #开始推理吧 #迪丽热巴 #张凌赫 #金靖",
+        "description": "最新最棒的电视剧综艺，我们一起看吧~ ฅ՞•ﻌ•՞ฅ Welcome to subscribe us and enjoy latest and hottest TV shows and dramas ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3yNCmykYLTw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3yNCmykYLTw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3yNCmykYLTw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "一起看综艺",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-16T04:00:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zatjzjz89Fl4XiCHvYJ_eKGfhew",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zh6IlmLdtLo"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-25T02:46:10Z",
+        "channelId": "UCRG7vgAbc2jTjrdkVUInQvQ",
+        "title": "垃圾桶会吃东西，竟然是因为…#推理#悬疑#反转#侦探",
+        "description": "欢迎来到星星来探案频道！这里是侦探推理爱好者的专属推理乐园，主打烧脑的侦探推理、沉浸式的剧情演绎，还有反转不断的悬疑 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zh6IlmLdtLo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zh6IlmLdtLo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zh6IlmLdtLo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "星星来探案",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-25T02:46:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sT_pTJxEQrNTeNrDKiaTEpMSAjc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dBrduFR6iEg"
+      },
+      "snippet": {
+        "publishedAt": "2023-08-19T22:43:08Z",
+        "channelId": "UCjLsJEgdZQnI4-QLGeF0ZQg",
+        "title": "4.0原神走剧情之我听说这又推理，不如来一次？/Genshin 4.0: I heard there&#39;s an element of reasoning, how about...?(Spoiler)",
+        "description": "大家期盼的4.0终于来了，不如进去走走一下？ 注意与申明： 1)本人已走新地一段时间，只是未开始剧情。 2)暴雷注意！请大家回避 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dBrduFR6iEg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dBrduFR6iEg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dBrduFR6iEg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "日六 (Ri Liu) ch. 日六之城?",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-08-19T22:43:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rtXBmkRDEM9tRxW1UKeUNTQCC0g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JbXHRvoKKRM"
+      },
+      "snippet": {
+        "publishedAt": "2025-11-22T10:00:29Z",
+        "channelId": "UC1Y14Azn-oKiK8n6il01qFQ",
+        "title": "【抽风】三相奇谈！国产悬疑推理剧情向游戏，全流程实况解说   小狼篇",
+        "description": "欢迎来到抽风Crazy频道！ 如果你是游戏迷，喜欢挑战自我，也爱在游戏中找到快乐，那么这里就是你的不二之选！在抽风Crazy ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JbXHRvoKKRM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JbXHRvoKKRM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JbXHRvoKKRM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "抽风Crazy2.0",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-11-22T10:00:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rb33E7onfITzbFTIxozbNzipwCQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AbJEcG0ExbA"
+      },
+      "snippet": {
+        "publishedAt": "2025-01-29T11:39:00Z",
+        "channelId": "UCyu1pLNkzkHc2pFmTRkymPg",
+        "title": "一口气看完20分钟悬疑推理剧情，极致享受完整看完20分钟的悬疑推理剧情，极致享受",
+        "description": "一口气看完20分钟悬疑推理剧情，极致享受完整看完20分钟的悬疑推理剧情，极致享受.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AbJEcG0ExbA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AbJEcG0ExbA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AbJEcG0ExbA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "王故事會",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-01-29T11:39:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "TlHDq-0wXuYgraaFy_prD9oJEjQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Gy-CiFS9tVQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-11-29T13:30:15Z",
+        "channelId": "UC0bkO8Z543yrNT3lQiFbzQg",
+        "title": "暴爽懸疑推理電影，結局萬萬想不到，看完后我甚至想都不敢想  #电影 #电影解说 #影视 #影视解说 #剧情",
+        "description": "暴爽懸疑推理電影，結局萬萬想不到，看完后我甚至想都不敢想女孩發現墻壁里伸出一條舌頭，劇情片#电影#电影解说#影视#影视 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Gy-CiFS9tVQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Gy-CiFS9tVQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Gy-CiFS9tVQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "情迷電影",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-11-29T13:30:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BQweovlrPbqNw76snBkl0GT-9rA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TI3qwhQakGo"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-27T12:00:56Z",
+        "channelId": "UCJc2uhd2QNKpWBShNR7lL7Q",
+        "title": "事情的真相让人意想不到#民间故事#故事会#悬疑#推理#剧情演绎",
+        "description": "事情的真相让人意想不到#民间故事#故事会#悬疑#推理#剧情演绎.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TI3qwhQakGo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TI3qwhQakGo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TI3qwhQakGo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "困惑的老吴故事会",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-27T12:00:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MBmtV3nMfndaz7zxrkSWX6Ay-Es",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IY1BbtAKCac"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-27T12:00:36Z",
+        "channelId": "UCJc2uhd2QNKpWBShNR7lL7Q",
+        "title": "事情的真相让人意想不到#民间故事#剧情演绎#悬疑#推理#故事会",
+        "description": "事情的真相让人意想不到#民间故事#剧情演绎#悬疑#推理#故事会.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IY1BbtAKCac/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IY1BbtAKCac/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IY1BbtAKCac/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "困惑的老吴故事会",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-27T12:00:36Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-Z00R7cUfPeVoeK5fPXrNWugdwc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "g6aatTmqOQk"
+      },
+      "snippet": {
+        "publishedAt": "2026-03-13T13:30:48Z",
+        "channelId": "UCCjnIZqLYKLzFfo7YQwJcRw",
+        "title": "評分8.0推理神作！偶像離奇死亡，劇情結局神反轉 #如月疑云 #推理神作 #偶像离奇死亡 #剧情大反转 #8.0高分",
+        "description": "評分8.0推理神作！偶像離奇死亡，劇情結局神反轉偶像离奇死亡偶像离奇死亡！评分8.0神剧，剧情全程反转Rating 8.0 Mystery ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/g6aatTmqOQk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/g6aatTmqOQk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/g6aatTmqOQk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "小帥講電影",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-03-13T13:30:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ivU7Rn290FhZNHqUO_7OwCeMA6E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-IWlzfLLblk"
+      },
+      "snippet": {
+        "publishedAt": "2024-12-09T01:43:58Z",
+        "channelId": "UCccKDQE34HDVnYzw96ED6xw",
+        "title": "#剧情动画 #动漫视频 #悬疑推理 #鬼知道我看了多少遍 #沙雕动画",
+        "description": "一口气系列#剧情动画#动漫视频#悬疑推理#鬼知道我看了多少遍#沙雕动画.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-IWlzfLLblk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-IWlzfLLblk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-IWlzfLLblk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "凯凯沙雕动画",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-12-09T01:43:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8OMaBY8JPw3SBFFuyVJOPKYI3dg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tXh48g-oWN0"
+      },
+      "snippet": {
+        "publishedAt": "2025-03-26T02:45:04Z",
+        "channelId": "UC8d8FpSlWb1lWQ_gNP9cicg",
+        "title": "合集12#沙雕动画 #二次元动漫 #剧情动画 #虚构推理漫画",
+        "description": "合集12#沙雕动画 #二次元动漫 #剧情动画 #虚构推理漫画.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tXh48g-oWN0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tXh48g-oWN0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tXh48g-oWN0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MoMoabc",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-03-26T02:45:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "a7aXksaksGZz0LcP7vqcyDAbGUo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_HnVsyHEhLk"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-21T13:26:53Z",
+        "channelId": "UCJntiE916t2DRISy3WgvC-w",
+        "title": "长安三怪探 第1集 #犯罪 #悬疑 #推理",
+        "description": "这儿有最新，最热，最好看的电视剧分享。 https://www.youtube.com/channel/UCJnt... 欢迎伙伴们直接订阅: 《谍海 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_HnVsyHEhLk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_HnVsyHEhLk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_HnVsyHEhLk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "CDTV 华视影剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-21T13:26:53Z"
+      }
+    }
+  ],
+  "nextPageToken": null
+}

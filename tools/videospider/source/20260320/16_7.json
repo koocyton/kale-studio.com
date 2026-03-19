@@ -1,0 +1,868 @@
+{
+  "category": {
+    "id": 16,
+    "title": "悬疑短剧"
+  },
+  "query": {
+    "q": "悬疑短剧",
+    "part": "snippet",
+    "order": "rating"
+  },
+  "page": {
+    "page_index": 7,
+    "max_results": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lwH3DYRzK8KYM4PGCwNGP6dmHFA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "i2O05SsCZDg"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-23T06:30:22Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】追缉 22 | 江市三起命案连环爆发！凶案背后隐藏惊天阴谋，张译以身入局破解谜题！ #张译 #段奕宏 #迪丽热巴 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《追缉》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/i2O05SsCZDg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/i2O05SsCZDg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/i2O05SsCZDg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-23T06:30:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NIr4c3gw2NSuoPB4hBZ-_0Ne-Hs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WJUxvKpw-8U"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-27T06:00:35Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】瞒天过海 09 | 少女深夜意外失踪，竟牵扯出离奇催眠杀人案！案中案局中局，钱权交易与势力压迫之下掩盖的真相竟是...... #龚俊 #刘涛 #孙俪  #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《瞒天过海》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WJUxvKpw-8U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WJUxvKpw-8U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WJUxvKpw-8U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-27T06:00:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hCCafkn0GbrxQj5O5uTWuS-Anm0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5pdddcnq6rQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-22T06:00:06Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】追缉 16 | 江市三起命案连环爆发！凶案背后隐藏惊天阴谋，张译以身入局破解谜题！ #张译 #段奕宏 #迪丽热巴 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《追缉》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5pdddcnq6rQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5pdddcnq6rQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5pdddcnq6rQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-22T06:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "JTgV-aZrHrr_58rBTsUAVZ4PLXI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "jm18mzeCbSk"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-21T07:00:43Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】追缉 13 | 江市三起命案连环爆发！凶案背后隐藏惊天阴谋，张译以身入局破解谜题！ #张译 #段奕宏 #迪丽热巴 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《追缉》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/jm18mzeCbSk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/jm18mzeCbSk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/jm18mzeCbSk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-21T07:00:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HceD2l0sdUsOYSxR_hoILejiIao",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ttVRzV1RKWA"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-23T07:30:30Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】追缉 24 | 江市三起命案连环爆发！凶案背后隐藏惊天阴谋，张译以身入局破解谜题！ #张译 #段奕宏 #迪丽热巴 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《追缉》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ttVRzV1RKWA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ttVRzV1RKWA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ttVRzV1RKWA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-23T07:30:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5ftCdhgRBHv86H1qZWEJzJuhaak",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fqw--n0nfKU"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-20T07:00:48Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】追缉 08 | 江市三起命案连环爆发！凶案背后隐藏惊天阴谋，张译以身入局破解谜题！ #张译 #段奕宏 #迪丽热巴 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《追缉》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fqw--n0nfKU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fqw--n0nfKU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fqw--n0nfKU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-20T07:00:48Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "SxQ8XYifN6R8NLu8XStA5xOv9Vw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LUZtiDMIEN4"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-21T08:00:23Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】追缉 15 | 江市三起命案连环爆发！凶案背后隐藏惊天阴谋，张译以身入局破解谜题！ #张译 #段奕宏 #迪丽热巴 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《追缉》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LUZtiDMIEN4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LUZtiDMIEN4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LUZtiDMIEN4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-21T08:00:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wn3z9_eO1NMz0V0ntbF4SUhk16k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rM--MdNe9qk"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-24T07:00:52Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】追缉 28 | 江市三起命案连环爆发！凶案背后隐藏惊天阴谋，张译以身入局破解谜题！ #张译 #段奕宏 #迪丽热巴 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《追缉》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rM--MdNe9qk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rM--MdNe9qk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rM--MdNe9qk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-24T07:00:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-CUbnDwcH7jYYewnVxPMvSS01wM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "_PQwa2NVEHk"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-19T08:00:52Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】追缉 05 | 江市三起命案连环爆发！凶案背后隐藏惊天阴谋，张译以身入局破解谜题！ #张译 #段奕宏 #迪丽热巴 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《追缉》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/_PQwa2NVEHk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/_PQwa2NVEHk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/_PQwa2NVEHk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-19T08:00:52Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xEQPqeB0GPQ1rO_yzvBA_9myL4A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-hwIBp3a4o4"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-22T06:30:00Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】追缉 17 | 江市三起命案连环爆发！凶案背后隐藏惊天阴谋，张译以身入局破解谜题！ #张译 #段奕宏 #迪丽热巴 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《追缉》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-hwIBp3a4o4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-hwIBp3a4o4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-hwIBp3a4o4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-22T06:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qreuy5wVvxojWioxEbeuUsQ38yA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "5VHKa6qeAF8"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-20T07:30:03Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2026最新爆款悬疑剧】扫毒 04 | 炸燃对决！痞气缉毒警察段奕宏VS双面毒枭赵又廷上演正邪生死博弈！踏平第一制毒村、撕碎毒网破迷局 #赵又廷 #张钧甯 #段奕宏 #cdrama #悬疑",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《扫毒》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5VHKa6qeAF8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5VHKa6qeAF8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5VHKa6qeAF8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-20T07:30:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8tnr6dea-0IqnfiQbGWQmaYrr3Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UqXvvC_f6wk"
+      },
+      "snippet": {
+        "publishedAt": "2026-03-03T02:50:35Z",
+        "channelId": "UC5zXwIISVFahoByDOD4IarQ",
+        "title": "【奇幻悬疑】《馒头天师》平凡馒头为何能降妖除魔？天师之路充满奇遇 #奇幻悬疑# 降妖除魔 #AIVirtualHumanShortSeries #DramaShorts #ShortFilm",
+        "description": "我们保证内容的合规性，无任何不良引导。欢迎订阅我的频道，更新抢先看  #AIVirtualHumanShortSeries ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UqXvvC_f6wk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UqXvvC_f6wk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UqXvvC_f6wk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "AI爱剧社",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-03-03T02:50:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7_vAXy3jFQgqK6pCCoZsgLvZcdw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HmGVJjcVyRE"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-26T06:00:13Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2026最新爆款悬疑剧】凶手25 | 杨幂与伪装的财阀精英闪婚，殊不知这场婚姻竟是连环骗局，新郎是卧底警察，新娘为复仇布局，婚礼竟是作案现场！ #杨幂 #张译 #陈道明 #cdrama #悬疑",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《凶手》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HmGVJjcVyRE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HmGVJjcVyRE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HmGVJjcVyRE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-26T06:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NYvYHGzVQPiaQZNQ6ToT9vh8m08",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cGE3_2uppow"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-24T06:30:23Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】追缉 27 | 江市三起命案连环爆发！凶案背后隐藏惊天阴谋，张译以身入局破解谜题！ #张译 #段奕宏 #迪丽热巴 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《追缉》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cGE3_2uppow/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cGE3_2uppow/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cGE3_2uppow/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-24T06:30:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "t49miWSdJ2QCH0cBnCKJEgGEiVc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uST0CQQEtNY"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-24T06:30:29Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2026最新爆款悬疑剧】凶手18 | 杨幂与伪装的财阀精英闪婚，殊不知这场婚姻竟是连环骗局，新郎是卧底警察，新娘为复仇布局，婚礼竟是作案现场！ #杨幂 #张译 #陈道明 #cdrama #悬疑",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《凶手》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uST0CQQEtNY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uST0CQQEtNY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uST0CQQEtNY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-24T06:30:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9jMP_0vMgvGDsYShGZmMT89vhdw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zD9KhXFQdn8"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-23T06:01:05Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】追缉 21 | 江市三起命案连环爆发！凶案背后隐藏惊天阴谋，张译以身入局破解谜题！ #张译 #段奕宏 #迪丽热巴 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《追缉》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zD9KhXFQdn8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zD9KhXFQdn8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zD9KhXFQdn8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-23T06:01:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pQwlkCJ0nH5YG9CESB73QGEBW-I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XyXcGe4RtE8"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-31T08:00:42Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2026最新爆款悬疑剧】性本善 25 | 一具白骨牵扯出二十年前的人性罪案！为破解身世之谜，马思纯张若昀携手挖清神秘尘封阴谋！  #唐嫣 #张若昀 #孙红雷 #cdrama #悬疑",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《性本善》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XyXcGe4RtE8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XyXcGe4RtE8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XyXcGe4RtE8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-31T08:00:42Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pNnwmO_gBAqucs3KsbCe0_OtlGw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uxFqNJC5J7A"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-31T06:00:51Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2026最新爆款悬疑剧】性本善 21 | 一具白骨牵扯出二十年前的人性罪案！为破解身世之谜，马思纯张若昀携手挖清神秘尘封阴谋！  #唐嫣 #张若昀 #孙红雷 #cdrama #悬疑",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《性本善》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uxFqNJC5J7A/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uxFqNJC5J7A/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uxFqNJC5J7A/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-31T06:00:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Opw234wO1GNsDt_rLnYnmdCVNYY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GG50oLsyU-c"
+      },
+      "snippet": {
+        "publishedAt": "2023-02-08T09:23:29Z",
+        "channelId": "UC3tjr31TfDt9wvMCEXFC_0w",
+        "title": "惊悚悬疑短剧/高爆烧脑短剧/回家的女儿",
+        "description": "悬疑剧从孤儿院领回来一个”女儿“，掀起了整个小镇的各种事件风波！",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GG50oLsyU-c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GG50oLsyU-c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GG50oLsyU-c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "xiaop",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-02-08T09:23:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XBQvw5BEeA-hy0D0iVZ0Q0YU1AM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6T1bSC8kwnM"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-08T07:30:07Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新爆款悬疑剧】暗杀 16 | 完美丈夫黄晓明致命阴谋曝光，妻子将计就计假死反杀，竟牵扯出连环惊天案中案！ #杨幂 #黄晓明 #赵丽颖 #悬疑 #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《暗杀》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6T1bSC8kwnM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6T1bSC8kwnM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6T1bSC8kwnM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-08T07:30:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-yE_6ABBRNMTm1zFKEqXodw_z40",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YST1nsq647U"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-05T07:00:34Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新爆款悬疑剧】暗杀 03 | 完美丈夫黄晓明致命阴谋曝光，妻子将计就计假死反杀，竟牵扯出连环惊天案中案！ #杨幂 #黄晓明 #赵丽颖 #悬疑 #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《暗杀》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YST1nsq647U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YST1nsq647U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YST1nsq647U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-05T07:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6Epn56Ecc13Tnugb_S7MlI3bJxk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OVCgWbYLD6U"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-02T05:30:22Z",
+        "channelId": "UCrd2gntnhJ5A1j20DG9T4Ww",
+        "title": "《玄學系列》詭舍 #懸疑 #天天短剧 #短剧 #都市 #逆袭 #搞笑 #系统 #修仙 #爱情 #甜宠 #drama #穿越 #重生#短劇",
+        "description": "歡迎訂閱關注哦，不定期更新！！ 詭舍#天天短剧#短剧#古装#逆袭#爱情#穿越#熱播短劇#新劇首發#Shortdramas #DramaShorts ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OVCgWbYLD6U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OVCgWbYLD6U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OVCgWbYLD6U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "天天短劇",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-02T05:30:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hFQWp_-0QuILEwmkk2GqxqBN6wo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "QPpvr6BXvtg"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-29T08:00:34Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2026最新爆款悬疑剧】性本善 15 | 一具白骨牵扯出二十年前的人性罪案！为破解身世之谜，马思纯张若昀携手挖清神秘尘封阴谋！  #唐嫣 #张若昀 #孙红雷 #cdrama #悬疑",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《性本善》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/QPpvr6BXvtg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/QPpvr6BXvtg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/QPpvr6BXvtg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-29T08:00:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZWQTTugqY0ZOhw7AbSEJxuSL5Go",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YGIyzkoLtd8"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-09T06:00:37Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新爆款悬疑剧】暗杀 17 | 完美丈夫黄晓明致命阴谋曝光，妻子将计就计假死反杀，竟牵扯出连环惊天案中案！ #杨幂 #黄晓明 #赵丽颖 #悬疑 #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《暗杀》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YGIyzkoLtd8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YGIyzkoLtd8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YGIyzkoLtd8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-09T06:00:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "puDnSCZj8HVDXAR9OCmrAHE-P-Q",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JnfFdB-YUPU"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-25T06:00:21Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2026最新爆款悬疑剧】凶手21 | 杨幂与伪装的财阀精英闪婚，殊不知这场婚姻竟是连环骗局，新郎是卧底警察，新娘为复仇布局，婚礼竟是作案现场！ #杨幂 #张译 #陈道明 #cdrama #悬疑",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《凶手》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JnfFdB-YUPU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JnfFdB-YUPU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JnfFdB-YUPU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-25T06:00:21Z"
+      }
+    }
+  ],
+  "nextPageToken": null
+}

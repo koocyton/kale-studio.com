@@ -1,0 +1,1718 @@
+{
+  "category": {
+    "id": 16,
+    "title": "悬疑短剧"
+  },
+  "query": {
+    "q": "悬疑短剧",
+    "part": "snippet",
+    "order": "rating"
+  },
+  "page": {
+    "page_index": 4,
+    "max_results": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "r4Pt635y6fXWByTjijRVgY61J8g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "L-LAq6UANqs"
+      },
+      "snippet": {
+        "publishedAt": "2026-03-18T11:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【3月最新悬疑剧 民国奇探13】民国14年，十里洋场，暗夜藏尸🕯️胡一天被张云龙一手拽进太平间👻组队开棺验尸⚰️鬼宅索命、乱葬岗还魂🔥每1桩奇案都在等他们入局#drama #cdrama",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/L-LAq6UANqs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/L-LAq6UANqs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/L-LAq6UANqs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-03-18T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BF_IjFwVKjp2vHyzJ6hhXsgT-So",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fFf6B7FPHEE"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-17T12:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026古装悬疑剧 簪中录传12】丁禹兮上任大理寺少卿⚔️玉簪藏血案🔪七日破局定长安⚡️ #drama #cdrama #movie #horror #悬疑",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fFf6B7FPHEE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fFf6B7FPHEE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fFf6B7FPHEE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-17T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "N0viOERGeUJWRVh5uik3K3FBcEU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "GaYk-PGwiA8"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-18T11:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026最新悬疑大剧 唐宫鬼案14】大结局：白鹿×王星越联手破解大唐谜案⚡️白鹿身世血幕揭开🩸灭门真相，尘封十五年🕯️活人祭祀，冥婚已成，每一页都刻着背叛与复仇⚖️ #cdrama #movie",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/GaYk-PGwiA8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/GaYk-PGwiA8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/GaYk-PGwiA8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-18T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-Xee1zRL3Mo3ilNqvM1mP69VS7Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4cfv1A2Gzvw"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-22T12:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026最新古装悬疑电视剧 大宋女仵作01】李兰迪化身大宋第一女法医🔪汴京惊现连环红衣无头女尸案🩸开棺验骨揭穿“无头新娘”真相🧪 #cdrama #movie #电视剧 #电影",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4cfv1A2Gzvw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4cfv1A2Gzvw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4cfv1A2Gzvw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-22T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lJVoZ9nRsVOR467WDokw6XA5LWU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mFG5Xprauqo"
+      },
+      "snippet": {
+        "publishedAt": "2025-10-11T10:00:06Z",
+        "channelId": "UCJrD0MJMTZFWorGMg9OrC0w",
+        "title": "申浩男新剧首播💖疯批医生为爱疯魔！把仇人整成挚爱脸，逼凶手互相残杀，血洗现场后自毁，以命殉爱：“这命是给你的献赠！” #复仇 #cdrama #love #新劇 #甜寵",
+        "description": "订阅风芒短剧  https://www.youtube.com/@风芒短剧FengMangDrama?sub_confirmation=1 更多爆款内容第一时间抢先看！",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mFG5Xprauqo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mFG5Xprauqo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mFG5Xprauqo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "风芒短剧-FengMang Drama",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-10-11T10:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZmGFa_p4uXDrEAFMYeKlJqjB1-s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "emHV8qqA35w"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-05T11:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026最新悬疑大剧 唐宫鬼案01】白鹿×王星越联手破解大唐谜案⚡️公主离奇身亡，宫阙深处佛像泣血🩸皇帝震怒，限时三日破案！（邪祟焚尸案）#cdrama #movie #电视剧 #电影",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/emHV8qqA35w/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/emHV8qqA35w/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/emHV8qqA35w/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-05T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wz2i33aFeaxAQ7_UxtpYkaClLYk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "p0gh9p5KNjI"
+      },
+      "snippet": {
+        "publishedAt": "2024-07-05T11:00:50Z",
+        "channelId": "UCoW9emYvsA_wwhB0y6ZnWiA",
+        "title": "【Multi Sub】悬疑短劇💕馬樂婕、張志偉、譚煜橋上演危險三角戀！❤️《危險關係》全集#短劇#chinesedrama #女頻",
+        "description": "马乐婕#感情#短劇#chinesedrama #渣男#灰姑娘#霸總#懸疑#女頻#危險關系#復仇#雙重身份#三角戀00:00:01 訂閲頻道觀看更多 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/p0gh9p5KNjI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/p0gh9p5KNjI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/p0gh9p5KNjI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "子诗剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-07-05T11:00:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ETUyrvz-zFsXhFspyWYvY-YOHT8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WGHPyuwLRRE"
+      },
+      "snippet": {
+        "publishedAt": "2025-10-29T03:20:33Z",
+        "channelId": "UC5ErRzY0MwZiCupb7Q4nOtw",
+        "title": "申浩男&amp;金子璇 | 通灵法医VS女刑警，从来不喜欢和同事相处过多的他却被她横冲直撞闯进生活，两人联手侦破案件，逐渐被她的热情融化[MULTI SUB | FULL]#MiniDrama #精彩大陆短剧",
+        "description": "中國最新短劇熱播   大家好，歡迎來到  浪漫短劇社   更新優質原創短劇內容， 甜寵，重生，先婚後愛，追妻火葬場... 短劇均為 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WGHPyuwLRRE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WGHPyuwLRRE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WGHPyuwLRRE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "心跳月光短劇社",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-10-29T03:20:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YxAkc4UL1lRNY7zk060g4gYezFA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oWOJBBwCDug"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-30T12:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026最新古装悬疑电视剧 大宋女仵作09】李兰迪化身大宋第一女法医🔪少女试婚纱却被做成人皮面具⚰️无脸少女VS锦衣新娘🔮 #cdrama #movie #电视剧 #电影",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oWOJBBwCDug/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oWOJBBwCDug/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oWOJBBwCDug/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-30T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "MgpEaNZj2hTA-CYBUAELNkWlON4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UhUvoeQ8jS8"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-13T12:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026古装悬疑剧 簪中录传08】丁禹兮上任大理寺少卿⚔️玉簪藏血案🔪七日破局定长安⚡️#chinesedrama #drama #cdrama #film",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UhUvoeQ8jS8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UhUvoeQ8jS8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UhUvoeQ8jS8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-13T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "tsG0iz0m0OkzQRVEE664mJEVrH0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "N5XsatFAtOA"
+      },
+      "snippet": {
+        "publishedAt": "2025-07-31T10:00:37Z",
+        "channelId": "UChDSBAqo54AIeuQNFrPfPVw",
+        "title": "【悬疑动画丨天黑點燈莫開門】千萬別信敲門的人！他已不是你兒子！外來者進村必死？我收到紙條：三天後救她！丨民俗，靈異故事....#沙雕剧情 #animation #動漫 #穿越 #搞笑 #短剧",
+        "description": "当夜幕降临，邪祟肆虐，一个从瘫痪中“死而复生”的少年，突然苏醒在焚化台上。他意识清晰，但记忆全无，发现自己被误认为是 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/N5XsatFAtOA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/N5XsatFAtOA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/N5XsatFAtOA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "石頭動畫",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-07-31T10:00:37Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "H6HZqzK0Nd2SKfXhjtfgghIdnNI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "f9WDmRI06B8"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-29T10:00:06Z",
+        "channelId": "UCJrD0MJMTZFWorGMg9OrC0w",
+        "title": "新剧首播【翟一莹💖王译磊】她因为血型特殊，被迫嫁给双重人格的病娇少爷，她用爱感化他治愈他，他走出阴霾把她放在心尖上！ #甜宠 #cdrama",
+        "description": "订阅风芒短剧  https://www.youtube.com/@风芒短剧FengMangDrama?sub_confirmation=1 更多爆款内容第一时间抢先看！",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/f9WDmRI06B8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/f9WDmRI06B8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/f9WDmRI06B8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "风芒短剧-FengMang Drama",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-29T10:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KsdFNZSckoC_mmcQ_YH3XogGdTE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TLuuU_EEfK4"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-26T11:00:58Z",
+        "channelId": "UChDSBAqo54AIeuQNFrPfPVw",
+        "title": "后续EP2【悬疑动画丨10人密室恶魔游戏】真相只有一个,全场被我骗到懵！....丨狼人殺，懸疑推理....#沙雕剧情 #animation #動漫 #穿越 #搞笑 #短剧",
+        "description": "00:00 前部分EP1 01:55:09 后部分EP2 一場匪夷所思的「惡魔遊戲」突然降臨，一群來自不同學校的學生莫名其妙被傳送到詭異村莊 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TLuuU_EEfK4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TLuuU_EEfK4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TLuuU_EEfK4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "石頭動畫",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-26T11:00:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uzB_DVbV_pRKVNOE8v4odRVodhg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uZBj1KfLk4Y"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-16T12:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026古装悬疑剧 簪中录传11】丁禹兮上任大理寺少卿⚔️玉簪藏血案🔪七日破局定长安⚡️#movie #chinesedrama #drama #cdrama",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uZBj1KfLk4Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uZBj1KfLk4Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uZBj1KfLk4Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-16T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sjI6nUJJoF5QJQt3fXSjPmQjeh4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "o7Sd21ZeRKg"
+      },
+      "snippet": {
+        "publishedAt": "2024-05-29T12:00:50Z",
+        "channelId": "UCoW9emYvsA_wwhB0y6ZnWiA",
+        "title": "【Multi Sub】悬疑短劇💕馬樂婕陷入總裁與總裁弟弟的三角之戀，竟發現所有人都有雙重身份❤️《危險關係》全集#短劇#chinesedrama #女頻",
+        "description": "马乐婕 #感情 #短劇 #chinesedrama #渣男 #灰姑娘 #霸總 #懸疑 #女頻 #危險關系 #復仇 #雙重身份 #三角戀 00:00:01 訂閲頻道觀看 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o7Sd21ZeRKg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o7Sd21ZeRKg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o7Sd21ZeRKg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "子诗剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-05-29T12:00:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Oe2cdIikYmnMtNMLiTgactTDeJw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xRfyGVzheKI"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-18T12:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026古装悬疑剧 簪中录传13】丁禹兮上任大理寺少卿⚔️玉簪藏血案🔪七日破局定长安⚡️ #drama #cdrama #movie #horror #悬疑",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xRfyGVzheKI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xRfyGVzheKI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xRfyGVzheKI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-18T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fxw75dLKOuE2TdRRMfxKeqpFFUQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KOMYIwpcCrk"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-17T11:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026最新悬疑大剧 唐宫鬼案13】白鹿×王星越联手破解大唐谜案⚡️白鹿身世血幕揭开🩸灭门真相，尘封十五年🕯️活人祭祀，冥婚已成，每一页都刻着背叛与复仇⚖️ #cdrama #movie #电视剧",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KOMYIwpcCrk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KOMYIwpcCrk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KOMYIwpcCrk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-17T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZRObOxQCndsaLCBiyyeIFr2Nu50",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gjeIktZtLzM"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-20T06:00:39Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2026最新爆款悬疑剧】扫毒 01 | 炸燃对决！痞气缉毒警察段奕宏VS双面毒枭赵又廷上演正邪生死博弈！踏平第一制毒村、撕碎毒网破迷局 #赵又廷 #张钧甯 #段奕宏 #cdrama #悬疑",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《扫毒》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gjeIktZtLzM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gjeIktZtLzM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gjeIktZtLzM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-20T06:00:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "HxVmr6dhIZBQwZR72bg6TlKVNxU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "t5nI5Y4ROXE"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-06T12:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026古装悬疑剧 簪中录传01】丁禹兮上任大理寺少卿⚔️玉簪藏血案🔪七日破局定长安⚡️#movie #chinesedrama #drama #horror #film #cdrama",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t5nI5Y4ROXE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t5nI5Y4ROXE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t5nI5Y4ROXE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-06T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wMITyPRtfzwyQXI0iBIA0CO0s-U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZTkiHYetNJo"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-14T04:00:44Z",
+        "channelId": "UCJrD0MJMTZFWorGMg9OrC0w",
+        "title": "【一口气看完复仇爽剧】我妹妹的死不是意外，你们的报应才刚刚开始！复仇反转到窒息，看到最后惊掉下巴！ #顶楼俱乐部 #短剧全集 #悬疑复仇天花板 #爽剧推荐 #钟熙刘萧旭高能对峙",
+        "description": "本频道所有内容均为全网独家原创全集，盗版必究。 订阅风芒短剧  https://www.youtube.com/@风芒短 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZTkiHYetNJo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZTkiHYetNJo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZTkiHYetNJo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "风芒短剧-FengMang Drama",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-14T04:00:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "4YOBFixUNiOI9tEsg0EGRAufqZk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "F3_s3yWrXiQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-25T10:30:08Z",
+        "channelId": "UChDSBAqo54AIeuQNFrPfPVw",
+        "title": "【悬疑动画丨全世界都瘋了】比邪教更恐怖！所謂的「修仙」竟是剝食靈魂...丨詭異修仙，都市怪談....#沙雕剧情 #animation #動漫 #穿越 #搞笑 #短剧",
+        "description": "人們瘋狂追求修仙，甚至不惜殺害家人、割下身體，只為完成「法則」成佛長生！安清河在家中突然被父母綁住、強灌奇怪的藥湯， ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/F3_s3yWrXiQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/F3_s3yWrXiQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/F3_s3yWrXiQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "石頭動畫",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-25T10:30:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NF19HEpfq2xEsp7LD17qYEwQ1Ks",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yYZeNt3FAf4"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-25T06:01:03Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】瞒天过海 01 | 少女深夜意外失踪，竟牵扯出离奇催眠杀人案！案中案局中局，钱权交易与势力压迫之下掩盖的真相竟是...... #龚俊 #刘涛 #孙俪  #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《瞒天过海》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yYZeNt3FAf4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yYZeNt3FAf4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yYZeNt3FAf4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-25T06:01:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_2E_NjpOfDjSU1VPYPVvktdMH0A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UdhVtORcNK0"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-29T08:00:39Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】潜行者 05 | 4吨毒品秘密抵达A市竟离奇消失，刘德华化身绝命毒枭双重身份反转再反转！一边利用法律为自己脱罪一边杀人 #刘德华 #于和伟 #倪妮 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《潜行者》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UdhVtORcNK0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UdhVtORcNK0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UdhVtORcNK0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-29T08:00:39Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xnAHiEM7eBMOZrknyDsKUoNQWeA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qyiHQM6h2hQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-10-03T12:01:43Z",
+        "channelId": "UCMUCDWZPiu6eoq1U4Vc6K5g",
+        "title": "【驚悚鬼片】兩個女學生闖入禁忌之地，竟意外發現荒廢300年的醫院裡面人來人往？ ！| 电影 | ENGSUB | ホラー映画 | หนังสยองขวัญ|",
+        "description": "【正版授权】 欢迎订阅@追剧少女小七：https://youtube.com/@-DramagirlTV?si=hsoMpRXGLbQ0rUk_ 点击查看全集（Click to ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qyiHQM6h2hQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qyiHQM6h2hQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qyiHQM6h2hQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "追剧少女小七",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-10-03T12:01:43Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "55XEmFbxnp9Mho38hKJjYxDPgR0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "vm54jh2Cy-o"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-12T11:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026最新悬疑大剧 唐宫鬼案08】白鹿×王星越联手破解大唐谜案⚡️竹马将青梅少女做成人血馒头🩸众人皆不知自己吃的是人肉！（人命血方案） #cdrama #movie #电视剧",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/vm54jh2Cy-o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/vm54jh2Cy-o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/vm54jh2Cy-o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-12T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vT67PZkp_NlR1d73kemPdv2hPvk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "E1Z2jaqXiA8"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-10T11:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026最新悬疑大剧 唐宫鬼案06】白鹿×王星越联手破解大唐谜案⚡️宫中秀女秀女接连离奇丧命🩸隐秘宫墙下，婴儿啼哭，鬼怪入胎！（怪婴入胎案） #cdrama #movie #电视剧 #电影",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/E1Z2jaqXiA8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/E1Z2jaqXiA8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/E1Z2jaqXiA8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-10T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Lm8Q0tJ5nH-wsT_GvAfDb_q0hUA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "o3noPde37Eo"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-29T07:00:58Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】潜行者 03 | 4吨毒品秘密抵达A市竟离奇消失，刘德华化身绝命毒枭双重身份反转再反转！一边利用法律为自己脱罪一边杀人 #刘德华 #于和伟 #倪妮 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《潜行者》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/o3noPde37Eo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/o3noPde37Eo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/o3noPde37Eo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-29T07:00:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "n4Y23k1t9s9TUAsyWCn3SGFxSd4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "qMvSvyWYTac"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-24T02:52:10Z",
+        "channelId": "UCzF4v5tEbiUtRchvKSV4jjg",
+        "title": "【完結】紅衣女鬼纏身索命！夜班打工竟闖入陰森詭店，結局反轉嚇破膽 #午夜魅影店 #短劇推薦 #驚悚短劇 #懸疑短劇 #恐怖短劇 #午夜短劇 #女鬼索命 #陰桃花 #反轉劇情 #懸疑推理  #詭異事件",
+        "description": "記得訂閱、按讚、分享出去，追更不迷路，更多驚悚劇情等你解鎖！ 純陰命格的大學生蕭強，意外被紅衣女鬼以陰桃花纏身索命， ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/qMvSvyWYTac/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/qMvSvyWYTac/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/qMvSvyWYTac/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HappyShort-VN",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-24T02:52:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "diBi4KNKUzaChrQHePO5SxAojFI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "KR6488VN5Dw"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-15T11:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026最新悬疑大剧 唐宫鬼案11】白鹿×王星越联手破解大唐谜案⚡️皇后怀孕，邪祟入胎🕯️吉时已到，呱呱坠地的究竟是妖？是人？是大吉还是大祭👹（无头问天案） #cdrama #movie #电视剧",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KR6488VN5Dw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KR6488VN5Dw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KR6488VN5Dw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-15T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "EmWmJC0O5gAv_fzgeDRR5VNi9XY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Y4IVx-VX0y4"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-14T12:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026古装悬疑剧 簪中录传09】丁禹兮上任大理寺少卿⚔️玉簪藏血案🔪七日破局定长安⚡️#movie #chinesedrama #drama #cdrama #horror",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Y4IVx-VX0y4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Y4IVx-VX0y4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Y4IVx-VX0y4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-14T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bxW040nYpUAHUXkCrQZ8F9jalMQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Xal-phif2Zo"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-14T11:00:06Z",
+        "channelId": "UCkIUUJP2xjyAXCvtADKHA-Q",
+        "title": "【MULTISUB】2026开年悬疑大作《推拿》📢丈夫离奇死亡，妻子开心至极还指控丈夫杀害女儿🔪此时盲人推拿师作为神秘情夫现身🕶️真相在指尖与谎言间游走...",
+        "description": "欢迎来到《阅人看剧C-Drama Reactor》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xal-phif2Zo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xal-phif2Zo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xal-phif2Zo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "阅人看剧",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-14T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "f8MBDth4xBBdTzmOubl3DQGDjRw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iPO7dWTERY0"
+      },
+      "snippet": {
+        "publishedAt": "2023-12-23T09:06:38Z",
+        "channelId": "UCPkO5SvLkNdIiODsEdkaYeQ",
+        "title": "一口气看完《消失的孩子》全新视觉解读国产悬疑剧天花板；一栋大楼里到底能有多少秘密，真相往往存在细节中！",
+        "description": "《消失的孩子》是由赵小鸥、赵小溪执导，佟大为、魏晨、于文文领衔主演，李斯丹妮特别出演，李晟、吴其江主演，吴昊宸友情 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iPO7dWTERY0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iPO7dWTERY0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iPO7dWTERY0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "午夜超人",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-12-23T09:06:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fDI9sGuhuEsS50DpG5ZAbIn655s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "v7vBNxa-svY"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-17T06:16:26Z",
+        "channelId": "UCIgzcWkLcHL1Yge96u6rsaQ",
+        "title": "紙人會殺人？紙紮匠會滅門？祝禮只不過是個靠紙扎討生活的小人物，卻在一夜之間，被捲入家族百年詛咒和血海深仇之中！#热门短剧 #短劇 #精彩影视 #悬疑片 #灵异故事 #重生  #紙紮驚魂",
+        "description": "紙人會殺人？紙紮匠會滅門？祝禮只不過是個靠紙扎討生活的小人物，卻在一夜之間，被捲入家族百年詛咒和血海深仇之中.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/v7vBNxa-svY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/v7vBNxa-svY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/v7vBNxa-svY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "MiniScene",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-17T06:16:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Vbcs--D1gOu2TusxiwJES_Pcz7U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gYoYk16y9XA"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-07T11:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026最新悬疑大剧 唐宫鬼案03】白鹿×王星越联手破解大唐谜案⚡️后宫墙面，每隔三日出现血色牡丹🌸新娘遭红线缝杀，藏于宫墙🩸 （宫墙藏尸案）#cdrama #movie #电视剧 #电影",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gYoYk16y9XA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gYoYk16y9XA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gYoYk16y9XA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-07T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1krCD-Q9j8O6D8SAyIlfB78uY9k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "UYVpusv3e98"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-29T06:30:26Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】潜行者 02 | 4吨毒品秘密抵达A市竟离奇消失，刘德华化身绝命毒枭双重身份反转再反转！一边利用法律为自己脱罪一边杀人 #刘德华 #于和伟 #倪妮 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《潜行者》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UYVpusv3e98/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UYVpusv3e98/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UYVpusv3e98/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-29T06:30:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "kD6S0EEcqT6dPyWbbXIg4t5Pdo0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "l3pRi7aIYlU"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-31T07:00:57Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】潜行者 15 | 4吨毒品秘密抵达A市竟离奇消失，刘德华化身绝命毒枭双重身份反转再反转！一边利用法律为自己脱罪一边杀人 #刘德华 #于和伟 #倪妮 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《潜行者》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/l3pRi7aIYlU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/l3pRi7aIYlU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/l3pRi7aIYlU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-31T07:00:57Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0UASvZ7zJRSCjC3MQqi3h0iMXfQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8yEoui9CD-0"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-08T12:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026古装悬疑剧 簪中录传03】丁禹兮上任大理寺少卿⚔️玉簪藏血案🔪七日破局定长安⚡️#movie #chinesedrama #drama #cdrama #horror",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8yEoui9CD-0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8yEoui9CD-0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8yEoui9CD-0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-08T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7anhUocS_qzWxxEgyx5hD0y_58M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "0OhVcm_U6qM"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-01T06:00:01Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新悬疑剧】即兴谋杀 01 | 连环杀人悬案高能开局，神秘孤岛的古堡竟藏不可言说的秘密，一场蓄谋已久的复仇大戏渐渐拉开帷幕！ #王一博 #杨幂 #檀健次 #悬疑 #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《即兴谋杀》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/0OhVcm_U6qM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/0OhVcm_U6qM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/0OhVcm_U6qM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-01T06:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "8_p4ZFINjUErPVIZgMXYd58_vFg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "OU7GPt_2rYA"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-13T11:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026最新悬疑大剧 唐宫鬼案09】白鹿×王星越联手破解大唐谜案⚡️竹马将青梅少女做成人血馒头🩸众人皆不知自己吃的是人肉！（人命血方案） #cdrama #movie #电视剧",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OU7GPt_2rYA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OU7GPt_2rYA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OU7GPt_2rYA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-13T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "W_wK9_IBa_TIRjJaaSthb9SvGC4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IqYfNzQAaF0"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-04T06:00:14Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】潜行者 37 | 4吨毒品秘密抵达A市竟离奇消失，刘德华化身绝命毒枭双重身份反转再反转！一边利用法律为自己脱罪一边杀人 #刘德华 #于和伟 #倪妮 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《潜行者》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IqYfNzQAaF0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IqYfNzQAaF0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IqYfNzQAaF0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-04T06:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "zye4_1rE9EIJjwHDaDIMjrkVKbk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "goXRVG-UeNo"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-19T11:00:06Z",
+        "channelId": "UCAUVGZpTzgIduVXKtgbWX-w",
+        "title": "全新首發懸疑復仇短劇 《天鵝的秘密》全集✨以美貌為武器，以智慧為盾牌！特種兵姐姐為救妹深入“蛇島”，在罪惡的深淵中完成最華麗的復仇！#新劇來襲 #全球首播 #新劇首發 #懸疑復仇短劇",
+        "description": "天鵝的秘密#天鵝俱樂部#懸疑#復仇#女性力量#姐妹情#犯罪#短劇#臥底#特種兵#美女#智鬥#密室#蛇島#完整版#新劇來襲#全球 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/goXRVG-UeNo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/goXRVG-UeNo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/goXRVG-UeNo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "指间剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-19T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "v48Ddw-R73zD5X7YbRaVmI6jgsM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3ItmIOcEIk4"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-06T11:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026最新悬疑大剧 唐宫鬼案02】白鹿×王星越联手破解大唐谜案⚡️后宫墙面，每隔三日出现血色牡丹🌸新娘遭红线缝杀，藏于宫墙🩸 （宫墙藏尸案）#cdrama  #movie  #电视剧 #电影",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3ItmIOcEIk4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3ItmIOcEIk4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3ItmIOcEIk4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-06T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_892vtFfj45gRDurXn4Zg3OcNW0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Uzs3TBJsYbc"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-27T06:00:20Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2026最新爆款悬疑剧】性本善 01 | 一具白骨牵扯出二十年前的人性罪案！为破解身世之谜，马思纯张若昀携手挖清神秘尘封阴谋！  #唐嫣 #张若昀 #孙红雷 #cdrama #悬疑",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《性本善》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Uzs3TBJsYbc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Uzs3TBJsYbc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Uzs3TBJsYbc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-27T06:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5uvG64MVCTzHhgE5zV4FV2-GhEs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tUr3TdFR_YI"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-31T06:01:02Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】潜行者 13 | 4吨毒品秘密抵达A市竟离奇消失，刘德华化身绝命毒枭双重身份反转再反转！一边利用法律为自己脱罪一边杀人 #刘德华 #于和伟 #倪妮 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《潜行者》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tUr3TdFR_YI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tUr3TdFR_YI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tUr3TdFR_YI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-31T06:01:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dcxMLGEo9KVCTs6XZwwt-6bYoAw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LfwOPfxNHJU"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-20T06:00:14Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2026最新爆款悬疑剧】凶手 01 | 骗术天才杨幂与伪装的财阀精英闪婚，殊不知这场婚姻竟是连环骗局，新郎是卧底警察，新娘为复仇布局，婚礼竟是作案现场！ #杨幂 #张译 #cdrama #悬疑",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《凶手》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LfwOPfxNHJU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LfwOPfxNHJU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LfwOPfxNHJU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-20T06:00:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "83Dh4OTlpWOdxB44poK62VenCqs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "u5pCv0HWLNs"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-04T07:00:49Z",
+        "channelId": "UCu2qkn-fIselfhXA2IYLd-Q",
+        "title": "【2025最新犯罪悬疑剧】潜行者39 | 4吨毒品秘密抵达A市竟离奇消失，刘德华化身绝命毒枭双重身份反转再反转！一边利用法律为自己脱罪一边杀人 #刘德华 #于和伟 #倪妮 #cdrama #犯罪",
+        "description": "Click the link to enjoy more great dramas：https://www.youtube.com/channel/UCu2qkn-fIselfhXA2IYLd-Q ▷▷《潜行者》 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u5pCv0HWLNs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u5pCv0HWLNs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u5pCv0HWLNs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "瓜哥剧场",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-04T07:00:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ylt1G_stMlTAkPqz4AI7TEBi_FU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IBU1YJoTiog"
+      },
+      "snippet": {
+        "publishedAt": "2025-06-05T10:00:28Z",
+        "channelId": "UCBClwh5uHO6QbT6o2Xo5_ag",
+        "title": "一口氣看完！夜班14路重啟！菜鳥司機接盤&quot;死亡線路&quot;，一系列離奇的事件接連發生......【午夜公交車】#男頻 #懸疑 #短劇 #都市",
+        "description": "歡迎來到【午夜劇場Midnight drama】 專注男頻精品劇集：古裝，逆襲，戰神，都市，重生，玄幻⚡正版授權，侵權必究！",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IBU1YJoTiog/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IBU1YJoTiog/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IBU1YJoTiog/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "昊昊午夜爽看劇 - Multi Dub Drama",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-06-05T10:00:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "mmQIzYEnLF207rSbDb_61zCvo9I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NGf2CvR5OjU"
+      },
+      "snippet": {
+        "publishedAt": "2025-07-30T12:00:06Z",
+        "channelId": "UCD_83Jh-UFQXRDwC6S8caCQ",
+        "title": "【朱雀堂|特辑】国产剧《朱雀堂》全集！万茜秦俊杰新剧💥民国推理悬疑，层层奇诡杀人案，揭露充满黑暗与阴谋的上海滩🔥| Rose Finch | iQIYI悬疑社",
+        "description": "故事简介：1929年，上海滩发生一起诡疑的壁橱双尸案，此后，凶手连杀数名舞女。法医夏漠（秦俊杰饰）和精明探长唐震云（张呈 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NGf2CvR5OjU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NGf2CvR5OjU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NGf2CvR5OjU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "iQIYI 悬疑社 - Get the iQIYI APP",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-07-30T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "hYx0lXf4XxdG4xtBIk5PjnqyPno",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "udJ72SxB9-Y"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-12T12:00:06Z",
+        "channelId": "UC2veNFXmo12hFAc6JR0VSUQ",
+        "title": "【2026古装悬疑剧 簪中录传07】丁禹兮上任大理寺少卿⚔️玉簪藏血案🔪七日破局定长安⚡️#movie #chinesedrama #drama #cdrama #film",
+        "description": "欢迎来到《诡事放映厅》！ 欢迎订阅精彩剧集抢先看！ Don't miss out! Hit subscribe to watch the best C-dramas FIRST! 点击链接 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/udJ72SxB9-Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/udJ72SxB9-Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/udJ72SxB9-Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "诡事放映厅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-12T12:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_2HSZQmTXJWUlq4Yv8qioiIlmhU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RewyGGrDX24"
+      },
+      "snippet": {
+        "publishedAt": "2025-07-10T09:30:15Z",
+        "channelId": "UChDSBAqo54AIeuQNFrPfPVw",
+        "title": "【悬疑动画丨火車大劫案】最強懸念！他覺醒「死亡推演」異能，預見全車人陪葬！卻沒人相信他？！丨都市懸疑，列車危機....#沙雕剧情 #animation #動漫 #穿越 #搞笑 #短剧",
+        "description": "男子在K13次列車上做了一場血腥噩夢，夢中自己因舉報通緝犯而被當場爆頭。驚醒後卻發現——夢裡的場景正在一一應驗！",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RewyGGrDX24/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RewyGGrDX24/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RewyGGrDX24/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "石頭動畫",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-07-10T09:30:15Z"
+      }
+    }
+  ],
+  "nextPageToken": "CMgBEAA"
+}

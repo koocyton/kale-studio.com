@@ -1,0 +1,868 @@
+{
+  "category": {
+    "id": 9,
+    "title": "反转剧情"
+  },
+  "query": {
+    "q": "反转剧情",
+    "part": "snippet",
+    "order": "rating"
+  },
+  "page": {
+    "page_index": 1,
+    "max_results": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Fd8qc-06KL0VI3oIDz7asDnopwM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tAcxCDt4hoE"
+      },
+      "snippet": {
+        "publishedAt": "2025-06-01T17:38:54Z",
+        "channelId": "UC3YYP43eiqMbMTkj5lXjLRg",
+        "title": "【古鲁巴蒂】断联·剧情反转？",
+        "description": "00:00 说明0:36 选项01:50 1 17:00 2 37:00 3 #塔罗占卜#断联#星座#塔羅#戀愛#大眾占卜#感情.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tAcxCDt4hoE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tAcxCDt4hoE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tAcxCDt4hoE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "古鲁巴蒂Gurubhakti",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-06-01T17:38:54Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "InqK7mvRwMeOFbyA-Qd0KTqLIr0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-tet3fXwgyU"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-20T04:30:00Z",
+        "channelId": "UCgjCCHo-mEwbI4k3tqrz7mg",
+        "title": "生日宴喜气洋洋，一句还钱全场冷，反转来得太快！！#搞笑 #搞笑视频 #大熱門 #陈语臣 #高能段子手",
+        "description": "欢迎来到'陈语臣'的剧情宇宙！ 这里没有套路，只有扣人心弦的故事和意想不到的反转，带你沉浸式体验每一段剧情的魅力，感受 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-tet3fXwgyU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-tet3fXwgyU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-tet3fXwgyU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "陈语臣",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-20T04:30:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "T3HJs1hLJZ7yuLLaAc2RWpUtr0s",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cuR2ys0IssU"
+      },
+      "snippet": {
+        "publishedAt": "2025-11-20T05:15:03Z",
+        "channelId": "UC3auPaojsKnedKqaXZQW19g",
+        "title": "你答应了，你也是我的了#反转剧情 #万万没想到 #美女老板",
+        "description": "欢迎来到“小婉儿” 的欢乐世界！ 这里有美貌与智慧并存的美女老板，上演各种爆笑套路大戏！   看小婉儿如何在职场、生活中“套路” ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cuR2ys0IssU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cuR2ys0IssU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cuR2ys0IssU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "小婉儿",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-11-20T05:15:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ez3q6OYJybOk-cYPsOhRIMJRyCU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3thvAD91GrY"
+      },
+      "snippet": {
+        "publishedAt": "2022-06-14T09:51:04Z",
+        "channelId": "UCQl1WSLiCiQMU9zIXrAof3Q",
+        "title": "男子被人陷害成杀人凶手，剧情不断反转，高分悬疑韩剧！",
+        "description": "电影解说#电影#悬疑电影.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3thvAD91GrY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3thvAD91GrY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3thvAD91GrY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "萧然电影",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-06-14T09:51:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "50tNSmzRewIBGsSj4g8SSKWe4Ho",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IhTcOzQTjVg"
+      },
+      "snippet": {
+        "publishedAt": "2026-02-18T14:38:30Z",
+        "channelId": "UC1erTeH93Xmsf7-8zblF_9w",
+        "title": "睡前小故事~#悬疑#反转#完结文推荐#悬疑一口气看完系列",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IhTcOzQTjVg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IhTcOzQTjVg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IhTcOzQTjVg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "漫漫漫剪",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-02-18T14:38:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "p8s7QZD70KmP9_M6oIWUQM43Tjs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2Jkmiou7PzY"
+      },
+      "snippet": {
+        "publishedAt": "2025-11-21T01:57:20Z",
+        "channelId": "UCcbNGD72WRRUr0Dftt2h-pw",
+        "title": "剧情反转，看到后面眼眶有点热热的。#大冰 #情感",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2Jkmiou7PzY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2Jkmiou7PzY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2Jkmiou7PzY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "大冰来了",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-11-21T01:57:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AZprUOV-Z3jMr10e1_b8TPjZD6c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "52n30faxNDU"
+      },
+      "snippet": {
+        "publishedAt": "2025-05-28T06:07:06Z",
+        "channelId": "UC0FrP5QFduw9j7AFZiUsNLg",
+        "title": "民间故事 | 逆迎穷神来反转｜小伙北山奇遇蚁仙｜寡妇卖牛现跨年报恩｜已完结",
+        "description": "民间故事00:00:00 逆迎穷神来反转： 穷得叮当响的张家大年三十逆习俗迎穷神，张老汉抓得一手狗屎，却被财主误听“得了宝贝”。",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/52n30faxNDU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/52n30faxNDU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/52n30faxNDU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "捕鱼记·民间故事",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-05-28T06:07:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "fGEFo3uPEJPd7hg-uIeSPrU7kzo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "w2i3kzVe7kQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-12-31T06:50:31Z",
+        "channelId": "UCnV4_2C5b7el6GxSVAUsCvg",
+        "title": "女生拒高彩礼，相亲男遇优质女。#剧情反转",
+        "description": "欢迎来到【秦天】频道！     在这里，我们分享生活中随处可见的故事和感动。从小巷深处到城市街头，我们的视频记录了那些触动 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/w2i3kzVe7kQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/w2i3kzVe7kQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/w2i3kzVe7kQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "秦天.",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-12-31T06:50:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DPRjcAlF3z8F5jQnSMRTtoHSBFg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ZOK_O9xMKE4"
+      },
+      "snippet": {
+        "publishedAt": "2026-01-31T10:30:21Z",
+        "channelId": "UCvFRuqqcxc92-DmBatZdRRw",
+        "title": "【逆袭反转】她本想当女将军，却被迫入宫当妃子。那就把宫斗，当成战场来打！",
+        "description": "如果你喜歡我的內容，請點一下【訂閱】並打開【小鈴鐺】   ❤喜歡這個視頻別忘了點讚訂閱噢，大家的支持是我持續更新節目的 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZOK_O9xMKE4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZOK_O9xMKE4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZOK_O9xMKE4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "薄荷小屋",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-01-31T10:30:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2MBNEnve5e5K110i_cAVMWIJM8o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kg4kzz4l77U"
+      },
+      "snippet": {
+        "publishedAt": "2022-11-17T14:58:17Z",
+        "channelId": "UC_btyrPXdDQ36C6nvEuojHw",
+        "title": "PGL2007魔兽争霸 Sky Fov 剧情多次反转",
+        "description": "PGL魔鬼赛程合集。 魔兽争霸3#Warcraft3#魔兽经典比赛#Fov#Sky#PGL2007.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kg4kzz4l77U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kg4kzz4l77U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kg4kzz4l77U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "纽约低保户",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-11-17T14:58:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "01cCUWA6f2vuOHz6jp7jr1Z9d1A",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iPmpeCc8T0U"
+      },
+      "snippet": {
+        "publishedAt": "2025-11-07T10:01:16Z",
+        "channelId": "UCKuS7sRT5PkhvzIZmYRcqoQ",
+        "title": "职场心机女竟然惹到了地主千金#剧情反转#旺旺零食#摸鱼了没 #职场 #零食",
+        "description": "富豪千金#剧情#剧情反转#员工#老板欢迎订阅☞洋子来啦主页链接：https://www.youtube.com/@yangzilailaOffical ▷开启小铃铛第 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iPmpeCc8T0U/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iPmpeCc8T0U/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iPmpeCc8T0U/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "洋子来啦",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-11-07T10:01:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1RNwYfC4t6spniIdNgyiKjBI0Dg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nxeKAJxGzIw"
+      },
+      "snippet": {
+        "publishedAt": "2024-02-13T02:12:28Z",
+        "channelId": "UCtXwJSu66Z0aKcywrPo25CA",
+        "title": "男主出事，引出反转剧情大彩蛋《自撮》下篇",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nxeKAJxGzIw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nxeKAJxGzIw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nxeKAJxGzIw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "小握爱解说 | 官方频道",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-02-13T02:12:28Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "iDCjMMFVMxawXTLWg9CNKb_PvcA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2kmqzeKClFQ"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-21T11:00:06Z",
+        "channelId": "UCKuS7sRT5PkhvzIZmYRcqoQ",
+        "title": "员工开迈巴赫上班？到底谁才是老板？ #剧情反转 #熱門 #爽剧 #大小姐 #逆袭",
+        "description": "富豪千金#剧情#剧情反转#员工#老板欢迎订阅☞洋子来啦主页链接：https://www.youtube.com/@yangzilailaOffical ▷开启小铃铛第 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2kmqzeKClFQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2kmqzeKClFQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2kmqzeKClFQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "洋子来啦",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-21T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "T_BsXJtZIyPj9Op6FhLY0WcCrp0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "bjGVZ5cHUUw"
+      },
+      "snippet": {
+        "publishedAt": "2026-03-16T13:01:12Z",
+        "channelId": "UCyVc2ylj8RrvIFVWBIaZTfw",
+        "title": "边水往事 4K合集（13-15集）｜巨大反转，命运的选择越来越残酷",
+        "description": "故事逐渐进入关键阶段，一些隐藏已久的秘密被揭开，人物之间的关系也发生巨大变化。过去的选择开始产生连锁反应，让整个局势 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/bjGVZ5cHUUw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/bjGVZ5cHUUw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/bjGVZ5cHUUw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "剧来了",
+        "liveBroadcastContent": "none",
+        "publishTime": "2026-03-16T13:01:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xgnYZ70rw-52jgLd19ET1FRL208",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-jDNbE2cImU"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-18T11:00:06Z",
+        "channelId": "UCKuS7sRT5PkhvzIZmYRcqoQ",
+        "title": "长见识了，还有八星级酒店  #剧情反转 #爽剧 #洋子来啦 #当员工比老板有钱 #大陆精彩短剧 #逆袭",
+        "description": "富豪千金#剧情#剧情反转#员工#老板欢迎订阅☞洋子来啦主页链接：https://www.youtube.com/@yangzilailaOffical ▷开启小铃铛第 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-jDNbE2cImU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-jDNbE2cImU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-jDNbE2cImU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "洋子来啦",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-18T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lWSAgZPlHKNAt0q9DJmmp8xo1ac",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "t4MLn-g4WN0"
+      },
+      "snippet": {
+        "publishedAt": "2024-08-05T02:15:04Z",
+        "channelId": "UCDBUhNjrav8hbjIyP2otsOQ",
+        "title": "【北京加代江湖往事全集】第140章    剧情再次反转，田波扭转局势  |睡前故事|江湖故事會|單口相聲|江湖故事集#江湖故事大案紀實#北京加代#傳奇故事#黑道風雲【雨菲故事會】",
+        "description": "雨菲故事#江湖#黑道#黑道風雲#黑道風雲二十年#黑社會#大哥#大佬#故事#案件還原#真實事件#解密存檔#江湖故事#紀實#熱門# ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t4MLn-g4WN0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t4MLn-g4WN0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t4MLn-g4WN0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "雨菲社会江湖故事",
+        "liveBroadcastContent": "none",
+        "publishTime": "2024-08-05T02:15:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ywPRDDT76QSA8-FsM_8SRj8SwXg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iouPGCeFHF8"
+      },
+      "snippet": {
+        "publishedAt": "2025-02-18T09:15:03Z",
+        "channelId": "UCSMH3p4pif60C5dWMLY1PMA",
+        "title": "第二集   剧情+群像文+反转 【从净身房刀神开始罪恶成圣】开局成为了太监？还是人送外号“净身房刀神”的掌刀太监...我这一生，如履薄冰....",
+        "description": "第二集剧情+群像文+反转【从净身房刀神开始罪恶成圣】开局成为了太监？还是人送外号“净身房刀神”的掌刀太监...我这一生， ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iouPGCeFHF8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iouPGCeFHF8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iouPGCeFHF8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "胖咖漫舍",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-02-18T09:15:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2TLeOW3gbLE68OWx3cqo1f2NDAM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uLUC48-36BU"
+      },
+      "snippet": {
+        "publishedAt": "2023-10-22T08:18:12Z",
+        "channelId": "UCF5oZNJFfnw_QizqQCgsTOw",
+        "title": "高分神作！剧情无限反转 恐怖怪谈版圣杯战争《本所七大不可思议》中文版｜全结局｜全收集｜全配音｜全流程实况解说",
+        "description": "B站同名，油管唯一指定账号，禁止搬运！游戏名：本所七大不可思议汉化：希望的东东剧情介绍：游戏以神秘的复活秘术为开端， ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uLUC48-36BU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uLUC48-36BU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uLUC48-36BU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "友利奈绪大魔王、",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-10-22T08:18:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dECayvBWnlQXfmwBItcE8Xg9TBg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sVLm3oODJ2k"
+      },
+      "snippet": {
+        "publishedAt": "2025-09-18T22:52:15Z",
+        "channelId": "UClZ5FkucxIarlS0-4tOB4BA",
+        "title": "猖狂之徒终落网，严打犯罪，剧情反转，农村搞笑。#搞笑短剧 #搞笑剧情 #幽默视频",
+        "description": "欢迎来到【搞笑五锅】频道！  ✨ 这里是搞笑剧情短剧的欢乐天地，我们通过视频为你展示各种幽默搞笑的剧情片段，希望为你带来 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sVLm3oODJ2k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sVLm3oODJ2k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sVLm3oODJ2k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "搞笑五锅",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-09-18T22:52:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6fNB35r6O6yOU3gp-KkXjKSRX40",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "czPSr9nx1wc"
+      },
+      "snippet": {
+        "publishedAt": "2025-06-08T22:30:07Z",
+        "channelId": "UCs9d6mWvzB_smXZCsmAwTSw",
+        "title": "700 分还复读？老师惊掉下巴，剧情反转笑疯！#搞笑 #一人分饰多角 #学生时代 #剧情反转 #校园搞笑 @抖音小助手",
+        "description": "欢迎来到“发际线不高” 的欢乐搞怪天地   嘿，朋友们！我是“发际线不高”，但搞笑创意绝对“爆表” 的频道主  。在这儿，搞笑是主打 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/czPSr9nx1wc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/czPSr9nx1wc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/czPSr9nx1wc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "发际线不高",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-06-08T22:30:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "w-TCakvPBJAzOsTSmz5H_qkeCMg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dueT_D0db94"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-31T13:30:11Z",
+        "channelId": "UCkAEJVop8W_QXZ3FvkKo0LA",
+        "title": "《反转午夜自助洗衣店》| Second Chance：Spin-offs |  第十集：在咖啡店的故事  Part 2  完整版",
+        "description": "请记得收看着《反转午夜自助洗衣店》的剧集哦！那是你错过了视频会被禁播哦！ 各位，准备好今天的结局吗？这就是《反转午夜 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dueT_D0db94/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dueT_D0db94/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dueT_D0db94/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "李姿萱",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-31T13:30:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_Infct34325Gdlzzjyyqyj-jDXc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6qzZetAQOXQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-03-31T13:00:11Z",
+        "channelId": "UCkAEJVop8W_QXZ3FvkKo0LA",
+        "title": "《反转午夜自助洗衣店》| Second Chance：Spin-offs |  第九集：在咖啡店的故事  Part 1  完整版",
+        "description": "请记得收看着《反转午夜自助洗衣店》的剧集哦！那是你错过了视频会被禁播哦！ 各位，准备好今天的结局吗？这就是《反转午夜 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6qzZetAQOXQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6qzZetAQOXQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6qzZetAQOXQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "李姿萱",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-03-31T13:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2u-6nfyi-Xfqm7FPQ2AcLk4ton4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fgMua_bH-Eo"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-11T02:42:38Z",
+        "channelId": "UCzOYVqWRodETETY87GIn5RA",
+        "title": "管理与机修工谁更重要？#正能量 #剧情 #反转",
+        "description": "欢迎来到“二哥” 频道。我是二哥，每天在这儿给大伙分享超有趣的日常小段子，保证让你笑出腹肌。 在这儿，你不用操心烦恼，只需 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fgMua_bH-Eo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fgMua_bH-Eo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fgMua_bH-Eo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "二哥.",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-11T02:42:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "NS8b5-r1HxlDd7tl8a7jyRvdx4I",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "A-b5AdNpy08"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-12T11:00:06Z",
+        "channelId": "UCKuS7sRT5PkhvzIZmYRcqoQ",
+        "title": "赞助赛龙舟？新来实习生这么豪？#剧情反转 #爽剧 #洋子来啦 #当员工比老板有钱 #大陆精彩短剧 #逆袭",
+        "description": "富豪千金#剧情#剧情反转#员工#老板欢迎订阅☞洋子来啦主页链接：https://www.youtube.com/@yangzilailaOffical ▷开启小铃铛第 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/A-b5AdNpy08/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/A-b5AdNpy08/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/A-b5AdNpy08/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "洋子来啦",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-12T11:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yNj2WXZ6ov4SQqm8UQWLzI_MZU0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kW1QaSqfyfg"
+      },
+      "snippet": {
+        "publishedAt": "2025-08-21T01:35:38Z",
+        "channelId": "UC7wnhp6_d97ZJNPVlIhQqwg",
+        "title": "反转炸裂｜发妻车祸惨死，心脏捐给小三？他迟来的忏悔，连坟头草都嫌臭《死后第三年》#反转剧情 #家庭矛盾",
+        "description": "赵曦永远想不到，自己亲手捧在手心的情人沈冰清，胸膛里跳动的是发妻景涵的心脏。 3 年前，景涵车祸大出血，他调走所有匹配的 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kW1QaSqfyfg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kW1QaSqfyfg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kW1QaSqfyfg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "太离谱动画",
+        "liveBroadcastContent": "none",
+        "publishTime": "2025-08-21T01:35:38Z"
+      }
+    }
+  ],
+  "nextPageToken": null
+}
