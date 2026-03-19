@@ -64,3 +64,13 @@ python3 tools/videospider/merge_targets.py --date 20260320 --categories 9
 
 # 覆盖重建
 python3 tools/videospider/merge_targets.py --date 20260320 --categories 9 --overwrite-existing
+
+
+
+cd /Users/henry/Project/web/kale-studo-com-web
+
+# 先 dry-run：只统计每个分类将删除多少条
+python3 tools/videospider/validate_thumbnails_404.py --target-dir tools/videospider/target
+
+# 确认无误后，写回删除
+python3 tools/videospider/validate_thumbnails_404.py --target-dir tools/videospider/target --write
