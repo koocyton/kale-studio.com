@@ -9,9 +9,7 @@
    查询返回 nextPageToken 为下一页的代码，通过 &pageToken={nextPageToken} 读取下一页
 
 4. youtube 有三个 key ，每个 分类 循环使用
-   AIzaSyBDZi-ThtTK0nl-a3x_KkvAKnV4ZXxojVI
-   AIzaSyCuU2S--cBPUjDC-cobvZ_j5RnRN2KxMlE
-   AIzaSyABdIXBFesolWb79K4_3ZxtJfhRd4UusIk
+
 
 5. 将查询的数据，保存在 tools/videospider/source/{生成的年月日}/{分类id}_{第几页}.json 下
 
@@ -21,7 +19,7 @@
 
 cd /Users/henry/Project/web/kale-studo-com-web
 
-export YOUTUBE_API_KEYS="AIzaSyBDZi-ThtTK0nl-a3x_KkvAKnV4ZXxojVI,AIzaSyCuU2S--cBPUjDC-cobvZ_j5RnRN2KxMlE,AIzaSyABdIXBFesolWb79K4_3ZxtJfhRd4UusIk"
+export YOUTUBE_API_KEYS="k"
 
 # 先测：2 页、每页 5 条（对应你 readme 的建议）
 python3 tools/videospider/youtube_spider.py --pages 15 --max-results 50 --sleep 0.5
