@@ -7,6 +7,7 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/ken-note/", label: "KenNote" },
   { href: "/kennote-web/", label: "WebKenNote", external: true },
+  { href: "/quill-web/", label: "Quill web", external: true },
   { href: "/privacy-policy/", label: "Privacy Policy" },
   { href: "/about/", label: "About" },
 ] as const;
