@@ -16,19 +16,15 @@
     <style>
       :root {
         color-scheme: light;
-        --bg: #0b1220;
-        --panel: rgba(255, 255, 255, 0.08);
-        --panel-2: rgba(255, 255, 255, 0.12);
-        --text: rgba(255, 255, 255, 0.92);
-        --muted: rgba(255, 255, 255, 0.65);
-        --border: rgba(255, 255, 255, 0.12);
-        --focus: rgba(99, 102, 241, 0.55);
-        --accent: #635bff;
-        --danger: #ef4444;
-        --ok: #22c55e;
-        --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
-        --radius: 16px;
-        --radius-sm: 12px;
+        --bg: #f6f7f9;
+        --surface: #fff;
+        --text: #1a1d21;
+        --muted: #5c6370;
+        --border: #e4e6eb;
+        --focus: #2563eb;
+        --danger: #dc2626;
+        --ok: #16a34a;
+        --radius: 10px;
         --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
           "Courier New", monospace;
         --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
@@ -43,207 +39,66 @@
         margin: 0;
         min-height: 100vh;
         font-family: var(--sans);
+        font-size: 14px;
+        line-height: 1.45;
         color: var(--text);
-        background: radial-gradient(1100px 600px at 20% 10%, rgba(99, 102, 241, 0.35), transparent),
-          radial-gradient(900px 500px at 90% 20%, rgba(168, 85, 247, 0.25), transparent),
-          radial-gradient(900px 700px at 40% 110%, rgba(34, 197, 94, 0.12), transparent),
-          var(--bg);
-      }
-
-      a {
-        color: inherit;
+        background: var(--bg);
       }
 
       .container {
-        max-width: 1200px;
+        max-width: 1080px;
         margin: 0 auto;
-        padding: 28px 18px 40px;
+        padding: 32px 20px 48px;
       }
 
       header {
         display: flex;
-        align-items: flex-end;
+        align-items: flex-start;
         justify-content: space-between;
         gap: 16px;
-        margin-bottom: 16px;
-      }
-
-      .brand {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-      }
-
-      .logo {
-        width: 44px;
-        height: 44px;
-        border-radius: 14px;
-        background: linear-gradient(135deg, #635bff, #7a73ff);
-        box-shadow: 0 16px 40px rgba(99, 102, 241, 0.35);
-        display: grid;
-        place-items: center;
-        font-weight: 800;
-        letter-spacing: 0.5px;
+        margin-bottom: 24px;
+        padding-bottom: 16px;
+        border-bottom: 1px solid var(--border);
       }
 
       .title h1 {
-        font-size: 20px;
+        font-size: 18px;
+        font-weight: 600;
         margin: 0;
+        letter-spacing: -0.02em;
       }
 
       .title p {
-        margin: 4px 0 0;
+        margin: 6px 0 0;
         color: var(--muted);
         font-size: 13px;
-      }
-
-      .grid {
-        display: grid;
-        grid-template-columns: 380px 1fr;
-        gap: 16px;
-        align-items: start;
-      }
-
-      @media (max-width: 980px) {
-        .grid {
-          grid-template-columns: 1fr;
-        }
-      }
-
-      .card {
-        background: var(--panel);
-        border: 1px solid var(--border);
-        border-radius: var(--radius);
-        box-shadow: var(--shadow);
-        overflow: hidden;
-      }
-
-      .card .card-hd {
-        padding: 14px 14px 12px;
-        border-bottom: 1px solid var(--border);
-        background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), transparent);
-      }
-
-      .card .card-hd .row {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        gap: 10px;
-      }
-
-      .card .card-hd h2 {
-        font-size: 14px;
-        margin: 0;
-        letter-spacing: 0.2px;
-      }
-
-      .card .card-hd .hint {
-        color: var(--muted);
-        font-size: 12px;
-      }
-
-      .card .card-bd {
-        padding: 14px;
-      }
-
-      .form {
-        display: grid;
-        gap: 10px;
-      }
-
-      .form label {
-        display: grid;
-        gap: 6px;
-        font-size: 12px;
-        color: var(--muted);
-      }
-
-      .form input,
-      .form select,
-      .form textarea {
-        width: 100%;
-        border: 1px solid var(--border);
-        border-radius: 12px;
-        padding: 10px 10px;
-        background: rgba(0, 0, 0, 0.22);
-        color: var(--text);
-        outline: none;
-        font-family: inherit;
-      }
-
-      .form input:focus,
-      .form select:focus,
-      .form textarea:focus {
-        border-color: var(--focus);
-        box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
-      }
-
-      .form .row2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-      }
-
-      .btns {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        align-items: center;
-      }
-
-      button {
-        appearance: none;
-        border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.08);
-        color: var(--text);
-        padding: 10px 12px;
-        border-radius: 12px;
-        cursor: pointer;
-        font-weight: 600;
-        letter-spacing: 0.15px;
-      }
-
-      button.primary {
-        background: linear-gradient(135deg, rgba(99, 102, 241, 0.95), rgba(124, 58, 237, 0.9));
-        border-color: rgba(99, 102, 241, 0.55);
-        box-shadow: 0 16px 40px rgba(99, 102, 241, 0.25);
-      }
-
-      button.danger {
-        border-color: rgba(239, 68, 68, 0.45);
-        background: rgba(239, 68, 68, 0.12);
-      }
-
-      button:disabled {
-        opacity: 0.55;
-        cursor: not-allowed;
+        max-width: 42em;
       }
 
       .status {
-        margin-left: auto;
-        font-size: 12px;
-        color: var(--muted);
         display: flex;
-        gap: 10px;
+        gap: 8px;
         align-items: center;
         flex-wrap: wrap;
+        font-size: 12px;
+        color: var(--muted);
       }
 
       .pill {
         display: inline-flex;
         gap: 6px;
         align-items: center;
-        padding: 6px 10px;
+        padding: 4px 10px;
         border-radius: 999px;
         border: 1px solid var(--border);
-        background: rgba(0, 0, 0, 0.18);
+        background: var(--surface);
       }
 
       .dot {
-        width: 8px;
-        height: 8px;
+        width: 6px;
+        height: 6px;
         border-radius: 999px;
-        background: rgba(255, 255, 255, 0.25);
+        background: #cbd5e1;
       }
 
       .dot.ok {
@@ -254,85 +109,213 @@
         background: var(--danger);
       }
 
+      .grid {
+        display: grid;
+        grid-template-columns: minmax(280px, 340px) 1fr;
+        gap: 20px;
+        align-items: start;
+      }
+
+      @media (max-width: 900px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .panel {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        overflow: hidden;
+      }
+
+      .panel-hd {
+        padding: 12px 16px;
+        font-size: 13px;
+        font-weight: 600;
+        border-bottom: 1px solid var(--border);
+        color: var(--text);
+      }
+
+      .panel-bd {
+        padding: 16px;
+      }
+
+      .form {
+        display: grid;
+        gap: 12px;
+      }
+
+      .form label {
+        display: grid;
+        gap: 4px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .form input {
+        width: 100%;
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 8px 10px;
+        background: #fff;
+        color: var(--text);
+        outline: none;
+        font-family: inherit;
+        font-size: 13px;
+      }
+
+      .form input:focus {
+        border-color: var(--focus);
+        box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+      }
+
+      .row2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+      }
+
+      .btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+      }
+
+      button {
+        appearance: none;
+        border: 1px solid var(--border);
+        background: #fff;
+        color: var(--text);
+        padding: 8px 14px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+      }
+
+      button:hover:not(:disabled) {
+        background: #f9fafb;
+      }
+
+      button.primary {
+        background: var(--text);
+        color: #fff;
+        border-color: var(--text);
+      }
+
+      button.primary:hover:not(:disabled) {
+        opacity: 0.92;
+      }
+
+      button.danger {
+        color: var(--danger);
+        border-color: #fecaca;
+        background: #fff;
+      }
+
+      button:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+      }
+
+      .hint {
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .hint.warn {
+        color: #b45309;
+      }
+
+      .list-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 4px;
+      }
+
       .list {
         display: grid;
-        gap: 8px;
-        margin-top: 10px;
-        max-height: 48vh;
+        gap: 4px;
+        margin-top: 8px;
+        max-height: min(44vh, 360px);
         overflow: auto;
-        padding-right: 2px;
       }
 
       .item {
         display: flex;
-        gap: 10px;
         align-items: center;
         justify-content: space-between;
-        padding: 10px 10px;
-        border: 1px solid var(--border);
-        background: rgba(0, 0, 0, 0.18);
-        border-radius: 12px;
+        gap: 10px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        border: 1px solid transparent;
         cursor: pointer;
       }
 
       .item:hover {
-        border-color: rgba(255, 255, 255, 0.22);
+        background: #f3f4f6;
       }
 
       .item.active {
-        border-color: rgba(99, 102, 241, 0.65);
-        box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
+        background: #eff6ff;
+        border-color: #bfdbfe;
       }
 
       .item .name {
         font-family: var(--mono);
         font-size: 12px;
-        color: rgba(255, 255, 255, 0.9);
+        color: var(--text);
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+        min-width: 0;
       }
 
       .item .meta {
         color: var(--muted);
-        font-size: 12px;
+        font-size: 11px;
         flex: none;
       }
 
       .editorShell {
         display: grid;
         grid-template-rows: auto auto 1fr auto;
-        min-height: 76vh;
+        min-height: min(72vh, 640px);
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        overflow: hidden;
       }
 
       .filebar {
         display: flex;
-        gap: 10px;
-        align-items: center;
+        gap: 12px;
+        align-items: flex-start;
         justify-content: space-between;
-        padding: 12px 14px;
+        padding: 12px 16px;
         border-bottom: 1px solid var(--border);
-        background: rgba(0, 0, 0, 0.14);
-      }
-
-      .filebar .left {
-        display: grid;
-        gap: 4px;
+        background: #fafbfc;
       }
 
       .filebar .path {
         font-family: var(--mono);
         font-size: 12px;
+        word-break: break-all;
       }
 
       .filebar .sub {
         color: var(--muted);
         font-size: 12px;
+        margin-top: 4px;
       }
 
       .toolbarWrap {
         border-bottom: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.05);
+        background: #fff;
       }
 
       #toolbar {
@@ -340,60 +323,44 @@
       }
 
       #editor {
-        background: rgba(255, 255, 255, 0.98);
-        color: #111827;
+        background: #fff;
+        color: var(--text);
+        min-height: 280px;
       }
 
-      /* Quill styles tweak inside dark shell */
-      .ql-toolbar.ql-snow .ql-picker,
-      .ql-toolbar.ql-snow .ql-picker-label,
-      .ql-toolbar.ql-snow .ql-picker-options {
-        color: rgba(255, 255, 255, 0.9);
-      }
-      .ql-toolbar.ql-snow .ql-stroke {
-        stroke: rgba(255, 255, 255, 0.9);
-      }
-      .ql-toolbar.ql-snow .ql-fill {
-        fill: rgba(255, 255, 255, 0.9);
-      }
       .ql-toolbar.ql-snow {
+        border: none;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .ql-container.ql-snow {
         border: none;
       }
 
       .footerbar {
-        padding: 10px 14px;
+        padding: 8px 16px;
         border-top: 1px solid var(--border);
         display: flex;
-        gap: 10px;
+        gap: 12px;
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
-        background: rgba(0, 0, 0, 0.12);
-      }
-
-      .footerbar .small {
-        color: var(--muted);
+        background: #fafbfc;
         font-size: 12px;
+        color: var(--muted);
       }
 
       .mono {
         font-family: var(--mono);
-      }
-
-      .warn {
-        color: rgba(251, 191, 36, 0.95);
       }
     </style>
   </head>
   <body>
     <div class="container">
       <header>
-        <div class="brand">
-          <div class="logo">Q</div>
-          <div class="title">
-            <h1>Quill Web</h1>
-            <p>用 GitHub PAT 读取/编辑/保存 <span class="mono">notes/docs/*.ont</span></p>
-          </div>
+        <div class="title">
+          <h1>Quill Web</h1>
+          <p>通过 GitHub PAT 列出 <span class="mono">notes/docs/*.ont</span>，用 Quill 编辑并保存回仓库。</p>
         </div>
         <div class="status" id="topStatus">
           <span class="pill"><span class="dot" id="authDot"></span><span id="authText">未连接</span></span>
@@ -402,14 +369,9 @@
       </header>
 
       <div class="grid">
-        <section class="card">
-          <div class="card-hd">
-            <div class="row">
-              <h2>GitHub 连接</h2>
-              <div class="hint">使用 Fine-grained PAT（建议仅授予该仓库 Contents 权限）</div>
-            </div>
-          </div>
-          <div class="card-bd">
+        <section class="panel">
+          <div class="panel-hd">连接</div>
+          <div class="panel-bd">
             <div class="form">
               <label>
                 PAT（Fine-grained）
@@ -444,22 +406,18 @@
                 <button id="btnRefresh" disabled>刷新列表</button>
                 <button class="danger" id="btnClear">清除本地信息</button>
               </div>
-              <div class="hint warn">
-                注意：PAT 会在浏览器中使用。若在共享电脑/公开站点使用，请完成后点击“清除本地信息”。
-              </div>
+              <p class="hint warn">PAT 仅在浏览器内使用；用毕可点「清除本地信息」。</p>
 
-              <div style="margin-top: 8px; display: grid; gap: 8px">
-                <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
-                  <div class="hint">文件列表（仅显示 <span class="mono">.ont</span>）</div>
-                  <div class="hint mono" id="listInfo"></div>
-                </div>
-                <div class="list" id="fileList"></div>
+              <div class="list-head">
+                <span class="hint">.ont 列表</span>
+                <span class="hint mono" id="listInfo"></span>
               </div>
+              <div class="list" id="fileList"></div>
             </div>
           </div>
         </section>
 
-        <section class="card editorShell">
+        <section class="editorShell">
           <div class="filebar">
             <div class="left">
               <div class="path" id="openPath">未打开</div>
@@ -512,8 +470,8 @@
           <div id="editor"></div>
 
           <div class="footerbar">
-            <div class="small" id="saveHint">保存前会自动获取最新 sha；如果远端已更新，会提示你先重新加载。</div>
-            <div class="small mono" id="lastAction"></div>
+            <span id="saveHint">保存前会拉取最新 sha；远端有变更时需先重新加载。</span>
+            <span class="mono" id="lastAction"></span>
           </div>
         </section>
       </div>
@@ -554,12 +512,18 @@
         placeholder: "选择左侧 .ont 文件后开始编辑…",
       });
 
+      const Delta = Quill.import("delta");
+
       const state = {
         authed: false,
         files: [],
         activePath: null,
         activeSha: null,
         activeFormat: "html", // html | delta | text
+        /** 若为 JSON 且含嵌套 Delta，保存时写回同一结构 */
+        jsonDoc: null,
+        deltaPathKeys: null,
+        deltaSaveWrapped: false,
         activeRepoDefaultBranch: null,
       };
 
@@ -748,49 +712,163 @@
         };
       }
 
-      function detectFormat(text) {
-        const t = (text || "").trim();
+      function isOpLike(x) {
+        if (!x || typeof x !== "object") return false;
+        return "insert" in x || "delete" in x || "retain" in x;
+      }
+
+      function isDeltaOpsArray(ops) {
+        if (!Array.isArray(ops)) return false;
+        if (ops.length === 0) return true;
+        return ops.every((o) => isOpLike(o));
+      }
+
+      function isDeltaShape(obj) {
+        return obj && typeof obj === "object" && isDeltaOpsArray(obj.ops);
+      }
+
+      /**
+       * 在 JSON 中查找 Quill Delta（含 ops）。
+       * - wrapped: 某字段值为字符串，解析后为 Delta → 保存时写回 JSON.stringify(delta)
+       */
+      function walkObjectForDelta(value, pathKeys) {
+        if (isDeltaShape(value)) {
+          return { pathKeys, deltaObj: value, wrapped: false };
+        }
+
+        if (Array.isArray(value)) {
+          if (isDeltaOpsArray(value)) {
+            return { pathKeys, deltaObj: { ops: value }, wrapped: false };
+          }
+          return null;
+        }
+
+        if (value && typeof value === "object") {
+          for (const k of Object.keys(value)) {
+            const v = value[k];
+            if (typeof v === "string") {
+              const s = v.trim();
+              if (s.startsWith("{") || s.startsWith("[")) {
+                try {
+                  const inner = JSON.parse(s);
+                  if (isDeltaShape(inner)) {
+                    return { pathKeys: pathKeys.concat(k), deltaObj: inner, wrapped: true };
+                  }
+                  const nested = walkObjectForDelta(inner, pathKeys.concat(k));
+                  if (nested) return nested;
+                } catch {
+                  /* ignore */
+                }
+              }
+            } else {
+              const nested = walkObjectForDelta(v, pathKeys.concat(k));
+              if (nested) return nested;
+            }
+          }
+        }
+
+        return null;
+      }
+
+      function parseOntToDelta(text) {
+        const raw = (text || "").replace(/^\uFEFF/, "");
+        const t = raw.trim();
         if (!t) return { format: "html", kind: "空文件" };
 
-        if (t.startsWith("{") || t.startsWith("[")) {
-          try {
-            const obj = JSON.parse(t);
-            if (obj && typeof obj === "object") {
-              if (obj.ops && Array.isArray(obj.ops)) return { format: "delta", kind: "Quill Delta(JSON)" };
-              if (Array.isArray(obj) && obj.length && obj[0] && obj[0].insert != null) return { format: "delta", kind: "Quill Delta(JSON)" };
+        let parsed = null;
+        try {
+          parsed = JSON.parse(t);
+        } catch {
+          parsed = null;
+        }
+
+        state.jsonDoc = null;
+        state.deltaPathKeys = null;
+        state.deltaSaveWrapped = false;
+
+        if (parsed !== null) {
+          if (Array.isArray(parsed)) {
+            if (isDeltaOpsArray(parsed)) {
+              state.activeFormat = "delta";
+              return {
+                format: "delta",
+                kind: "Delta（ops 数组）",
+                delta: new Delta({ ops: parsed }),
+              };
             }
-          } catch {
-            // ignore
+          } else if (parsed && typeof parsed === "object") {
+            if (isDeltaShape(parsed)) {
+              state.activeFormat = "delta";
+              return {
+                format: "delta",
+                kind: "Delta（根对象）",
+                delta: new Delta(parsed.ops),
+              };
+            }
+
+            const found = walkObjectForDelta(parsed, []);
+            if (found && found.deltaObj && isDeltaShape(found.deltaObj)) {
+              state.activeFormat = "delta";
+              state.jsonDoc = parsed;
+              state.deltaPathKeys = found.pathKeys;
+              state.deltaSaveWrapped = found.wrapped;
+              return {
+                format: "delta",
+                kind: found.wrapped ? "Delta（字段内 JSON 字符串）" : "Delta（嵌套对象）",
+                delta: new Delta(found.deltaObj.ops),
+              };
+            }
           }
         }
 
         if (t.startsWith("<") && t.includes(">")) {
+          state.activeFormat = "html";
           return { format: "html", kind: "HTML" };
         }
 
+        state.activeFormat = "text";
         return { format: "text", kind: "纯文本" };
       }
 
       function loadIntoEditor(text) {
-        const { format, kind } = detectFormat(text);
-        state.activeFormat = format;
+        const parsed = parseOntToDelta(text);
 
-        quill.setText("");
-        if (format === "delta") {
-          const obj = JSON.parse(text.trim());
-          quill.setContents(obj.ops ? obj : obj);
-        } else if (format === "html") {
+        quill.setContents(new Delta());
+        if (parsed.format === "delta" && parsed.delta) {
+          quill.setContents(parsed.delta);
+        } else if (parsed.format === "html") {
           quill.clipboard.dangerouslyPasteHTML(text);
         } else {
           quill.setText(text);
         }
 
-        return kind;
+        return parsed.kind;
+      }
+
+      function serializeDeltaJsonFromEditor() {
+        const d = quill.getContents();
+        return d instanceof Delta ? d.toJSON() : { ops: d.ops || [] };
       }
 
       function serializeFromEditor() {
         if (state.activeFormat === "delta") {
-          return JSON.stringify(quill.getContents(), null, 2) + "\n";
+          const deltaJson = serializeDeltaJsonFromEditor();
+
+          if (!state.jsonDoc || !state.deltaPathKeys || state.deltaPathKeys.length === 0) {
+            return JSON.stringify(deltaJson, null, 2) + "\n";
+          }
+
+          const clone = structuredClone(state.jsonDoc);
+          let cur = clone;
+          const path = state.deltaPathKeys;
+          for (let i = 0; i < path.length - 1; i++) {
+            cur = cur[path[i]];
+          }
+          const lastKey = path[path.length - 1];
+          cur[lastKey] = state.deltaSaveWrapped
+            ? JSON.stringify(deltaJson, null, 2)
+            : deltaJson;
+          return JSON.stringify(clone, null, 2) + "\n";
         }
         if (state.activeFormat === "text") {
           return quill.getText();
@@ -930,6 +1008,9 @@
         state.files = [];
         state.activePath = null;
         state.activeSha = null;
+        state.jsonDoc = null;
+        state.deltaPathKeys = null;
+        state.deltaSaveWrapped = false;
         renderFileList([]);
         els.openPath.textContent = "未打开";
         els.openMeta.textContent = "请先在左侧连接并选择一个 .ont 文件";
