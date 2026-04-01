@@ -847,7 +847,14 @@
 
       function serializeDeltaJsonFromEditor() {
         const d = quill.getContents();
-        return d instanceof Delta ? d.toJSON() : { ops: d.ops || [] };
+        // Quill 2 的 Delta 在部分环境下没有 toJSON，或 instanceof 与 getContents 原型不一致；统一用 ops 序列化
+        if (d && Array.isArray(d.ops)) {
+          return { ops: d.ops };
+        }
+        if (d && typeof d.toJSON === "function") {
+          return d.toJSON();
+        }
+        return { ops: [] };
       }
 
       function serializeFromEditor() {
