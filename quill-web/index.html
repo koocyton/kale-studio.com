@@ -1,0 +1,953 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quill Web - 编辑 notes/docs/*.ont</title>
+    <meta name="description" content="使用 Quill + GitHub PAT 在线编辑并保存 .ont 文档" />
+
+    <!-- Quill 2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.snow.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.3/dist/quill.js"></script>
+
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #0b1220;
+        --panel: rgba(255, 255, 255, 0.08);
+        --panel-2: rgba(255, 255, 255, 0.12);
+        --text: rgba(255, 255, 255, 0.92);
+        --muted: rgba(255, 255, 255, 0.65);
+        --border: rgba(255, 255, 255, 0.12);
+        --focus: rgba(99, 102, 241, 0.55);
+        --accent: #635bff;
+        --danger: #ef4444;
+        --ok: #22c55e;
+        --shadow: 0 24px 60px rgba(0, 0, 0, 0.45);
+        --radius: 16px;
+        --radius-sm: 12px;
+        --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+          "Courier New", monospace;
+        --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial,
+          "Apple Color Emoji", "Segoe UI Emoji";
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: var(--sans);
+        color: var(--text);
+        background: radial-gradient(1100px 600px at 20% 10%, rgba(99, 102, 241, 0.35), transparent),
+          radial-gradient(900px 500px at 90% 20%, rgba(168, 85, 247, 0.25), transparent),
+          radial-gradient(900px 700px at 40% 110%, rgba(34, 197, 94, 0.12), transparent),
+          var(--bg);
+      }
+
+      a {
+        color: inherit;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 28px 18px 40px;
+      }
+
+      header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 16px;
+      }
+
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .logo {
+        width: 44px;
+        height: 44px;
+        border-radius: 14px;
+        background: linear-gradient(135deg, #635bff, #7a73ff);
+        box-shadow: 0 16px 40px rgba(99, 102, 241, 0.35);
+        display: grid;
+        place-items: center;
+        font-weight: 800;
+        letter-spacing: 0.5px;
+      }
+
+      .title h1 {
+        font-size: 20px;
+        margin: 0;
+      }
+
+      .title p {
+        margin: 4px 0 0;
+        color: var(--muted);
+        font-size: 13px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 380px 1fr;
+        gap: 16px;
+        align-items: start;
+      }
+
+      @media (max-width: 980px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+
+      .card .card-hd {
+        padding: 14px 14px 12px;
+        border-bottom: 1px solid var(--border);
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.06), transparent);
+      }
+
+      .card .card-hd .row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+      }
+
+      .card .card-hd h2 {
+        font-size: 14px;
+        margin: 0;
+        letter-spacing: 0.2px;
+      }
+
+      .card .card-hd .hint {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .card .card-bd {
+        padding: 14px;
+      }
+
+      .form {
+        display: grid;
+        gap: 10px;
+      }
+
+      .form label {
+        display: grid;
+        gap: 6px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+
+      .form input,
+      .form select,
+      .form textarea {
+        width: 100%;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 10px 10px;
+        background: rgba(0, 0, 0, 0.22);
+        color: var(--text);
+        outline: none;
+        font-family: inherit;
+      }
+
+      .form input:focus,
+      .form select:focus,
+      .form textarea:focus {
+        border-color: var(--focus);
+        box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+      }
+
+      .form .row2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+
+      .btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+      }
+
+      button {
+        appearance: none;
+        border: 1px solid var(--border);
+        background: rgba(255, 255, 255, 0.08);
+        color: var(--text);
+        padding: 10px 12px;
+        border-radius: 12px;
+        cursor: pointer;
+        font-weight: 600;
+        letter-spacing: 0.15px;
+      }
+
+      button.primary {
+        background: linear-gradient(135deg, rgba(99, 102, 241, 0.95), rgba(124, 58, 237, 0.9));
+        border-color: rgba(99, 102, 241, 0.55);
+        box-shadow: 0 16px 40px rgba(99, 102, 241, 0.25);
+      }
+
+      button.danger {
+        border-color: rgba(239, 68, 68, 0.45);
+        background: rgba(239, 68, 68, 0.12);
+      }
+
+      button:disabled {
+        opacity: 0.55;
+        cursor: not-allowed;
+      }
+
+      .status {
+        margin-left: auto;
+        font-size: 12px;
+        color: var(--muted);
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      .pill {
+        display: inline-flex;
+        gap: 6px;
+        align-items: center;
+        padding: 6px 10px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: rgba(0, 0, 0, 0.18);
+      }
+
+      .dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.25);
+      }
+
+      .dot.ok {
+        background: var(--ok);
+      }
+
+      .dot.bad {
+        background: var(--danger);
+      }
+
+      .list {
+        display: grid;
+        gap: 8px;
+        margin-top: 10px;
+        max-height: 48vh;
+        overflow: auto;
+        padding-right: 2px;
+      }
+
+      .item {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 10px;
+        border: 1px solid var(--border);
+        background: rgba(0, 0, 0, 0.18);
+        border-radius: 12px;
+        cursor: pointer;
+      }
+
+      .item:hover {
+        border-color: rgba(255, 255, 255, 0.22);
+      }
+
+      .item.active {
+        border-color: rgba(99, 102, 241, 0.65);
+        box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
+      }
+
+      .item .name {
+        font-family: var(--mono);
+        font-size: 12px;
+        color: rgba(255, 255, 255, 0.9);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+
+      .item .meta {
+        color: var(--muted);
+        font-size: 12px;
+        flex: none;
+      }
+
+      .editorShell {
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+        min-height: 76vh;
+      }
+
+      .filebar {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 14px;
+        border-bottom: 1px solid var(--border);
+        background: rgba(0, 0, 0, 0.14);
+      }
+
+      .filebar .left {
+        display: grid;
+        gap: 4px;
+      }
+
+      .filebar .path {
+        font-family: var(--mono);
+        font-size: 12px;
+      }
+
+      .filebar .sub {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .toolbarWrap {
+        border-bottom: 1px solid var(--border);
+        background: rgba(255, 255, 255, 0.05);
+      }
+
+      #toolbar {
+        border: none;
+      }
+
+      #editor {
+        background: rgba(255, 255, 255, 0.98);
+        color: #111827;
+      }
+
+      /* Quill styles tweak inside dark shell */
+      .ql-toolbar.ql-snow .ql-picker,
+      .ql-toolbar.ql-snow .ql-picker-label,
+      .ql-toolbar.ql-snow .ql-picker-options {
+        color: rgba(255, 255, 255, 0.9);
+      }
+      .ql-toolbar.ql-snow .ql-stroke {
+        stroke: rgba(255, 255, 255, 0.9);
+      }
+      .ql-toolbar.ql-snow .ql-fill {
+        fill: rgba(255, 255, 255, 0.9);
+      }
+      .ql-toolbar.ql-snow {
+        border: none;
+      }
+
+      .footerbar {
+        padding: 10px 14px;
+        border-top: 1px solid var(--border);
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        background: rgba(0, 0, 0, 0.12);
+      }
+
+      .footerbar .small {
+        color: var(--muted);
+        font-size: 12px;
+      }
+
+      .mono {
+        font-family: var(--mono);
+      }
+
+      .warn {
+        color: rgba(251, 191, 36, 0.95);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="brand">
+          <div class="logo">Q</div>
+          <div class="title">
+            <h1>Quill Web</h1>
+            <p>用 GitHub PAT 读取/编辑/保存 <span class="mono">notes/docs/*.ont</span></p>
+          </div>
+        </div>
+        <div class="status" id="topStatus">
+          <span class="pill"><span class="dot" id="authDot"></span><span id="authText">未连接</span></span>
+          <span class="pill"><span class="dot" id="fileDot"></span><span id="fileText">未打开文件</span></span>
+        </div>
+      </header>
+
+      <div class="grid">
+        <section class="card">
+          <div class="card-hd">
+            <div class="row">
+              <h2>GitHub 连接</h2>
+              <div class="hint">使用 Fine-grained PAT（建议仅授予该仓库 Contents 权限）</div>
+            </div>
+          </div>
+          <div class="card-bd">
+            <div class="form">
+              <label>
+                PAT（Fine-grained）
+                <input id="token" type="password" placeholder="github_pat_..." autocomplete="off" />
+              </label>
+              <div class="row2">
+                <label>
+                  owner
+                  <input id="owner" type="text" placeholder="你的用户名或组织" />
+                </label>
+                <label>
+                  repo
+                  <input id="repo" type="text" placeholder="notes" />
+                </label>
+              </div>
+              <div class="row2">
+                <label>
+                  目录（默认 docs）
+                  <input id="dir" type="text" placeholder="docs" />
+                </label>
+                <label>
+                  分支（可选）
+                  <input id="branch" type="text" placeholder="main（留空表示默认分支）" />
+                </label>
+              </div>
+              <label>
+                保存提交信息（可选）
+                <input id="commitMsg" type="text" placeholder="Update docs/xxx.ont via quill-web" />
+              </label>
+              <div class="btns">
+                <button class="primary" id="btnConnect">连接并列出 .ont</button>
+                <button id="btnRefresh" disabled>刷新列表</button>
+                <button class="danger" id="btnClear">清除本地信息</button>
+              </div>
+              <div class="hint warn">
+                注意：PAT 会在浏览器中使用。若在共享电脑/公开站点使用，请完成后点击“清除本地信息”。
+              </div>
+
+              <div style="margin-top: 8px; display: grid; gap: 8px">
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;">
+                  <div class="hint">文件列表（仅显示 <span class="mono">.ont</span>）</div>
+                  <div class="hint mono" id="listInfo"></div>
+                </div>
+                <div class="list" id="fileList"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card editorShell">
+          <div class="filebar">
+            <div class="left">
+              <div class="path" id="openPath">未打开</div>
+              <div class="sub" id="openMeta">请先在左侧连接并选择一个 .ont 文件</div>
+            </div>
+            <div class="btns">
+              <button id="btnReloadFile" disabled>重新加载</button>
+              <button class="primary" id="btnSave" disabled>保存到 GitHub</button>
+            </div>
+          </div>
+
+          <div class="toolbarWrap">
+            <div id="toolbar">
+              <span class="ql-formats">
+                <select class="ql-header">
+                  <option selected></option>
+                  <option value="1"></option>
+                  <option value="2"></option>
+                  <option value="3"></option>
+                </select>
+                <select class="ql-font"></select>
+              </span>
+              <span class="ql-formats">
+                <button class="ql-bold"></button>
+                <button class="ql-italic"></button>
+                <button class="ql-underline"></button>
+                <button class="ql-strike"></button>
+              </span>
+              <span class="ql-formats">
+                <select class="ql-color"></select>
+                <select class="ql-background"></select>
+              </span>
+              <span class="ql-formats">
+                <button class="ql-list" value="ordered"></button>
+                <button class="ql-list" value="bullet"></button>
+                <button class="ql-indent" value="-1"></button>
+                <button class="ql-indent" value="+1"></button>
+              </span>
+              <span class="ql-formats">
+                <button class="ql-blockquote"></button>
+                <button class="ql-code-block"></button>
+              </span>
+              <span class="ql-formats">
+                <button class="ql-link"></button>
+                <button class="ql-clean"></button>
+              </span>
+            </div>
+          </div>
+
+          <div id="editor"></div>
+
+          <div class="footerbar">
+            <div class="small" id="saveHint">保存前会自动获取最新 sha；如果远端已更新，会提示你先重新加载。</div>
+            <div class="small mono" id="lastAction"></div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script>
+      const LS_KEY = "quill-web.github.v1";
+
+      const els = {
+        token: document.getElementById("token"),
+        owner: document.getElementById("owner"),
+        repo: document.getElementById("repo"),
+        dir: document.getElementById("dir"),
+        branch: document.getElementById("branch"),
+        commitMsg: document.getElementById("commitMsg"),
+
+        btnConnect: document.getElementById("btnConnect"),
+        btnRefresh: document.getElementById("btnRefresh"),
+        btnClear: document.getElementById("btnClear"),
+        btnSave: document.getElementById("btnSave"),
+        btnReloadFile: document.getElementById("btnReloadFile"),
+
+        fileList: document.getElementById("fileList"),
+        listInfo: document.getElementById("listInfo"),
+
+        authDot: document.getElementById("authDot"),
+        authText: document.getElementById("authText"),
+        fileDot: document.getElementById("fileDot"),
+        fileText: document.getElementById("fileText"),
+        openPath: document.getElementById("openPath"),
+        openMeta: document.getElementById("openMeta"),
+        lastAction: document.getElementById("lastAction"),
+      };
+
+      const quill = new Quill("#editor", {
+        theme: "snow",
+        modules: { toolbar: "#toolbar" },
+        placeholder: "选择左侧 .ont 文件后开始编辑…",
+      });
+
+      const state = {
+        authed: false,
+        files: [],
+        activePath: null,
+        activeSha: null,
+        activeFormat: "html", // html | delta | text
+        activeRepoDefaultBranch: null,
+      };
+
+      function nowStr() {
+        const d = new Date();
+        return d.toLocaleString();
+      }
+
+      function setLastAction(msg) {
+        els.lastAction.textContent = msg ? `${nowStr()}  ${msg}` : "";
+      }
+
+      function setAuthStatus(ok, text) {
+        state.authed = !!ok;
+        els.authDot.className = "dot " + (ok ? "ok" : "bad");
+        els.authText.textContent = text || (ok ? "已连接" : "未连接");
+        els.btnRefresh.disabled = !ok;
+      }
+
+      function setFileStatus(open, text) {
+        els.fileDot.className = "dot " + (open ? "ok" : "bad");
+        els.fileText.textContent = text || (open ? "已打开" : "未打开文件");
+        els.btnSave.disabled = !open;
+        els.btnReloadFile.disabled = !open;
+      }
+
+      function loadSettings() {
+        try {
+          const raw = localStorage.getItem(LS_KEY);
+          if (!raw) return;
+          const v = JSON.parse(raw);
+          if (!v || typeof v !== "object") return;
+          els.token.value = v.token || "";
+          els.owner.value = v.owner || "";
+          els.repo.value = v.repo || "notes";
+          els.dir.value = v.dir || "docs";
+          els.branch.value = v.branch || "";
+          els.commitMsg.value = v.commitMsg || "";
+        } catch {
+          // ignore
+        }
+      }
+
+      function saveSettings() {
+        const v = {
+          token: els.token.value.trim(),
+          owner: els.owner.value.trim(),
+          repo: els.repo.value.trim() || "notes",
+          dir: (els.dir.value.trim() || "docs").replace(/^\/+|\/+$/g, ""),
+          branch: els.branch.value.trim(),
+          commitMsg: els.commitMsg.value.trim(),
+        };
+        localStorage.setItem(LS_KEY, JSON.stringify(v));
+        return v;
+      }
+
+      function clearSettings() {
+        localStorage.removeItem(LS_KEY);
+        els.token.value = "";
+        els.owner.value = "";
+        els.repo.value = "notes";
+        els.dir.value = "docs";
+        els.branch.value = "";
+        els.commitMsg.value = "";
+      }
+
+      function base64ToUtf8(b64) {
+        const bin = atob(b64.replace(/\n/g, ""));
+        const bytes = Uint8Array.from(bin, (c) => c.charCodeAt(0));
+        return new TextDecoder("utf-8").decode(bytes);
+      }
+
+      function utf8ToBase64(str) {
+        const bytes = new TextEncoder().encode(str);
+        let bin = "";
+        for (let i = 0; i < bytes.length; i++) bin += String.fromCharCode(bytes[i]);
+        return btoa(bin);
+      }
+
+      function ghHeaders(token) {
+        return {
+          Accept: "application/vnd.github+json",
+          Authorization: `Bearer ${token}`,
+          "X-GitHub-Api-Version": "2022-11-28",
+        };
+      }
+
+      async function ghFetchJson(url, token, init = {}) {
+        const res = await fetch(url, {
+          ...init,
+          headers: { ...(init.headers || {}), ...ghHeaders(token) },
+        });
+        const text = await res.text();
+        let data = null;
+        try {
+          data = text ? JSON.parse(text) : null;
+        } catch {
+          data = text;
+        }
+        if (!res.ok) {
+          const msg = typeof data === "object" && data && data.message ? data.message : String(data);
+          throw new Error(`GitHub API 错误 ${res.status}: ${msg}`);
+        }
+        return data;
+      }
+
+      function getApiBase() {
+        return "https://api.github.com";
+      }
+
+      function getRefQuery(branchOrEmpty) {
+        return branchOrEmpty ? `?ref=${encodeURIComponent(branchOrEmpty)}` : "";
+      }
+
+      async function validateRepo(token, owner, repo) {
+        const api = getApiBase();
+        const info = await ghFetchJson(`${api}/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}`, token);
+        state.activeRepoDefaultBranch = info.default_branch || null;
+        return info;
+      }
+
+      async function listOntFiles(token, owner, repo, dir, branch) {
+        const api = getApiBase();
+        const path = dir ? dir : "";
+        const url = `${api}/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/contents/${encodeURIComponent(path)}${getRefQuery(branch)}`;
+        const items = await ghFetchJson(url, token);
+        if (!Array.isArray(items)) throw new Error("目录不是可列出的内容（可能是文件路径）");
+        return items
+          .filter((x) => x && x.type === "file" && typeof x.name === "string" && x.name.toLowerCase().endsWith(".ont"))
+          .map((x) => ({
+            name: x.name,
+            path: x.path,
+            sha: x.sha,
+            size: x.size,
+          }))
+          .sort((a, b) => a.name.localeCompare(b.name));
+      }
+
+      function renderFileList(files) {
+        els.fileList.innerHTML = "";
+        els.listInfo.textContent = files.length ? `${files.length} 个` : "空";
+        const frag = document.createDocumentFragment();
+
+        files.forEach((f) => {
+          const div = document.createElement("div");
+          div.className = "item" + (state.activePath === f.path ? " active" : "");
+          div.title = f.path;
+
+          const left = document.createElement("div");
+          left.style.minWidth = "0";
+
+          const name = document.createElement("div");
+          name.className = "name";
+          name.textContent = f.name;
+
+          const meta = document.createElement("div");
+          meta.className = "meta";
+          meta.textContent = f.size != null ? `${f.size} bytes` : "";
+
+          left.appendChild(name);
+          left.appendChild(meta);
+
+          const right = document.createElement("div");
+          right.className = "meta";
+          right.textContent = "打开";
+
+          div.appendChild(left);
+          div.appendChild(right);
+
+          div.addEventListener("click", () => openFile(f.path));
+          frag.appendChild(div);
+        });
+
+        els.fileList.appendChild(frag);
+      }
+
+      async function getFileContent(token, owner, repo, path, branch) {
+        const api = getApiBase();
+        const url = `${api}/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/contents/${encodeURIComponent(path)}${getRefQuery(branch)}`;
+        const data = await ghFetchJson(url, token);
+        if (!data || data.type !== "file") throw new Error("目标不是文件");
+        if (!data.content || data.encoding !== "base64") throw new Error("无法读取文件内容（非 base64）");
+        return {
+          sha: data.sha,
+          contentText: base64ToUtf8(data.content),
+        };
+      }
+
+      function detectFormat(text) {
+        const t = (text || "").trim();
+        if (!t) return { format: "html", kind: "空文件" };
+
+        if (t.startsWith("{") || t.startsWith("[")) {
+          try {
+            const obj = JSON.parse(t);
+            if (obj && typeof obj === "object") {
+              if (obj.ops && Array.isArray(obj.ops)) return { format: "delta", kind: "Quill Delta(JSON)" };
+              if (Array.isArray(obj) && obj.length && obj[0] && obj[0].insert != null) return { format: "delta", kind: "Quill Delta(JSON)" };
+            }
+          } catch {
+            // ignore
+          }
+        }
+
+        if (t.startsWith("<") && t.includes(">")) {
+          return { format: "html", kind: "HTML" };
+        }
+
+        return { format: "text", kind: "纯文本" };
+      }
+
+      function loadIntoEditor(text) {
+        const { format, kind } = detectFormat(text);
+        state.activeFormat = format;
+
+        quill.setText("");
+        if (format === "delta") {
+          const obj = JSON.parse(text.trim());
+          quill.setContents(obj.ops ? obj : obj);
+        } else if (format === "html") {
+          quill.clipboard.dangerouslyPasteHTML(text);
+        } else {
+          quill.setText(text);
+        }
+
+        return kind;
+      }
+
+      function serializeFromEditor() {
+        if (state.activeFormat === "delta") {
+          return JSON.stringify(quill.getContents(), null, 2) + "\n";
+        }
+        if (state.activeFormat === "text") {
+          return quill.getText();
+        }
+        return quill.root.innerHTML + "\n";
+      }
+
+      function currentSettingsOrThrow() {
+        const s = saveSettings();
+        if (!s.token) throw new Error("请先填写 PAT");
+        if (!s.owner) throw new Error("请先填写 owner");
+        if (!s.repo) throw new Error("请先填写 repo");
+        return s;
+      }
+
+      async function connectAndList() {
+        setLastAction("连接中…");
+        setAuthStatus(false, "连接中…");
+        try {
+          const s = currentSettingsOrThrow();
+          await validateRepo(s.token, s.owner, s.repo);
+          const files = await listOntFiles(s.token, s.owner, s.repo, s.dir, s.branch);
+          state.files = files;
+          renderFileList(files);
+          setAuthStatus(true, `已连接 ${s.owner}/${s.repo}`);
+          setLastAction("已列出文件");
+        } catch (e) {
+          setAuthStatus(false, "连接失败");
+          setLastAction(e?.message || String(e));
+          alert(e?.message || String(e));
+        }
+      }
+
+      async function refreshList() {
+        try {
+          const s = currentSettingsOrThrow();
+          const files = await listOntFiles(s.token, s.owner, s.repo, s.dir, s.branch);
+          state.files = files;
+          renderFileList(files);
+          setLastAction("已刷新文件列表");
+        } catch (e) {
+          setLastAction(e?.message || String(e));
+          alert(e?.message || String(e));
+        }
+      }
+
+      function highlightActiveInList() {
+        const nodes = els.fileList.querySelectorAll(".item");
+        nodes.forEach((n) => n.classList.remove("active"));
+        const idx = state.files.findIndex((f) => f.path === state.activePath);
+        if (idx >= 0 && nodes[idx]) nodes[idx].classList.add("active");
+      }
+
+      async function openFile(path) {
+        setFileStatus(false, "加载中…");
+        setLastAction(`打开 ${path}…`);
+        try {
+          const s = currentSettingsOrThrow();
+          const { sha, contentText } = await getFileContent(s.token, s.owner, s.repo, path, s.branch);
+          state.activePath = path;
+          state.activeSha = sha;
+          highlightActiveInList();
+
+          const kind = loadIntoEditor(contentText);
+          els.openPath.textContent = path;
+          const refInfo = s.branch ? `ref=${s.branch}` : `默认分支(${state.activeRepoDefaultBranch || "unknown"})`;
+          els.openMeta.textContent = `${kind} · sha=${sha.slice(0, 10)} · ${refInfo}`;
+
+          setFileStatus(true, "已打开文件");
+          setLastAction("文件已加载");
+        } catch (e) {
+          setFileStatus(false, "未打开文件");
+          setLastAction(e?.message || String(e));
+          alert(e?.message || String(e));
+        }
+      }
+
+      async function reloadActiveFile() {
+        if (!state.activePath) return;
+        await openFile(state.activePath);
+      }
+
+      async function saveActiveFile() {
+        if (!state.activePath) return;
+        setLastAction("保存中…");
+        els.btnSave.disabled = true;
+        try {
+          const s = currentSettingsOrThrow();
+          const path = state.activePath;
+
+          // Always re-fetch sha before saving to reduce conflict surprises.
+          const latest = await getFileContent(s.token, s.owner, s.repo, path, s.branch);
+          if (state.activeSha && latest.sha && latest.sha !== state.activeSha) {
+            throw new Error("远端文件已更新（sha 不一致）。请先点击“重新加载”，再保存。");
+          }
+
+          const newText = serializeFromEditor();
+          const contentB64 = utf8ToBase64(newText);
+          const msg =
+            s.commitMsg ||
+            `Update ${path} via quill-web`;
+
+          const api = getApiBase();
+          const url = `${api}/repos/${encodeURIComponent(s.owner)}/${encodeURIComponent(s.repo)}/contents/${encodeURIComponent(path)}`;
+          const body = {
+            message: msg,
+            content: contentB64,
+            sha: latest.sha,
+          };
+          if (s.branch) body.branch = s.branch;
+
+          const data = await ghFetchJson(url, s.token, {
+            method: "PUT",
+            body: JSON.stringify(body),
+          });
+
+          const newSha = data?.content?.sha || data?.commit?.sha || null;
+          if (newSha) state.activeSha = data.content.sha;
+          els.openMeta.textContent = `${state.activeFormat.toUpperCase()} · sha=${(state.activeSha || latest.sha).slice(0, 10)} · 已保存`;
+
+          setLastAction("保存成功（已提交到 GitHub）");
+          alert("保存成功：已提交到 GitHub。");
+        } catch (e) {
+          setLastAction(e?.message || String(e));
+          alert(e?.message || String(e));
+        } finally {
+          els.btnSave.disabled = !state.activePath;
+        }
+      }
+
+      els.btnConnect.addEventListener("click", connectAndList);
+      els.btnRefresh.addEventListener("click", refreshList);
+      els.btnReloadFile.addEventListener("click", reloadActiveFile);
+      els.btnSave.addEventListener("click", saveActiveFile);
+      els.btnClear.addEventListener("click", () => {
+        clearSettings();
+        state.files = [];
+        state.activePath = null;
+        state.activeSha = null;
+        renderFileList([]);
+        els.openPath.textContent = "未打开";
+        els.openMeta.textContent = "请先在左侧连接并选择一个 .ont 文件";
+        setAuthStatus(false, "未连接");
+        setFileStatus(false, "未打开文件");
+        setLastAction("已清除本地信息");
+      });
+
+      // Persist settings on change (except token: on blur)
+      ["owner", "repo", "dir", "branch", "commitMsg"].forEach((id) => {
+        document.getElementById(id).addEventListener("input", () => saveSettings());
+      });
+      els.token.addEventListener("blur", () => saveSettings());
+
+      // Init
+      loadSettings();
+      setAuthStatus(false, "未连接");
+      setFileStatus(false, "未打开文件");
+    </script>
+  </body>
+</html>
