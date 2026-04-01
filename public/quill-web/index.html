@@ -470,7 +470,7 @@
           <div id="editor"></div>
 
           <div class="footerbar">
-            <span id="saveHint">保存前会拉取最新 sha；远端有变更时需先重新加载。</span>
+            <span id="saveHint">保存会提交当前 .ont，并更新仓库根目录 note_versions.txt（路径、UTC 时间、Unix 时间戳）。</span>
             <span class="mono" id="lastAction"></span>
           </div>
         </section>
@@ -710,6 +710,109 @@
           sha: data.sha,
           contentText: base64ToUtf8(data.content),
         };
+      }
+
+      /** 文件不存在时返回 null（不抛错） */
+      async function getFileContentOrNull(token, owner, repo, path, branch) {
+        const api = getApiBase();
+        const url = `${api}/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/contents/${encodeURIComponent(path)}${getRefQuery(branch)}`;
+        const res = await fetch(url, { headers: ghHeaders(token) });
+        const text = await res.text();
+        if (res.status === 404) return null;
+        let data = null;
+        try {
+          data = text ? JSON.parse(text) : null;
+        } catch {
+          data = text;
+        }
+        if (!res.ok) {
+          const msg = typeof data === "object" && data && data.message ? data.message : String(data);
+          throw new Error(`GitHub API 错误 ${res.status}: ${msg}`);
+        }
+        if (!data || data.type !== "file") throw new Error("目标不是文件");
+        if (!data.content || data.encoding !== "base64") throw new Error("无法读取文件内容（非 base64）");
+        return {
+          sha: data.sha,
+          contentText: base64ToUtf8(data.content),
+        };
+      }
+
+      const NOTE_VERSIONS_PATH = "note_versions.txt";
+
+      function formatVersionUtc(d) {
+        const x = d instanceof Date ? d : new Date(d);
+        return x.toISOString().replace(/\.\d{3}Z$/, "Z");
+      }
+
+      function unixTimestampSec(d) {
+        const x = d instanceof Date ? d : new Date(d);
+        return Math.floor(x.getTime() / 1000);
+      }
+
+      /**
+       * 解析一行：路径 ISO时间 时间戳（路径中可含空格，从右侧取两列）
+       */
+      function parseNoteVersionsLine(line) {
+        const t = line.trim();
+        if (!t) return null;
+        const parts = t.split(/\s+/);
+        if (parts.length < 3) return null;
+        const unix = parts.pop();
+        const iso = parts.pop();
+        const filePath = parts.join(" ");
+        if (!/^\d+$/.test(unix)) return null;
+        return { filePath, iso, unix };
+      }
+
+      /**
+       * 更新或追加某路径的一行；其余行保持原有顺序（仅跳过无法解析的坏行）
+       */
+      function mergeNoteVersionsContent(content, repoPath, isoUtc, unixSec) {
+        const lines = (content || "").split(/\r?\n/);
+        const out = [];
+        const newLine = `${repoPath} ${isoUtc} ${unixSec}`;
+        let replaced = false;
+        for (const line of lines) {
+          const t = line.trim();
+          if (!t) continue;
+          const p = parseNoteVersionsLine(line);
+          if (p && p.filePath === repoPath) {
+            if (!replaced) {
+              out.push(newLine);
+              replaced = true;
+            }
+          } else if (p) {
+            out.push(`${p.filePath} ${p.iso} ${p.unix}`);
+          }
+        }
+        if (!replaced) out.push(newLine);
+        return out.join("\n") + "\n";
+      }
+
+      async function putNoteVersionsForPath(s, repoPath) {
+        const now = new Date();
+        const isoUtc = formatVersionUtc(now);
+        const unixSec = String(unixTimestampSec(now));
+
+        const existing = await getFileContentOrNull(s.token, s.owner, s.repo, NOTE_VERSIONS_PATH, s.branch);
+        const merged = mergeNoteVersionsContent(existing ? existing.contentText : "", repoPath, isoUtc, unixSec);
+        const contentB64 = utf8ToBase64(merged);
+
+        const api = getApiBase();
+        const url = `${api}/repos/${encodeURIComponent(s.owner)}/${encodeURIComponent(s.repo)}/contents/${encodeURIComponent(NOTE_VERSIONS_PATH)}`;
+        const body = {
+          message: s.commitMsg
+            ? `${s.commitMsg} (${NOTE_VERSIONS_PATH})`
+            : `Update ${NOTE_VERSIONS_PATH} for ${repoPath}`,
+          content: contentB64,
+        };
+        if (existing && existing.sha) body.sha = existing.sha;
+        if (s.branch) body.branch = s.branch;
+
+        await ghFetchJson(url, s.token, {
+          method: "PUT",
+          body: JSON.stringify(body),
+        });
       }
 
       function isOpLike(x) {
@@ -996,8 +1099,18 @@
           if (newSha) state.activeSha = data.content.sha;
           els.openMeta.textContent = `${state.activeFormat.toUpperCase()} · sha=${(state.activeSha || latest.sha).slice(0, 10)} · 已保存`;
 
-          setLastAction("保存成功（已提交到 GitHub）");
-          alert("保存成功：已提交到 GitHub。");
+          try {
+            await putNoteVersionsForPath(s, path);
+          } catch (verErr) {
+            setLastAction(`笔记已保存，但 ${NOTE_VERSIONS_PATH} 未更新`);
+            alert(
+              `笔记文件已保存。\n仓库根目录的 ${NOTE_VERSIONS_PATH} 更新失败：\n${verErr?.message || verErr}\n请稍后重试保存或手动编辑该文件。`
+            );
+            return;
+          }
+
+          setLastAction("保存成功（笔记 + 版本清单已提交）");
+          alert(`保存成功：已更新 ${path} 与 ${NOTE_VERSIONS_PATH}。`);
         } catch (e) {
           setLastAction(e?.message || String(e));
           alert(e?.message || String(e));
