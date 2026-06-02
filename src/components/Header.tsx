@@ -5,9 +5,8 @@ import { useState } from "react";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/ken-note/", label: "KenNote" },
-  { href: "/kennote-web/", label: "WebKenNote", external: true },
-  { href: "/quill-web/", label: "Quill web", external: true },
+  { href: "/sms-forwarder-web/", label: "SMS Forwarder web", external: true },
+  { href: "/loomnote-web/", label: "LoomNote Web", external: true },
   { href: "/privacy-policy/", label: "Privacy Policy" },
   { href: "/about/", label: "About" },
 ] as const;

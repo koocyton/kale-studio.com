@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SMS Forwarder · 在电脑上查看</title>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mqtt@5.10.1/dist/mqtt.min.js"></script>
+  <style>
+    :root {
+      --bg: #e9eef3;
+      --text: #2c3440;
+      --muted: #6b7a8c;
+      --glass: rgba(255, 255, 255, 0.55);
+      --glass-border: rgba(255, 255, 255, 0.75);
+      --shadow: rgba(40, 55, 75, 0.12);
+      --ok: #3d9a6a;
+      --wait: #d4a017;
+      --err: #d64545;
+      --note-colors: #fff9c4, #ffecb3, #ffe0b2, #ffcdd2, #f8bbd9, #e1bee7, #c5cae9, #bbdefb, #b2ebf2, #c8e6c9, #dcedc8, #fff8e1;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "PingFang SC", "Hiragino Sans GB", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(145deg, #f5f7fa 0%, #e3e9f0 45%, #dfe6ed 100%);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+    .desk {
+      position: relative;
+      min-height: 100vh;
+      padding: 28px 20px 40px;
+    }
+
+    /* 底层：模糊的多便签预览 */
+    .notes-bg {
+      position: fixed;
+      inset: -20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 18px;
+      padding: 32px 28px;
+      filter: blur(10px) saturate(1.05);
+      opacity: 0.85;
+      pointer-events: none;
+      z-index: 0;
+      transform: scale(1.02);
+    }
+    .notes-bg .ghost-note {
+      min-height: 140px;
+      border-radius: 3px 12px 14px 4px;
+      box-shadow: 2px 4px 14px var(--shadow);
+      padding: 14px 16px;
+      font-size: 0.72rem;
+      line-height: 1.45;
+      color: rgba(44, 52, 64, 0.35);
+      transform: rotate(var(--rot, 0deg));
+    }
+    .notes-bg .ghost-line {
+      height: 8px;
+      border-radius: 4px;
+      background: rgba(44, 52, 64, 0.08);
+      margin-bottom: 8px;
+    }
+    .notes-bg .ghost-line.w80 { width: 80%; }
+    .notes-bg .ghost-line.w60 { width: 60%; }
+    .notes-bg .ghost-line.w90 { width: 90%; }
+
+    /* 同步后的真实便签区 */
+    .notes-board {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 22px 26px;
+      justify-content: center;
+      align-content: flex-start;
+      max-width: 1100px;
+      margin: 0 auto;
+      min-height: 40vh;
+      padding-top: 8px;
+    }
+    .notes-board.empty { display: none; }
+
+    .sticky-note {
+      width: 220px;
+      min-height: 160px;
+      max-height: 280px;
+      padding: 16px 18px 20px;
+      border-radius: 2px 10px 12px 3px;
+      box-shadow: 3px 5px 18px var(--shadow), 0 1px 0 rgba(255,255,255,0.6) inset;
+      transform: rotate(var(--rot, 0deg));
+      transition: transform 0.25s ease, box-shadow 0.25s ease;
+      overflow: hidden;
+      user-select: text;
+    }
+    .sticky-note:hover {
+      transform: rotate(var(--rot, 0deg)) scale(1.02);
+      box-shadow: 5px 8px 24px rgba(40, 55, 75, 0.18);
+      z-index: 2;
+    }
+    .sticky-note .note-from {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: rgba(44, 52, 64, 0.55);
+      margin-bottom: 10px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .sticky-note .note-body {
+      font-size: 0.92rem;
+      line-height: 1.55;
+      color: var(--text);
+      white-space: pre-wrap;
+      word-break: break-word;
+      overflow-y: auto;
+      max-height: 200px;
+    }
+    .sticky-note .note-time {
+      font-size: 0.68rem;
+      color: rgba(44, 52, 64, 0.4);
+      margin-top: 12px;
+      text-align: right;
+    }
+
+    /* 毛玻璃扫码层：左二维码、右说明 */
+    .scan-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 16px;
+      background: rgba(233, 238, 243, 0.4);
+      backdrop-filter: blur(3px);
+      -webkit-backdrop-filter: blur(3px);
+      transition: opacity 0.45s ease, visibility 0.45s ease;
+      overflow-y: auto;
+    }
+    .scan-overlay.hidden {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .scan-panel {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      justify-content: center;
+      gap: 0;
+      width: min(920px, 96vw);
+      border-radius: 22px;
+      background: var(--glass);
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 16px 48px rgba(50, 70, 95, 0.16), 0 0 0 1px rgba(255,255,255,0.45) inset;
+      backdrop-filter: blur(20px) saturate(1.35);
+      -webkit-backdrop-filter: blur(20px) saturate(1.35);
+      overflow: hidden;
+    }
+    .scan-left {
+      flex: 0 1 340px;
+      min-width: 280px;
+      padding: 28px 26px 26px;
+      text-align: center;
+      border-right: 1px solid rgba(255, 255, 255, 0.45);
+      background: rgba(255, 255, 255, 0.25);
+    }
+    .scan-right {
+      flex: 1 1 360px;
+      min-width: 280px;
+      padding: 26px 28px 24px;
+      text-align: left;
+      max-height: min(88vh, 640px);
+      overflow-y: auto;
+    }
+    @media (max-width: 720px) {
+      .scan-left { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.45); }
+      .scan-panel { flex-direction: column; }
+      .scan-right { max-height: none; }
+    }
+    .glass-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 0 0 6px;
+      color: var(--text);
+    }
+    .glass-sub {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin: 0 0 20px;
+      line-height: 1.5;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 18px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.5);
+    }
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--muted);
+      flex-shrink: 0;
+    }
+    .dot.ok { background: var(--ok); }
+    .dot.wait { background: var(--wait); animation: pulse 1.2s infinite; }
+    .dot.err { background: var(--err); }
+    @keyframes pulse { 50% { opacity: 0.35; } }
+    #qrcode {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 228px;
+      margin: 0 auto;
+    }
+    #qrcode canvas, #qrcode img {
+      display: block;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+    }
+    .glass-hint {
+      margin: 16px 0 0;
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .lang-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-bottom: 14px;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+    .lang-row select {
+      font-size: 0.78rem;
+      padding: 4px 8px;
+      border-radius: 8px;
+      border: 1px solid rgba(44, 52, 64, 0.15);
+      background: rgba(255, 255, 255, 0.7);
+      color: var(--text);
+    }
+    .info-block {
+      margin-bottom: 20px;
+    }
+    .info-block:last-child { margin-bottom: 0; }
+    .info-head {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 0 10px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+    .info-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      flex-shrink: 0;
+      background: rgba(255, 255, 255, 0.65);
+      box-shadow: 0 2px 8px var(--shadow);
+    }
+    .info-icon.tech { background: linear-gradient(135deg, #bbdefb, #c5cae9); }
+    .info-icon.sec { background: linear-gradient(135deg, #c8e6c9, #b2dfdb); }
+    .info-icon.src { background: linear-gradient(135deg, #ffe0b2, #ffecb3); }
+    .info-icon.svc { background: linear-gradient(135deg, #b2ebf2, #bbdefb); }
+    .info-svc-list code.svc-url {
+      display: block;
+      margin-top: 4px;
+      font-size: 0.72rem;
+      line-height: 1.45;
+      word-break: break-all;
+      color: #3a5068;
+      background: rgba(255, 255, 255, 0.55);
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    }
+    .info-svc-list li strong {
+      font-weight: 600;
+      color: var(--text);
+      font-size: 0.82rem;
+    }
+    .info-list {
+      margin: 0;
+      padding: 0 0 0 1.1rem;
+      font-size: 0.82rem;
+      line-height: 1.55;
+      color: var(--muted);
+    }
+    .info-list li { margin-bottom: 6px; }
+    .info-list li:last-child { margin-bottom: 0; }
+    .info-link {
+      display: inline-block;
+      margin-top: 6px;
+      font-size: 0.8rem;
+      color: #2a6ebb;
+      word-break: break-all;
+      text-decoration: none;
+      border-bottom: 1px dashed rgba(42, 110, 187, 0.35);
+    }
+    .info-link:hover { color: #1a4f8c; }
+    .info-src-desc {
+      margin: 0;
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="desk">
+    <div class="notes-bg" id="notesBg" aria-hidden="true"></div>
+    <div class="notes-board empty" id="notesBoard"></div>
+
+    <div class="scan-overlay" id="scanOverlay">
+      <div class="scan-panel">
+        <div class="scan-left">
+          <div class="lang-row">
+            <label for="langSelect" id="langLabel"></label>
+            <select id="langSelect" aria-labelledby="langLabel"></select>
+          </div>
+          <p class="glass-sub" id="glassSub"></p>
+          <div class="status">
+            <span class="dot wait" id="statusDot"></span>
+            <span id="statusText"></span>
+          </div>
+          <div id="qrcode"></div>
+        </div>
+        <div class="scan-right">
+          <section class="info-block">
+            <h2 class="info-head"><span class="info-icon tech" aria-hidden="true">⚙️</span><span id="infoTechTitle"></span></h2>
+            <ul class="info-list">
+              <li id="infoTech1"></li>
+              <li id="infoTech2"></li>
+              <li id="infoTech3"></li>
+            </ul>
+          </section>
+          <section class="info-block">
+            <h2 class="info-head"><span class="info-icon sec" aria-hidden="true">🔒</span><span id="infoSecTitle"></span></h2>
+            <ul class="info-list">
+              <li id="infoSec1"></li>
+              <li id="infoSec2"></li>
+              <li id="infoSec3"></li>
+            </ul>
+          </section>
+          <section class="info-block">
+            <h2 class="info-head"><span class="info-icon svc" aria-hidden="true">🌐</span><span id="infoSvcTitle"></span></h2>
+            <ul class="info-list info-svc-list">
+              <li><strong id="infoSvcMqttLabel"></strong><code class="svc-url" id="infoSvcMqttUrl"></code></li>
+              <li><strong id="infoSvcCdnQrLabel"></strong><code class="svc-url" id="infoSvcCdnQrUrl"></code></li>
+              <li><strong id="infoSvcCdnMqttLabel"></strong><code class="svc-url" id="infoSvcCdnMqttUrl"></code></li>
+            </ul>
+          </section>
+          <section class="info-block">
+            <h2 class="info-head"><span class="info-icon src" aria-hidden="true">📂</span><span id="infoSrcTitle"></span></h2>
+            <p class="info-src-desc" id="infoSrcDesc"></p>
+            <a class="info-link" id="infoSrcLink" href="https://github.com/koocyton/sms-forwarder-web" target="_blank" rel="noopener noreferrer"></a>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="crypto.js"></script>
+  <script>
+    (function () {
+      const I = window.LookonpcI18n;
+      const C = window.LookonpcCrypto;
+      const OPEN_SOURCE_URL = 'https://github.com/koocyton/sms-forwarder-web';
+      /** 与 lib/config/lookonpc_config.dart 保持一致 */
+      const PUBLIC_SERVICES = {
+        defaultMqttBroker: 'wss://broker.emqx.io:8084/mqtt',
+        cdnQrcode: 'https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js',
+        cdnMqtt: 'https://cdn.jsdelivr.net/npm/mqtt@5.10.1/dist/mqtt.min.js',
+      };
+      const params = new URLSearchParams(location.search);
+      const broker = params.get('broker') || PUBLIC_SERVICES.defaultMqttBroker;
+      const topicPrefix = PUBLIC_SERVICES.mqttTopicPrefix;
+      let currentLocale = I.resolveBrowserLocale();
+      const noteColors = [
+        '#fff9c4', '#ffecb3', '#ffe0b2', '#ffcdd2', '#f8bbd9',
+        '#e1bee7', '#c5cae9', '#bbdefb', '#b2ebf2', '#c8e6c9', '#dcedc8', '#fff8e1',
+      ];
+
+      const statusDot = document.getElementById('statusDot');
+      const statusText = document.getElementById('statusText');
+      const notesBg = document.getElementById('notesBg');
+      const notesBoard = document.getElementById('notesBoard');
+      const scanOverlay = document.getElementById('scanOverlay');
+      const langSelect = document.getElementById('langSelect');
+      const glassSub = document.getElementById('glassSub');
+      const langLabel = document.getElementById('langLabel');
+      const infoTechTitle = document.getElementById('infoTechTitle');
+      const infoTech1 = document.getElementById('infoTech1');
+      const infoTech2 = document.getElementById('infoTech2');
+      const infoTech3 = document.getElementById('infoTech3');
+      const infoSecTitle = document.getElementById('infoSecTitle');
+      const infoSec1 = document.getElementById('infoSec1');
+      const infoSec2 = document.getElementById('infoSec2');
+      const infoSec3 = document.getElementById('infoSec3');
+      const infoSvcTitle = document.getElementById('infoSvcTitle');
+      const infoSvcMqttLabel = document.getElementById('infoSvcMqttLabel');
+      const infoSvcMqttUrl = document.getElementById('infoSvcMqttUrl');
+      const infoSvcCdnQrLabel = document.getElementById('infoSvcCdnQrLabel');
+      const infoSvcCdnQrUrl = document.getElementById('infoSvcCdnQrUrl');
+      const infoSvcCdnMqttLabel = document.getElementById('infoSvcCdnMqttLabel');
+      const infoSvcCdnMqttUrl = document.getElementById('infoSvcCdnMqttUrl');
+      const infoSrcTitle = document.getElementById('infoSrcTitle');
+      const infoSrcDesc = document.getElementById('infoSrcDesc');
+      const infoSrcLink = document.getElementById('infoSrcLink');
+
+      let sessionId = null;
+      let sessionKeyBytes = null;
+      let mqttClient = null;
+      let connectTimer = null;
+      let readyTimer = null;
+      let records = [];
+      let itemBuffer = {};
+      let expectedTotal = null;
+      let syncDone = false;
+
+      function uuid() {
+        if (crypto.randomUUID) return crypto.randomUUID();
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+          const r = (Math.random() * 16) | 0;
+          const v = c === 'x' ? r : (r & 0x3) | 0x8;
+          return v.toString(16);
+        });
+      }
+
+      function noteRotation(i) {
+        const seeds = [-2.5, 1.8, -1.2, 2.2, -3, 0.8, 2.8, -1.6, 1.4, -2];
+        return (seeds[i % seeds.length] + (i % 3) * 0.3) + 'deg';
+      }
+
+      function buildGhostNotes() {
+        const count = 14;
+        let html = '';
+        for (let i = 0; i < count; i++) {
+          const color = noteColors[i % noteColors.length];
+          const rot = noteRotation(i);
+          html +=
+            '<div class="ghost-note" style="background:' + color + ';--rot:' + rot + '">' +
+            '<div class="ghost-line w80"></div><div class="ghost-line w90"></div>' +
+            '<div class="ghost-line w60"></div><div class="ghost-line w80"></div>' +
+            '<div class="ghost-line w70"></div></div>';
+        }
+        notesBg.innerHTML = html;
+      }
+
+      function t(key, extra) {
+        const p = Object.assign({ count: I.SYNC_LIMIT }, extra || {});
+        return I.t(key, currentLocale, p);
+      }
+
+      function applyStaticI18n() {
+        document.documentElement.lang = currentLocale.replace('_', '-');
+        document.title = 'SMS Forwarder · ' + t('title');
+        langLabel.textContent = t('lang_label');
+        glassSub.textContent = t('sub');
+        infoTechTitle.textContent = t('info_tech_title');
+        infoTech1.textContent = t('info_tech_1');
+        infoTech2.textContent = t('info_tech_2');
+        infoTech3.textContent = t('info_tech_3');
+        infoSecTitle.textContent = t('info_sec_title');
+        infoSec1.textContent = t('info_sec_1');
+        infoSec2.textContent = t('info_sec_2');
+        infoSec3.textContent = t('info_sec_3');
+        infoSvcTitle.textContent = t('info_svc_title');
+        infoSvcMqttLabel.textContent = t('info_svc_mqtt');
+        infoSvcMqttUrl.textContent = broker;
+        infoSvcCdnQrLabel.textContent = t('info_svc_cdn_qr');
+        infoSvcCdnQrUrl.textContent = PUBLIC_SERVICES.cdnQrcode;
+        infoSvcCdnMqttLabel.textContent = t('info_svc_cdn_mqtt');
+        infoSvcCdnMqttUrl.textContent = PUBLIC_SERVICES.cdnMqtt;
+        infoSrcTitle.textContent = t('info_src_title');
+        infoSrcDesc.textContent = t('info_src_desc');
+        infoSrcLink.textContent = OPEN_SOURCE_URL;
+        infoSrcLink.href = OPEN_SOURCE_URL;
+      }
+
+      function initLangSelect() {
+        langSelect.innerHTML = '';
+        I.langOptions.forEach(function (opt) {
+          const o = document.createElement('option');
+          o.value = opt.id;
+          o.textContent = opt.label;
+          langSelect.appendChild(o);
+        });
+        langSelect.value = currentLocale;
+        langSelect.addEventListener('change', function () {
+          currentLocale = langSelect.value;
+          localStorage.setItem('lookonpc_lang', currentLocale);
+          applyStaticI18n();
+          const mode = statusDot.className.replace('dot ', '').trim();
+          if (mode === 'wait' && statusText.dataset.statusKey) {
+            setStatus('wait', t(statusText.dataset.statusKey));
+          }
+        });
+      }
+
+      function setStatus(mode, text, statusKey) {
+        statusDot.className = 'dot ' + (mode || '');
+        statusText.textContent = text;
+        if (statusKey) statusText.dataset.statusKey = statusKey;
+        else delete statusText.dataset.statusKey;
+      }
+
+      function hideScanOverlay() {
+        scanOverlay.classList.add('hidden');
+        notesBg.style.opacity = '0.35';
+        notesBg.style.filter = 'blur(14px)';
+      }
+
+      function buildQrPayload() {
+        var keyB64 = C.bytesToBase64Url(sessionKeyBytes);
+        return (
+          'sms-forwarder-qr://connect?session=' + encodeURIComponent(sessionId) +
+          '&key=' + encodeURIComponent(keyB64)
+        );
+      }
+
+      function renderQr() {
+        const el = document.getElementById('qrcode');
+        el.innerHTML = '';
+        if (typeof QRCode === 'undefined') {
+          el.textContent = t('status_qr_fail');
+          setStatus('err', t('status_qr_fail'), 'status_qr_fail');
+          return;
+        }
+        QRCode.toCanvas(buildQrPayload(), { width: 200, margin: 1, errorCorrectionLevel: 'M' }, function (err, canvas) {
+          if (err) {
+            el.textContent = t('status_qr_fail');
+            return;
+          }
+          el.appendChild(canvas);
+        });
+      }
+
+      function escapeHtml(s) {
+        return String(s)
+          .replace(/&/g, '&amp;')
+          .replace(/</g, '&lt;')
+          .replace(/>/g, '&gt;')
+          .replace(/"/g, '&quot;');
+      }
+
+      function renderSmsList() {
+        hideScanOverlay();
+        notesBoard.classList.remove('empty');
+
+        if (!records.length) {
+          notesBoard.innerHTML =
+            '<div class="sticky-note" style="background:#fff9c4;--rot:-1deg">' +
+            '<div class="note-body" style="color:var(--muted);text-align:center;padding:24px 0">' + escapeHtml(t('empty_note')) + '</div></div>';
+          return;
+        }
+
+        notesBoard.innerHTML = records.map(function (r, i) {
+          const color = noteColors[i % noteColors.length];
+          const rot = noteRotation(i);
+          const body = escapeHtml(r.body || '');
+          const sender = escapeHtml(r.sender || '');
+          const ts = escapeHtml(r.timestamp || '');
+          return (
+            '<article class="sticky-note" style="background:' + color + ';--rot:' + rot + '">' +
+            (sender ? '<div class="note-from">' + sender + '</div>' : '') +
+            '<div class="note-body">' + body + '</div>' +
+            (ts ? '<div class="note-time">' + ts + '</div>' : '') +
+            '</article>'
+          );
+        }).join('');
+      }
+
+      function stopReadyTimer() {
+        if (readyTimer) {
+          clearInterval(readyTimer);
+          readyTimer = null;
+        }
+      }
+
+      function onSyncComplete() {
+        stopReadyTimer();
+        renderSmsList();
+      }
+
+      function payloadToBytes(payload) {
+        if (payload == null) return new Uint8Array(0);
+        if (payload instanceof Uint8Array) return payload;
+        if (ArrayBuffer.isView(payload)) {
+          return new Uint8Array(payload.buffer, payload.byteOffset, payload.byteLength);
+        }
+        if (payload instanceof ArrayBuffer) return new Uint8Array(payload);
+        if (typeof payload === 'string') return new TextEncoder().encode(payload);
+        if (payload.data != null) return payloadToBytes(payload.data);
+        return new TextEncoder().encode(String(payload));
+      }
+
+      function payloadToText(payload) {
+        return new TextDecoder('utf-8', { fatal: false }).decode(payloadToBytes(payload));
+      }
+
+      function tryFinishFromBuffer() {
+        if (!syncDone || expectedTotal == null) return;
+        const list = [];
+        for (let i = 0; i < expectedTotal; i++) {
+          if (!itemBuffer[i]) return;
+          list.push(itemBuffer[i]);
+        }
+        records = list;
+        itemBuffer = {};
+        onSyncComplete();
+      }
+
+      function publishWebReady() {
+        if (!mqttClient || !mqttClient.connected) return;
+        const topicToApp = topicPrefix + '/' + sessionId + '/to-app';
+        mqttClient.publish(
+          topicToApp,
+          JSON.stringify({ type: 'ready', session: sessionId }),
+          { qos: 1, retain: true }
+        );
+      }
+
+      function handleInnerMessage(msg) {
+        if (msg.session && msg.session !== sessionId) return;
+
+        if (msg.type === 'sms_item' && typeof msg.index === 'number') {
+          if (typeof msg.total === 'number') expectedTotal = msg.total;
+          itemBuffer[msg.index] = {
+            sender: String(msg.sender || ''),
+            body: String(msg.body || ''),
+            timestamp: String(msg.timestamp || ''),
+          };
+          tryFinishFromBuffer();
+          return;
+        }
+
+        if (msg.type === 'sms_sync_done') {
+          expectedTotal = typeof msg.total === 'number' ? msg.total : expectedTotal;
+          syncDone = true;
+          tryFinishFromBuffer();
+        }
+      }
+
+      function handleMqttPayload(payload) {
+        const text = payloadToText(payload).trim();
+        if (!text) return;
+        let msg;
+        try {
+          msg = JSON.parse(text);
+        } catch (_) {
+          return;
+        }
+
+        if (msg.enc === 1 && msg.d) {
+          if (!sessionKeyBytes) return;
+          C.decryptPayload(sessionKeyBytes, msg.d)
+            .then(function (plain) {
+              var inner;
+              try {
+                inner = JSON.parse(plain);
+              } catch (_) {
+                return;
+              }
+              handleInnerMessage(inner);
+            })
+            .catch(function () {
+              setStatus('err', t('status_decrypt_fail'), 'status_decrypt_fail');
+            });
+          return;
+        }
+
+        handleInnerMessage(msg);
+      }
+
+      function startMqtt() {
+        if (typeof mqtt === 'undefined') {
+          setStatus('err', t('status_mqtt_error'), 'status_mqtt_error');
+          return;
+        }
+        if (location.protocol === 'file:') {
+          setStatus('err', t('status_file_protocol'), 'status_file_protocol');
+          return;
+        }
+
+        sessionId = uuid();
+        sessionKeyBytes = C.generateSessionKeyBytes();
+        itemBuffer = {};
+        records = [];
+        expectedTotal = null;
+        syncDone = false;
+        notesBoard.classList.add('empty');
+        notesBoard.innerHTML = '';
+        scanOverlay.classList.remove('hidden');
+        notesBg.style.opacity = '';
+        notesBg.style.filter = '';
+
+        const topicFromApp = topicPrefix + '/' + sessionId + '/from-app';
+        const clientId = 'sms-fwd-web-' + Date.now();
+
+        if (mqttClient) {
+          try { mqttClient.end(true); } catch (_) {}
+        }
+        stopReadyTimer();
+        setStatus('wait', t('status_connecting'), 'status_connecting');
+
+        connectTimer = setTimeout(function () {
+          if (mqttClient && !mqttClient.connected) {
+            setStatus('err', t('status_mqtt_error'), 'status_mqtt_error');
+          }
+        }, 20000);
+
+        mqttClient = mqtt.connect(broker, {
+          clientId: clientId,
+          clean: true,
+          reconnectPeriod: 0,
+          connectTimeout: 15000,
+          protocolVersion: 4,
+        });
+
+        mqttClient.on('connect', function () {
+          clearTimeout(connectTimer);
+          mqttClient.subscribe(topicFromApp, { qos: 1 }, function (err) {
+            if (err) {
+              setStatus('err', t('status_subscribe_fail'), 'status_subscribe_fail');
+              return;
+            }
+            mqttClient.publish(topicFromApp, new Uint8Array(0), { qos: 1, retain: true });
+            publishWebReady();
+            readyTimer = setInterval(publishWebReady, 2500);
+            setStatus('wait', t('status_waiting'), 'status_waiting');
+            renderQr();
+          });
+        });
+
+        mqttClient.on('message', function (t, payload) {
+          if (t.endsWith('/from-app')) handleMqttPayload(payload);
+        });
+
+        mqttClient.on('error', function () {
+          clearTimeout(connectTimer);
+          stopReadyTimer();
+          setStatus('err', t('status_mqtt_error'), 'status_mqtt_error');
+        });
+      }
+
+      initLangSelect();
+      applyStaticI18n();
+      buildGhostNotes();
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', startMqtt);
+      } else {
+        startMqtt();
+      }
+    })();
+  </script>
+</body>
+</html>
