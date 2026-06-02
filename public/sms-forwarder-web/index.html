@@ -388,6 +388,7 @@
       /** 与 lib/config/lookonpc_config.dart 保持一致 */
       const PUBLIC_SERVICES = {
         defaultMqttBroker: 'wss://broker.emqx.io:8084/mqtt',
+        mqttTopicPrefix: 'sms-forwarder/lookonpc',
         cdnQrcode: 'https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js',
         cdnMqtt: 'https://cdn.jsdelivr.net/npm/mqtt@5.10.1/dist/mqtt.min.js',
       };
@@ -707,6 +708,10 @@
         }
         if (location.protocol === 'file:') {
           setStatus('err', t('status_file_protocol'), 'status_file_protocol');
+          return;
+        }
+        if (!window.crypto || !crypto.subtle || !crypto.getRandomValues) {
+          setStatus('err', t('status_insecure_http'), 'status_insecure_http');
           return;
         }
 
