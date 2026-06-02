@@ -429,6 +429,7 @@
 
       let sessionId = null;
       let sessionKeyBytes = null;
+      let decryptChain = Promise.resolve();
       let mqttClient = null;
       let connectTimer = null;
       let readyTimer = null;
@@ -534,7 +535,8 @@
         var keyB64 = C.bytesToBase64Url(sessionKeyBytes);
         return (
           'sms-forwarder-qr://connect?session=' + encodeURIComponent(sessionId) +
-          '&key=' + encodeURIComponent(keyB64)
+          '&key=' + encodeURIComponent(keyB64) +
+          '&broker=' + encodeURIComponent(broker)
         );
       }
 
@@ -671,21 +673,27 @@
           return;
         }
 
-        if (msg.enc === 1 && msg.d) {
-          if (!sessionKeyBytes) return;
-          C.decryptPayload(sessionKeyBytes, msg.d)
-            .then(function (plain) {
-              var inner;
-              try {
-                inner = JSON.parse(plain);
-              } catch (_) {
-                return;
-              }
-              handleInnerMessage(inner);
-            })
-            .catch(function () {
-              setStatus('err', t('status_decrypt_fail'), 'status_decrypt_fail');
-            });
+        if (msg.enc == 1 && msg.d) {
+          if (!sessionKeyBytes) {
+            console.warn('lookonpc: missing session key');
+            return;
+          }
+          const dataB64 = String(msg.d);
+          decryptChain = decryptChain.then(function () {
+            return C.decryptPayload(sessionKeyBytes, dataB64);
+          }).then(function (plain) {
+            var inner;
+            try {
+              inner = JSON.parse(plain);
+            } catch (e) {
+              console.warn('lookonpc: json parse failed', e);
+              return;
+            }
+            handleInnerMessage(inner);
+          }).catch(function (e) {
+            console.warn('lookonpc: decrypt failed', e);
+            setStatus('err', t('status_decrypt_fail'), 'status_decrypt_fail');
+          });
           return;
         }
 
@@ -704,6 +712,7 @@
 
         sessionId = uuid();
         sessionKeyBytes = C.generateSessionKeyBytes();
+        decryptChain = Promise.resolve();
         itemBuffer = {};
         records = [];
         expectedTotal = null;
@@ -752,8 +761,8 @@
           });
         });
 
-        mqttClient.on('message', function (t, payload) {
-          if (t.endsWith('/from-app')) handleMqttPayload(payload);
+        mqttClient.on('message', function (topic, payload) {
+          if (topic.endsWith('/from-app')) handleMqttPayload(payload);
         });
 
         mqttClient.on('error', function () {
