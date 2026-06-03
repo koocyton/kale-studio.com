@@ -1,4 +1,4 @@
-:HL["/loomnote-web/_next/static/chunks/27b341aed7ddcf8c.css","style"]
+:HL["/loomnote-web/_next/static/chunks/d1e72e0212be208f.css","style"]
 :HL["/loomnote-web/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/loomnote-web/_next/static/chunks/fef56bc598709c05.css","style"]
-0:{"buildId":"bxfaFj1Jm2V8vQHPQG-uj","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"P4eiQ50VLMpluWH0jGvay","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
