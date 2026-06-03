@@ -129,10 +129,10 @@ export default function HomePage() {
                 <h2 className="text-3xl sm:text-4xl font-bold text-foreground">{t.cta.title}</h2>
                 <p className="mt-4 text-lg text-muted">{t.cta.subtitle}</p>
                 <a
-                  href="mailto:henry@5163.xyz"
+                  href="mailto:koocyton@gmail.com"
                   className="mt-8 inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-background bg-primary rounded-xl hover:bg-primary-dark shadow-glow transition-all btn-glow"
                 >
-                  henry@5163.xyz
+                  koocyton@gmail.com
                 </a>
               </div>
             </div>

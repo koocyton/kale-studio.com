@@ -42,8 +42,8 @@ export default function AboutPageContent() {
               <h2 className="text-xl font-semibold text-foreground mb-4">{t.about.contact}</h2>
               <p>
                 {t.about.email}:{" "}
-                <a href="mailto:henry@5163.xyz" className="font-medium">
-                  henry@5163.xyz
+                <a href="mailto:koocyton@gmail.com" className="font-medium">
+                  koocyton@gmail.com
                 </a>
               </p>
               <p className="mt-2">
