@@ -7,20 +7,21 @@ export const metadata: Metadata = {
 
 export default function PrivacyPolicyPage() {
   return (
-    <section className="py-16 sm:py-24">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="text-4xl font-bold text-gray-900 mb-12">
+    <section className="py-16 sm:py-24 relative">
+      <div className="absolute inset-0 bg-grid bg-grid-mask opacity-20 pointer-events-none" />
+      <div className="relative max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h1 className="text-4xl font-bold text-foreground mb-12">
           Privacy Policy
         </h1>
 
-        <div className="prose prose-gray max-w-none space-y-8">
+        <div className="prose-dark max-w-none space-y-8">
           {/* English */}
-          <article className="bg-white rounded-2xl border border-gray-100 p-8 sm:p-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          <article className="glass-card rounded-2xl p-8 sm:p-10">
+            <h2 className="text-2xl font-bold text-foreground mb-6">
               Privacy Policy
             </h2>
 
-            <p className="text-gray-600 leading-relaxed mb-4">
+            <p className="leading-relaxed mb-4">
               This app places great importance on user privacy and strictly
               abides by relevant legal regulations. Please read this{" "}
               <strong>Privacy Policy</strong> carefully before continuing to use
@@ -28,7 +29,7 @@ export default function PrivacyPolicyPage() {
               have fully read and understood all the contents of our agreement.
             </p>
 
-            <p className="text-gray-600 leading-relaxed mb-6">
+            <p className="leading-relaxed mb-6">
               This app respects and protects the personal privacy rights of all
               users who use its services. To provide you with more accurate and
               high-quality services, the app will use and disclose your personal
@@ -40,10 +41,10 @@ export default function PrivacyPolicyPage() {
               deemed to have accepted the full contents of this Privacy Policy.
             </p>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               1. Scope of Application
             </h3>
-            <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
+            <ul className="list-disc pl-6 space-y-2 mb-6">
               <li>
                 The personal registration information you provide when
                 registering an account with this app as required.
@@ -69,10 +70,10 @@ export default function PrivacyPolicyPage() {
               </li>
             </ul>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               2. Use of Information
             </h3>
-            <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
+            <ul className="list-disc pl-6 space-y-2 mb-6">
               <li>
                 This app will not provide, sell, rent, share, or trade your
                 personal login information to any unrelated third party. If
@@ -95,15 +96,15 @@ export default function PrivacyPolicyPage() {
               </li>
             </ul>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               3. Disclosure of Information
             </h3>
-            <p className="text-gray-600 mb-3">
+            <p className="mb-3">
               In the following situations, this app will disclose your personal
               information in whole or in part according to your personal consent
               or legal requirements:
             </p>
-            <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
+            <ul className="list-disc pl-6 space-y-2 mb-6">
               <li>
                 Without your prior consent, we will not disclose your
                 information to third parties.
@@ -128,10 +129,10 @@ export default function PrivacyPolicyPage() {
               </li>
             </ul>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               4. Information Storage and Transfer
             </h3>
-            <p className="text-gray-600 mb-6">
+            <p className="mb-6">
               The information and data collected about you will be stored on
               servers of this app and/or its affiliated companies. This
               information and data may be transmitted to, accessed from, stored
@@ -139,10 +140,10 @@ export default function PrivacyPolicyPage() {
               located or where the data was collected.
             </p>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               5. Use of Cookies
             </h3>
-            <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
+            <ul className="list-disc pl-6 space-y-2 mb-6">
               <li>
                 Unless you refuse to accept cookies, this app will set or access
                 cookies on your computer to allow you to log in or use services
@@ -162,10 +163,10 @@ export default function PrivacyPolicyPage() {
               </li>
             </ul>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               6. Changes to This Privacy Policy
             </h3>
-            <p className="text-gray-600">
+            <p>
               If we decide to change our Privacy Policy, we will post the changes
               in this policy, on our official website, and in other locations we
               deem appropriate so that you are aware of how we collect, use, and
@@ -178,23 +179,23 @@ export default function PrivacyPolicyPage() {
           </article>
 
           {/* Chinese */}
-          <article className="bg-white rounded-2xl border border-gray-100 p-8 sm:p-10">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">
+          <article className="glass-card rounded-2xl p-8 sm:p-10">
+            <h2 className="text-2xl font-bold text-foreground mb-6">
               隐私政策
             </h2>
 
-            <p className="text-gray-600 leading-relaxed mb-4">
+            <p className="leading-relaxed mb-4">
               本应用非常重视用户隐私政策并严格遵守相关的法律规定。请您仔细阅读《隐私政策》后再继续使用。如果您继续使用我们的服务，表示您已经充分阅读和理解我们协议的全部内容。
             </p>
 
-            <p className="text-gray-600 leading-relaxed mb-6">
+            <p className="leading-relaxed mb-6">
               本app尊重并保护所有使用服务用户的个人隐私权。为了给您提供更准确、更优质的服务，本应用会按照本隐私权政策的规定使用和披露您的个人信息。除本隐私权政策另有规定外，在未征得您事先许可的情况下，本应用不会将这些信息对外披露或向第三方提供。本应用会不时更新本隐私权政策。您在同意本应用服务使用协议之时，即视为您已经同意本隐私权政策全部内容。
             </p>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               1. 适用范围
             </h3>
-            <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
+            <ul className="list-disc pl-6 space-y-2 mb-6">
               <li>
                 在您注册本应用app帐号时，您根据app要求提供的个人注册信息。
               </li>
@@ -209,10 +210,10 @@ export default function PrivacyPolicyPage() {
               </li>
             </ul>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               2. 信息使用
             </h3>
-            <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
+            <ul className="list-disc pl-6 space-y-2 mb-6">
               <li>
                 本应用不会向任何无关第三方提供、出售、出租、分享或交易您的个人登录信息。如果我们存储发生维修或升级，我们会事先发出推送消息来通知您，请您提前允许本应用消息通知。
               </li>
@@ -224,13 +225,13 @@ export default function PrivacyPolicyPage() {
               </li>
             </ul>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               3. 信息披露
             </h3>
-            <p className="text-gray-600 mb-3">
+            <p className="mb-3">
               在如下情况下，本应用将依据您的个人意愿或法律的规定全部或部分的披露您的个人信息：
             </p>
-            <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
+            <ul className="list-disc pl-6 space-y-2 mb-6">
               <li>未经您事先同意，我们不会向第三方披露。</li>
               <li>
                 为提供您所要求的产品和服务，而必须和第三方分享您的个人信息。
@@ -246,17 +247,17 @@ export default function PrivacyPolicyPage() {
               </li>
             </ul>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               4. 信息存储和交换
             </h3>
-            <p className="text-gray-600 mb-6">
+            <p className="mb-6">
               本应用收集的有关您的信息和资料将保存在本应用及（或）其关联公司的服务器上，这些信息和资料可能传送至您所在国家、地区或本应用收集信息和资料所在地的境外并在境外被访问、存储和展示。
             </p>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               5. Cookie的使用
             </h3>
-            <ul className="list-disc pl-6 text-gray-600 space-y-2 mb-6">
+            <ul className="list-disc pl-6 space-y-2 mb-6">
               <li>
                 在您未拒绝接受cookies的情况下，本应用会在您的计算机上设定或取用cookies，以便您能登录或使用依赖于cookies的本应用平台服务或功能。本应用使用cookies可为您提供更加周到的个性化服务，包括推广服务。
               </li>
@@ -268,10 +269,10 @@ export default function PrivacyPolicyPage() {
               </li>
             </ul>
 
-            <h3 className="text-lg font-semibold text-gray-900 mt-8 mb-3">
+            <h3 className="text-lg font-semibold text-foreground mt-8 mb-3">
               6. 本隐私政策的更改
             </h3>
-            <p className="text-gray-600">
+            <p>
               如果决定更改隐私政策，我们会在本政策中、本公司网站中以及我们认为适当的位置发布这些更改，以便您了解我们如何收集、使用您的个人信息，哪些人可以访问这些信息，以及在什么情况下我们会透露这些信息。请您妥善保护自己的个人信息，仅在必要的情形下向他人提供。如您发现自己的个人信息泄密，尤其是本应用用户名及密码发生泄露，请您立即联络本应用客服，以便本应用采取相应措施。
             </p>
           </article>

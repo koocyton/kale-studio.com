@@ -1,151 +1,34 @@
 import Link from "next/link";
+import { products } from "@/data/products";
+import ProductCard from "@/components/ProductCard";
+import SectionHeading from "@/components/SectionHeading";
 
-const products = [
-  {
-    name: "KenNote",
-    description:
-      "A powerful and elegant note-taking app designed for creative minds. Capture ideas, organize thoughts, and boost productivity.",
-    href: "/ken-note/",
-    icon: (
-      <svg
-        className="w-8 h-8"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"
-        />
-      </svg>
-    ),
-    color: "from-indigo-500 to-purple-600",
-  },
-  {
-    name: "Color Toon",
-    description:
-      "Transform your photos into stunning cartoon-style artwork with AI-powered filters and creative tools.",
-    href: "#",
-    icon: (
-      <svg
-        className="w-8 h-8"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M4.098 19.902a3.75 3.75 0 005.304 0l6.401-6.402M6.75 21A3.75 3.75 0 013 17.25V4.125C3 3.504 3.504 3 4.125 3h5.25c.621 0 1.125.504 1.125 1.125v4.072M6.75 21a3.75 3.75 0 003.75-3.75V8.197M6.75 21h13.125c.621 0 1.125-.504 1.125-1.125v-5.25c0-.621-.504-1.125-1.125-1.125h-4.072M10.5 8.197l2.88-2.88c.438-.439 1.15-.439 1.59 0l3.712 3.713c.44.44.44 1.152 0 1.59l-2.879 2.88M6.75 17.25h.008v.008H6.75v-.008z"
-        />
-      </svg>
-    ),
-    color: "from-pink-500 to-rose-600",
-  },
-  {
-    name: "DramaBit",
-    description:
-      "Discover and enjoy short drama content from around the world. Curated stories that fit your schedule.",
-    href: "#",
-    icon: (
-      <svg
-        className="w-8 h-8"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M3.375 19.5h17.25m-17.25 0a1.125 1.125 0 01-1.125-1.125M3.375 19.5h1.5C5.496 19.5 6 18.996 6 18.375m-3.75 0V5.625m0 12.75v-1.5c0-.621.504-1.125 1.125-1.125m18.375 2.625V5.625m0 12.75c0 .621-.504 1.125-1.125 1.125m1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125m0 3.75h-1.5A1.125 1.125 0 0118 18.375M20.625 4.5H3.375m17.25 0c.621 0 1.125.504 1.125 1.125M20.625 4.5h-1.5C18.504 4.5 18 5.004 18 5.625m3.75 0v1.5c0 .621-.504 1.125-1.125 1.125M3.375 4.5c-.621 0-1.125.504-1.125 1.125M3.375 4.5h1.5C5.496 4.5 6 5.004 6 5.625m-3.75 0v1.5c0 .621.504 1.125 1.125 1.125m0 0h1.5m-1.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m1.5-3.75C5.496 8.25 6 7.746 6 7.125v-1.5M4.875 8.25C5.496 8.25 6 8.754 6 9.375v1.5m0-5.25v5.25m0-5.25C6 5.004 6.504 4.5 7.125 4.5h9.75c.621 0 1.125.504 1.125 1.125m1.125 2.625h1.5m-1.5 0A1.125 1.125 0 0118 7.125v-1.5m1.125 2.625c-.621 0-1.125.504-1.125 1.125v1.5m2.625-2.625c.621 0 1.125.504 1.125 1.125v1.5c0 .621-.504 1.125-1.125 1.125M18 5.625v5.25M7.125 12h9.75m-9.75 0A1.125 1.125 0 016 10.875M7.125 12C6.504 12 6 12.504 6 13.125m0-2.25C6 11.496 5.496 12 4.875 12M18 10.875c0 .621-.504 1.125-1.125 1.125M18 10.875c0 .621.504 1.125 1.125 1.125m-2.25 0c.621 0 1.125.504 1.125 1.125m-12 5.25v-5.25m0 5.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125m-12 0v-1.5c0-.621-.504-1.125-1.125-1.125M18 18.375v-5.25m0 5.25v-1.5c0-.621.504-1.125 1.125-1.125M18 13.125v1.5c0 .621.504 1.125 1.125 1.125M18 13.125c0-.621.504-1.125 1.125-1.125M6 13.125v1.5c0 .621-.504 1.125-1.125 1.125M6 13.125C6 12.504 5.496 12 4.875 12m-1.5 0h1.5m-1.5 0c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m1.5-3.75c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125m0 0h1.5"
-        />
-      </svg>
-    ),
-    color: "from-cyan-500 to-blue-600",
-  },
+const stats = [
+  { value: "5", label: "Apps" },
+  { value: "AI", label: "Powered" },
+  { value: "100%", label: "Passion" },
 ];
 
 const features = [
   {
     title: "Cross-Platform",
-    description: "Our apps run seamlessly on iOS, Android, and Web.",
-    icon: (
-      <svg
-        className="w-6 h-6"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
-        />
-      </svg>
-    ),
+    description: "Android apps with web companions where it matters — notes, SMS tools, and more.",
+    icon: "M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3",
   },
   {
     title: "Privacy First",
-    description: "We respect your data. Your privacy is our top priority.",
-    icon: (
-      <svg
-        className="w-6 h-6"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z"
-        />
-      </svg>
-    ),
+    description: "Your data stays yours. We design with privacy as a core principle, not an afterthought.",
+    icon: "M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z",
   },
   {
-    title: "Built with Love",
-    description:
-      "Every detail is crafted with care for the best user experience.",
-    icon: (
-      <svg
-        className="w-6 h-6"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z"
-        />
-      </svg>
-    ),
+    title: "Crafted with Care",
+    description: "Every pixel, interaction, and feature is thoughtfully designed for daily use.",
+    icon: "M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z",
   },
   {
-    title: "Always Improving",
-    description: "Regular updates with new features and improvements.",
-    icon: (
-      <svg
-        className="w-6 h-6"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={1.5}
-          d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182"
-        />
-      </svg>
-    ),
+    title: "Always Evolving",
+    description: "Continuous updates with new features, refinements, and platform improvements.",
+    icon: "M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182",
   },
 ];
 
@@ -153,116 +36,96 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-white via-indigo-50/50 to-cyan-50/50">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 sm:py-32">
+      <section className="relative overflow-hidden">
+        <div className="absolute inset-0 bg-grid bg-grid-mask opacity-60" />
+        <div className="hero-glow w-[500px] h-[500px] bg-primary/20 -top-48 left-1/2 -translate-x-1/2 animate-pulse-ring" />
+        <div className="hero-glow w-[300px] h-[300px] bg-accent/15 top-20 -right-20" />
+        <div className="hero-glow w-[250px] h-[250px] bg-violet-500/10 bottom-0 -left-20" />
+
+        <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-20 sm:pt-32 sm:pb-28">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-gray-900 leading-tight">
-              Build Apps with{" "}
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Passion
-              </span>
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-border bg-surface-alt/80 text-xs font-mono text-primary mb-8">
+              <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
+              Independent App Studio
+            </div>
+
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1]">
+              Build the future,{" "}
+              <span className="text-gradient">one app at a time</span>
             </h1>
-            <p className="mt-6 text-lg sm:text-xl text-gray-600 leading-relaxed">
-              We are a small studio crafting beautiful, useful mobile and web
-              applications. Simple tools that make your life better.
+
+            <p className="mt-6 text-lg sm:text-xl text-muted leading-relaxed max-w-2xl mx-auto">
+              Kale Studio 打造优雅、实用的移动应用 — 从笔记与工具，到 AI 创作与短剧娱乐，
+              用科技让生活更简单。
             </p>
+
             <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/ken-note/"
-                className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-white bg-primary rounded-xl hover:bg-primary-dark shadow-lg shadow-primary/25 hover:shadow-xl hover:shadow-primary/30 transition-all"
+                href="#products"
+                className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-background bg-primary rounded-xl hover:bg-primary-dark shadow-glow hover:shadow-glow-lg transition-all"
               >
-                Explore Our Products
+                Explore Products
               </Link>
               <Link
                 href="/about/"
-                className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-gray-700 bg-white rounded-xl border border-gray-200 hover:border-gray-300 hover:bg-gray-50 transition-all"
+                className="inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-foreground rounded-xl border border-border hover:border-primary/40 hover:bg-surface-alt transition-all"
               >
-                Learn More
+                About Us
               </Link>
+            </div>
+
+            <div className="mt-16 flex items-center justify-center gap-10 sm:gap-16">
+              {stats.map((stat) => (
+                <div key={stat.label} className="text-center">
+                  <div className="text-2xl sm:text-3xl font-bold text-gradient font-mono">
+                    {stat.value}
+                  </div>
+                  <div className="text-xs text-muted uppercase tracking-wider mt-1">
+                    {stat.label}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
-        <div className="absolute -top-24 -right-24 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
-        <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-accent/5 rounded-full blur-3xl" />
       </section>
 
       {/* Products */}
-      <section className="py-20 sm:py-28 bg-white">
+      <section id="products" className="py-20 sm:py-28 relative">
+        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Our Products
-            </h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Tools designed to simplify and enrich your digital life.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <SectionHeading
+            eyebrow="Our Work"
+            title="Products"
+            description="从生产力工具到 AI 与娱乐，每一款产品都经过精心打磨。"
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {products.map((product) => (
-              <Link
-                key={product.name}
-                href={product.href}
-                className="group relative bg-white rounded-2xl border border-gray-100 p-8 hover:border-gray-200 hover:shadow-xl hover:shadow-gray-100/50 transition-all duration-300"
-              >
-                <div
-                  className={`w-14 h-14 rounded-xl bg-gradient-to-br ${product.color} flex items-center justify-center text-white mb-6 group-hover:scale-110 transition-transform duration-300`}
-                >
-                  {product.icon}
-                </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
-                  {product.name}
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {product.description}
-                </p>
-                <div className="mt-6 inline-flex items-center text-sm font-medium text-primary group-hover:gap-2 gap-1 transition-all">
-                  Learn more
-                  <svg
-                    className="w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M9 5l7 7-7 7"
-                    />
-                  </svg>
-                </div>
-              </Link>
+              <ProductCard key={product.id} product={product} />
             ))}
           </div>
         </div>
       </section>
 
       {/* Features */}
-      <section className="py-20 sm:py-28 bg-surface">
+      <section className="py-20 sm:py-28 bg-surface relative">
+        <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-              Why Kale Studio
-            </h2>
-            <p className="mt-4 text-lg text-gray-600">
-              We care about the things that matter.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          <SectionHeading
+            eyebrow="Philosophy"
+            title="Why Kale Studio"
+            description="我们关注真正重要的事情 — 体验、隐私与持续进化。"
+          />
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {features.map((feature) => (
-              <div
-                key={feature.title}
-                className="bg-white rounded-2xl p-6 border border-gray-100"
-              >
-                <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-4">
-                  {feature.icon}
+              <div key={feature.title} className="glass-card rounded-2xl p-6">
+                <div className="w-11 h-11 rounded-xl bg-primary/10 border border-primary/20 flex items-center justify-center text-primary mb-4">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d={feature.icon} />
+                  </svg>
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  {feature.title}
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  {feature.description}
-                </p>
+                <h3 className="text-base font-semibold text-foreground mb-2">{feature.title}</h3>
+                <p className="text-sm text-muted leading-relaxed">{feature.description}</p>
               </div>
             ))}
           </div>
@@ -270,21 +133,25 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="py-20 sm:py-28 bg-white">
+      <section className="py-20 sm:py-28 relative">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">
-            Get in Touch
-          </h2>
-          <p className="mt-4 text-lg text-gray-600">
-            Have a question or want to collaborate? We&apos;d love to hear from
-            you.
-          </p>
-          <a
-            href="mailto:henry@5163.xyz"
-            className="mt-8 inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-white bg-primary rounded-xl hover:bg-primary-dark shadow-lg shadow-primary/25 transition-all"
-          >
-            Contact Us
-          </a>
+          <div className="glass-card rounded-3xl p-10 sm:p-14 relative overflow-hidden">
+            <div className="hero-glow w-64 h-64 bg-primary/10 top-0 left-1/2 -translate-x-1/2 -translate-y-1/2" />
+            <div className="relative">
+              <h2 className="text-3xl sm:text-4xl font-bold text-foreground">
+                Get in Touch
+              </h2>
+              <p className="mt-4 text-lg text-muted">
+                有问题或合作意向？欢迎随时联系我们。
+              </p>
+              <a
+                href="mailto:henry@5163.xyz"
+                className="mt-8 inline-flex items-center justify-center px-8 py-3.5 text-sm font-semibold text-background bg-primary rounded-xl hover:bg-primary-dark shadow-glow transition-all"
+              >
+                henry@5163.xyz
+              </a>
+            </div>
+          </div>
         </div>
       </section>
     </>
