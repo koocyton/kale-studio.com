@@ -11,7 +11,7 @@ export default function Header() {
 
   const navLinks = [
     { href: "/#products", label: t.nav.products },
-    { href: "/sms-forwarder-web/", label: t.nav.smsForwarderWeb, external: true },
+    // { href: "/sms-forwarder-web/", label: t.nav.smsForwarderWeb, external: true },
     { href: "/loomnote-web/", label: t.nav.loomNoteWeb, external: true },
     { href: "/about/", label: t.nav.about },
   ] as const;
