@@ -138,7 +138,7 @@ export const translations: Record<Locale, Translations> = {
     nav: { products: "Products", smsForwarderWeb: "SMS Forwarder Web", loomNoteWeb: "LoomNote Web", about: "About", privacy: "Privacy Policy" },
     hero: { badge: "Independent App Studio", title: "Build the future,", titleHighlight: "one app at a time", subtitle: "Kale Studio crafts elegant, practical mobile apps — from notes and tools to AI creation and short dramas, making life simpler through technology.", explore: "Explore Products", aboutUs: "About Us" },
     stats: { apps: "Apps", powered: "Powered", passion: "Passion" },
-    products: { eyebrow: "Our Work", title: "Products", description: "From productivity tools to AI and entertainment — every product is carefully crafted.", learnMore: "Learn more", googlePlay: "Get on Google Play", webAvailable: "Web available" },
+    products: { eyebrow: "Our Work", title: "Products", description: "From productivity tools to AI and entertainment — every product is carefully crafted.", learnMore: "Learn more", googlePlay: "Get on Google Play", githubRelease: "Download from GitHub", webAvailable: "Web available" },
     categories: { Productivity: "Productivity", Tools: "Tools", AI: "AI", Games: "Games", Entertainment: "Entertainment" },
     productItems: {
       loomnote: { tagline: "Weave ideas into clarity", description: "An elegant note-taking app for creative minds. Capture thoughts, organize with ease, and sync across devices — with a dedicated Web companion." },
@@ -162,7 +162,7 @@ export const translations: Record<Locale, Translations> = {
     nav: { products: "製品", smsForwarderWeb: "SMS Forwarder Web", loomNoteWeb: "LoomNote Web", about: "概要", privacy: "プライバシーポリシー" },
     hero: { badge: "独立アプリスタジオ", title: "未来を築く、", titleHighlight: "一つのアプリから", subtitle: "Kale Studioは、ノートやツールからAI創作、ショートドラマまで — テクノロジーで生活をもっとシンプルにする、エレガントで実用的なアプリを開発しています。", explore: "製品を見る", aboutUs: "私たちについて" },
     stats: { apps: "アプリ", powered: "AI搭載", passion: "情熱" },
-    products: { eyebrow: "作品", title: "製品", description: "生産性ツールからAI、エンタメまで — すべて丁寧に作り上げています。", learnMore: "詳しく見る", googlePlay: "Google Playで入手", webAvailable: "Web版あり" },
+    products: { eyebrow: "作品", title: "製品", description: "生産性ツールからAI、エンタメまで — すべて丁寧に作り上げています。", learnMore: "詳しく見る", googlePlay: "Google Playで入手", githubRelease: "GitHub からダウンロード", webAvailable: "Web版あり" },
     categories: { Productivity: "生産性", Tools: "ツール", AI: "AI", Games: "ゲーム", Entertainment: "エンタメ" },
     productItems: {
       loomnote: { tagline: "アイデアを明晰に紡ぐ", description: "クリエイター向けのエレガントなノートアプリ。思考を記録し、整理し、デバイス間で同期 — 専用Web版付き。" },
@@ -186,7 +186,7 @@ export const translations: Record<Locale, Translations> = {
     nav: { products: "제품", smsForwarderWeb: "SMS Forwarder Web", loomNoteWeb: "LoomNote Web", about: "소개", privacy: "개인정보 처리방침" },
     hero: { badge: "독립 앱 스튜디오", title: "미래를 만들다,", titleHighlight: "한 번에 하나의 앱", subtitle: "Kale Studio는 노트와 도구부터 AI 창작, 숏 드라마까지 — 기술로 삶을 더 간단하게 만드는 우아하고 실용적인 앱을 만듭니다.", explore: "제품 둘러보기", aboutUs: "소개" },
     stats: { apps: "앱", powered: "AI", passion: "열정" },
-    products: { eyebrow: "작업물", title: "제품", description: "생산성 도구부터 AI, 엔터테인먼트까지 — 모든 제품을 정성껏 만듭니다.", learnMore: "자세히 보기", googlePlay: "Google Play에서 받기", webAvailable: "웹 버전 제공" },
+    products: { eyebrow: "작업물", title: "제품", description: "생산성 도구부터 AI, 엔터테인먼트까지 — 모든 제품을 정성껏 만듭니다.", learnMore: "자세히 보기", googlePlay: "Google Play에서 받기", githubRelease: "GitHub에서 다운로드", webAvailable: "웹 버전 제공" },
     categories: { Productivity: "생산성", Tools: "도구", AI: "AI", Games: "게임", Entertainment: "엔터테인먼트" },
     productItems: {
       loomnote: { tagline: "아이디어를 명확하게", description: "창의적인 사람을 위한 우아한 노트 앱. 생각을 기록하고 정리하며 기기 간 동기화 — 전용 웹 버전 포함." },
@@ -210,7 +210,7 @@ export const translations: Record<Locale, Translations> = {
     nav: { products: "Produits", smsForwarderWeb: "SMS Forwarder Web", loomNoteWeb: "LoomNote Web", about: "À propos", privacy: "Politique de confidentialité" },
     hero: { badge: "Studio d'apps indépendant", title: "Construire l'avenir,", titleHighlight: "une app à la fois", subtitle: "Kale Studio crée des apps mobiles élégantes et pratiques — des notes aux outils, de l'IA aux courts dramas, pour simplifier la vie.", explore: "Découvrir les produits", aboutUs: "À propos" },
     stats: { apps: "Apps", powered: "IA", passion: "Passion" },
-    products: { eyebrow: "Nos créations", title: "Produits", description: "Des outils de productivité à l'IA et au divertissement — chaque produit est soigneusement conçu.", learnMore: "En savoir plus", googlePlay: "Disponible sur Google Play", webAvailable: "Version Web" },
+    products: { eyebrow: "Nos créations", title: "Produits", description: "Des outils de productivité à l'IA et au divertissement — chaque produit est soigneusement conçu.", learnMore: "En savoir plus", googlePlay: "Disponible sur Google Play", githubRelease: "Télécharger sur GitHub", webAvailable: "Version Web" },
     categories: { Productivity: "Productivité", Tools: "Outils", AI: "IA", Games: "Jeux", Entertainment: "Divertissement" },
     productItems: {
       loomnote: { tagline: "Tisser les idées en clarté", description: "Une app de notes élégante pour les esprits créatifs. Capturez, organisez, synchronisez — avec version Web dédiée." },
@@ -234,7 +234,7 @@ export const translations: Record<Locale, Translations> = {
     nav: { products: "Productos", smsForwarderWeb: "SMS Forwarder Web", loomNoteWeb: "LoomNote Web", about: "Acerca de", privacy: "Política de privacidad" },
     hero: { badge: "Estudio de apps independiente", title: "Construir el futuro,", titleHighlight: "una app a la vez", subtitle: "Kale Studio crea apps móviles elegantes y prácticas — desde notas y herramientas hasta IA y dramas cortos, simplificando la vida con tecnología.", explore: "Explorar productos", aboutUs: "Acerca de" },
     stats: { apps: "Apps", powered: "IA", passion: "Pasión" },
-    products: { eyebrow: "Nuestro trabajo", title: "Productos", description: "Desde herramientas de productividad hasta IA y entretenimiento — cada producto está cuidadosamente elaborado.", learnMore: "Saber más", googlePlay: "Disponible en Google Play", webAvailable: "Versión Web" },
+    products: { eyebrow: "Nuestro trabajo", title: "Productos", description: "Desde herramientas de productividad hasta IA y entretenimiento — cada producto está cuidadosamente elaborado.", learnMore: "Saber más", googlePlay: "Disponible en Google Play", githubRelease: "Descargar en GitHub", webAvailable: "Versión Web" },
     categories: { Productivity: "Productividad", Tools: "Herramientas", AI: "IA", Games: "Juegos", Entertainment: "Entretenimiento" },
     productItems: {
       loomnote: { tagline: "Tejer ideas en claridad", description: "Una elegante app de notas para mentes creativas. Captura, organiza y sincroniza — con versión Web dedicada." },
@@ -258,7 +258,7 @@ export const translations: Record<Locale, Translations> = {
     nav: { products: "产品", smsForwarderWeb: "SMS Forwarder Web", loomNoteWeb: "LoomNote Web", about: "关于", privacy: "隐私政策" },
     hero: { badge: "独立应用工作室", title: "构建未来，", titleHighlight: "一次一个应用", subtitle: "Kale Studio 打造优雅、实用的移动应用 — 从笔记与工具，到 AI 创作与短剧娱乐，用科技让生活更简单。", explore: "探索产品", aboutUs: "关于我们" },
     stats: { apps: "应用", powered: "AI 驱动", passion: "热情" },
-    products: { eyebrow: "我们的作品", title: "产品", description: "从生产力工具到 AI 与娱乐，每一款产品都经过精心打磨。", learnMore: "了解更多", googlePlay: "在 Google Play 获取", webAvailable: "Web 版可用" },
+    products: { eyebrow: "我们的作品", title: "产品", description: "从生产力工具到 AI 与娱乐，每一款产品都经过精心打磨。", learnMore: "了解更多", googlePlay: "在 Google Play 获取", githubRelease: "从 GitHub 下载", webAvailable: "Web 版可用" },
     categories: { Productivity: "生产力", Tools: "工具", AI: "人工智能", Games: "益智游戏", Entertainment: "娱乐" },
     productItems: {
       loomnote: { tagline: "将灵感编织成清晰", description: "为创意工作者打造的优雅笔记应用。记录想法、轻松整理、多端同步 — 配套 Web 版。" },
@@ -282,7 +282,7 @@ export const translations: Record<Locale, Translations> = {
     nav: { products: "產品", smsForwarderWeb: "SMS Forwarder Web", loomNoteWeb: "LoomNote Web", about: "關於", privacy: "隱私政策" },
     hero: { badge: "獨立應用工作室", title: "構建未來，", titleHighlight: "一次一個應用", subtitle: "Kale Studio 打造優雅、實用的行動應用 — 從筆記與工具，到 AI 創作與短劇娛樂，用科技讓生活更簡單。", explore: "探索產品", aboutUs: "關於我們" },
     stats: { apps: "應用", powered: "AI 驅動", passion: "熱情" },
-    products: { eyebrow: "我們的作品", title: "產品", description: "從生產力工具到 AI 與娛樂，每一款產品都經過精心打磨。", learnMore: "了解更多", googlePlay: "在 Google Play 取得", webAvailable: "Web 版可用" },
+    products: { eyebrow: "我們的作品", title: "產品", description: "從生產力工具到 AI 與娛樂，每一款產品都經過精心打磨。", learnMore: "了解更多", googlePlay: "在 Google Play 取得", githubRelease: "從 GitHub 下載", webAvailable: "Web 版可用" },
     categories: { Productivity: "生產力", Tools: "工具", AI: "人工智慧", Games: "益智遊戲", Entertainment: "娛樂" },
     productItems: {
       loomnote: { tagline: "將靈感編織成清晰", description: "為創意工作者打造的優雅筆記應用。記錄想法、輕鬆整理、多端同步 — 配套 Web 版。" },
@@ -306,7 +306,7 @@ export const translations: Record<Locale, Translations> = {
     nav: { products: "المنتجات", smsForwarderWeb: "SMS Forwarder Web", loomNoteWeb: "LoomNote Web", about: "حول", privacy: "سياسة الخصوصية" },
     hero: { badge: "استوديو تطبيقات مستقل", title: "نبني المستقبل،", titleHighlight: "تطبيقاً واحداً في كل مرة", subtitle: "Kale Studio يصنع تطبيقات جوال أنيقة وعملية — من الملاحظات والأدوات إلى الذكاء الاصطناعي والدراما القصيرة، لتبسيط الحياة بالتكنولوجيا.", explore: "استكشف المنتجات", aboutUs: "حولنا" },
     stats: { apps: "تطبيقات", powered: "ذكاء اصطناعي", passion: "شغف" },
-    products: { eyebrow: "أعمالنا", title: "المنتجات", description: "من أدوات الإنتاجية إلى الذكاء الاصطناعي والترفيه — كل منتج مصنوع بعناية.", learnMore: "اعرف المزيد", googlePlay: "احصل عليه من Google Play", webAvailable: "نسخة ويب متاحة" },
+    products: { eyebrow: "أعمالنا", title: "المنتجات", description: "من أدوات الإنتاجية إلى الذكاء الاصطناعي والترفيه — كل منتج مصنوع بعناية.", learnMore: "اعرف المزيد", googlePlay: "احصل عليه من Google Play", githubRelease: "تحميل من GitHub", webAvailable: "نسخة ويب متاحة" },
     categories: { Productivity: "إنتاجية", Tools: "أدوات", AI: "ذكاء اصطناعي", Games: "ألعاب", Entertainment: "ترفيه" },
     productItems: {
       loomnote: { tagline: "نسج الأفكار في وضوح", description: "تطبيق ملاحظات أنيق للعقول المبدعة. سجّل أفكارك، نظّمها، وزامنها — مع نسخة ويب مخصصة." },
@@ -330,7 +330,7 @@ export const translations: Record<Locale, Translations> = {
     nav: { products: "उत्पाद", smsForwarderWeb: "SMS Forwarder Web", loomNoteWeb: "LoomNote Web", about: "हमारे बारे में", privacy: "गोपनीयता नीति" },
     hero: { badge: "स्वतंत्र ऐप स्टूडियो", title: "भविष्य बनाएं,", titleHighlight: "एक ऐप एक समय", subtitle: "Kale Studio सुंदर, व्यावहारिक मोबाइल ऐप बनाता है — नोट्स और टूल्स से AI और शॉर्ट ड्रामा तक, तकनीक से जीवन सरल।", explore: "उत्पाद देखें", aboutUs: "हमारे बारे में" },
     stats: { apps: "ऐप्स", powered: "AI", passion: "जुनून" },
-    products: { eyebrow: "हमारा काम", title: "उत्पाद", description: "उत्पादकता टूल्स से AI और मनोरंजन तक — हर उत्पाद सावधानी से बनाया गया।", learnMore: "और जानें", googlePlay: "Google Play पर प्राप्त करें", webAvailable: "वेब संस्करण उपलब्ध" },
+    products: { eyebrow: "हमारा काम", title: "उत्पाद", description: "उत्पादकता टूल्स से AI और मनोरंजन तक — हर उत्पाद सावधानी से बनाया गया।", learnMore: "और जानें", googlePlay: "Google Play पर प्राप्त करें", githubRelease: "GitHub से डाउनलोड करें", webAvailable: "वेब संस्करण उपलब्ध" },
     categories: { Productivity: "उत्पादकता", Tools: "टूल्स", AI: "AI", Games: "गेम्स", Entertainment: "मनोरंजन" },
     productItems: {
       loomnote: { tagline: "विचारों को स्पष्टता में बुनें", description: "रचनात्मक दिमाग के लिए सुंदर नोट ऐप। विचार कैप्चर करें, व्यवस्थित करें, सिंक करें — समर्पित Web संस्करण।" },

@@ -48,6 +48,7 @@ export interface Translations {
     description: string;
     learnMore: string;
     googlePlay: string;
+    githubRelease: string;
     webAvailable: string;
   };
   categories: Record<ProductCategoryKey, string>;

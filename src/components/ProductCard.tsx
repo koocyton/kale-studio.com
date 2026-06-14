@@ -15,6 +15,8 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
   const { t } = useLanguage();
   const primaryHref = product.detailPage ?? product.playStoreUrl;
   const isExternal = !product.detailPage;
+  const externalCtaLabel =
+    product.downloadSource === "github" ? t.products.githubRelease : t.products.googlePlay;
   const item = t.productItems[product.id as ProductId];
   const category = t.categories[product.category];
 
@@ -58,7 +60,7 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
 
       <div className="mt-6 flex flex-wrap items-center gap-3">
         <span className="inline-flex items-center gap-1.5 text-sm font-medium text-primary group-hover:gap-2.5 transition-all">
-          {isExternal ? t.products.googlePlay : t.products.learnMore}
+          {isExternal ? externalCtaLabel : t.products.learnMore}
           <svg className="w-4 h-4 rtl:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
           </svg>

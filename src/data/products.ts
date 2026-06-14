@@ -10,6 +10,7 @@ export type Product = {
   name: string;
   category: ProductCategory;
   playStoreUrl: string;
+  downloadSource?: "googlePlay" | "github";
   detailPage?: string;
   webUrl?: string;
   gradient: string;
@@ -47,7 +48,8 @@ export const products: Product[] = [
     name: "SMS Forwarder Pro",
     category: "Tools",
     playStoreUrl:
-      "https://play.google.com/store/apps/details?id=com.bobog.n.sms_forwarder_pro",
+      "https://github.com/koocyton/sms_forwarder_pro/releases/tag/release",
+    downloadSource: "github",
     webUrl: "/sms-forwarder-web/",
     gradient: "from-cyan-400 to-blue-600",
     glow: "shadow-cyan-500/20",
