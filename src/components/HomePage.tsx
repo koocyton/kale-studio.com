@@ -19,7 +19,7 @@ export default function HomePage() {
   const { t } = useLanguage();
 
   const stats = [
-    { value: "5", label: t.stats.apps },
+    { value: "6", label: t.stats.apps },
     { value: "AI", label: t.stats.powered },
     { value: "100%", label: t.stats.passion },
   ];

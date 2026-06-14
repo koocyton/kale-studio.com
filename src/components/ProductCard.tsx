@@ -24,17 +24,24 @@ export default function ProductCard({ product, index = 0 }: ProductCardProps) {
       <div className="absolute inset-0 rounded-2xl bg-gradient-to-br opacity-0 group-hover:opacity-100 transition-opacity duration-500 from-white/[0.04] to-transparent pointer-events-none" />
 
       <div className="flex items-start justify-between gap-4 mb-5">
-        <div
-          className={`relative w-14 h-14 rounded-2xl overflow-hidden shadow-lg ${product.glow} group-hover:scale-105 group-hover:shadow-glow transition-all duration-300 ring-1 ring-white/10`}
-        >
-          <Image
-            src={product.icon}
-            alt={product.name}
-            width={56}
-            height={56}
-            className="w-full h-full object-cover"
-            unoptimized
-          />
+        <div className="relative shrink-0">
+          <div
+            className={`w-14 h-14 rounded-2xl overflow-hidden shadow-lg ${product.glow} group-hover:scale-105 group-hover:shadow-glow transition-all duration-300 ring-1 ring-white/10`}
+          >
+            <Image
+              src={product.icon}
+              alt={product.name}
+              width={56}
+              height={56}
+              className="w-full h-full object-cover"
+              unoptimized
+            />
+          </div>
+          {product.badge && (
+            <span className="absolute -top-1 -end-1 px-1 py-px text-[8px] font-bold uppercase leading-none text-white bg-gradient-to-br from-amber-400 to-orange-500 rounded shadow-sm ring-1 ring-background/80">
+              {product.badge}
+            </span>
+          )}
         </div>
         <span className="text-[11px] font-medium uppercase tracking-wider text-muted px-2.5 py-1 rounded-full border border-border bg-surface-alt/50">
           {category}

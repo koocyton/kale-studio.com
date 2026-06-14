@@ -15,6 +15,7 @@ export type Product = {
   gradient: string;
   glow: string;
   icon: string;
+  badge?: string;
 };
 
 export const products: Product[] = [
@@ -40,6 +41,18 @@ export const products: Product[] = [
     gradient: "from-cyan-400 to-blue-600",
     glow: "shadow-cyan-500/20",
     icon: "/app-icons/sms-forwarder.png",
+  },
+  {
+    id: "sms-forwarder-pro",
+    name: "SMS Forwarder Pro",
+    category: "Tools",
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.bobog.n.sms_forwarder_pro",
+    webUrl: "/sms-forwarder-web/",
+    gradient: "from-cyan-400 to-blue-600",
+    glow: "shadow-cyan-500/20",
+    icon: "/app-icons/sms-forwarder.png",
+    badge: "Pro",
   },
   {
     id: "loomix-ai",

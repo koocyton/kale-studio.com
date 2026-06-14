@@ -19,6 +19,7 @@ export type ProductCategoryKey =
 export type ProductId =
   | "loomnote"
   | "sms-forwarder"
+  | "sms-forwarder-pro"
   | "loomix-ai"
   | "brain-fit"
   | "dramatube";
