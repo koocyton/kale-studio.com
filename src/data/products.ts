@@ -48,7 +48,7 @@ export const products: Product[] = [
     name: "SMS Forwarder Pro",
     category: "Tools",
     playStoreUrl:
-      "https://github.com/koocyton/sms_forwarder_pro/releases/tag/release",
+      "https://github.com/koocyton/sms_forwarder_pro/releases/download/release/sms_forwarder_1.0.33.apk",
     downloadSource: "github",
     webUrl: "/sms-forwarder-web/",
     gradient: "from-cyan-400 to-blue-600",
