@@ -1,7 +1,7 @@
 import type { Locale } from "@/i18n";
 
 export const SMS_FORWARDER_PRO_APK =
-  "https://github.com/koocyton/sms_forwarder_pro/releases/download/release/sms_forwarder_1.0.33.apk";
+  "https://github.com/koocyton/sms_forwarder_pro/releases/download/release/sms_forwarder_last.apk";
 
 export const SMS_FORWARDER_PRO_WEB = "/sms-forwarder-web/";
 
