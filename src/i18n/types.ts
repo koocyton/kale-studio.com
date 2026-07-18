@@ -22,6 +22,8 @@ export type ProductId =
   | "sms-forwarder-pro"
   | "loomix-ai"
   | "brain-fit"
+  | "arrow-puzzle"
+  | "block-hero"
   | "dramatube";
 
 export interface Translations {

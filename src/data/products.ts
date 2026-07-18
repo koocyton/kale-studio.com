@@ -78,6 +78,26 @@ export const products: Product[] = [
     icon: "/app-icons/brain-fit.png",
   },
   {
+    id: "arrow-puzzle",
+    name: "Arrow Puzzle",
+    category: "Games",
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.bobog.gg.arrow_game",
+    gradient: "from-amber-400 to-orange-600",
+    glow: "shadow-amber-500/20",
+    icon: "/app-icons/arrow-puzzle.webp",
+  },
+  {
+    id: "block-hero",
+    name: "Block Hero",
+    category: "Games",
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.bobog.gg.block_hero",
+    gradient: "from-sky-400 to-indigo-600",
+    glow: "shadow-sky-500/20",
+    icon: "/app-icons/block-hero.webp",
+  },
+  {
     id: "dramatube",
     name: "DramaTube",
     category: "Entertainment",
