@@ -1,3 +1,4 @@
+import Script from "next/script";
 import SmsForwarderProPageContent from "@/components/SmsForwarderProPageContent";
 
 export const metadata = {
@@ -7,5 +8,22 @@ export const metadata = {
 };
 
 export default function SmsForwarderProPage() {
-  return <SmsForwarderProPageContent />;
+  return (
+    <>
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=AW-392594682"
+      />
+      <Script id="google-ads-tag-aw-392594682">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-392594682');
+        `}
+      </Script>
+      <SmsForwarderProPageContent />
+    </>
+  );
 }
