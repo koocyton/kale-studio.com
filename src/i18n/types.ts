@@ -17,6 +17,7 @@ export type ProductCategoryKey =
   | "Entertainment";
 
 export type ProductId =
+  | "peckoku"
   | "loomnote"
   | "sms-forwarder"
   | "sms-forwarder-pro"

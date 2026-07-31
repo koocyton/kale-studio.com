@@ -21,6 +21,16 @@ export type Product = {
 
 export const products: Product[] = [
   {
+    id: "peckoku",
+    name: "Peckoku",
+    category: "Games",
+    playStoreUrl:
+      "https://play.google.com/store/apps/details?id=com.bobog.n.cock_pluzzle",
+    gradient: "from-yellow-400 to-amber-600",
+    glow: "shadow-amber-500/20",
+    icon: "/app-icons/peckoku.webp",
+  },
+  {
     id: "loomnote",
     name: "LoomNote",
     category: "Productivity",

@@ -141,6 +141,7 @@ export const translations: Record<Locale, Translations> = {
     products: { eyebrow: "Our Work", title: "Products", description: "From productivity tools to AI and entertainment — every product is carefully crafted.", learnMore: "Learn more", googlePlay: "Get on Google Play", githubRelease: "Download from GitHub", webAvailable: "Web available" },
     categories: { Productivity: "Productivity", Tools: "Tools", AI: "AI", Games: "Games", Entertainment: "Entertainment" },
     productItems: {
+      peckoku: { tagline: "Place every chick, no overlaps", description: "A pure logic puzzle blending sudoku-style regions with minesweeper-like deduction. Give each fierce chick exclusive turf — 100 levels, daily challenges, and offline play." },
       loomnote: { tagline: "Weave ideas into clarity", description: "An elegant note-taking app for creative minds. Capture thoughts, organize with ease, and sync across devices — with a dedicated Web companion." },
       "sms-forwarder": { tagline: "Messages, anywhere you need them", description: "Forward SMS to email, webhooks, or other devices in real time. Built for automation with encryption and a powerful web dashboard." },
       "sms-forwarder-pro": { tagline: "Scan once, view on the web", description: "Pro lets you scan a QR code to instantly view SMS and verification codes in your browser — copy codes in seconds without picking up your phone." },
@@ -167,6 +168,7 @@ export const translations: Record<Locale, Translations> = {
     products: { eyebrow: "作品", title: "製品", description: "生産性ツールからAI、エンタメまで — すべて丁寧に作り上げています。", learnMore: "詳しく見る", googlePlay: "Google Playで入手", githubRelease: "GitHub からダウンロード", webAvailable: "Web版あり" },
     categories: { Productivity: "生産性", Tools: "ツール", AI: "AI", Games: "ゲーム", Entertainment: "エンタメ" },
     productItems: {
+      peckoku: { tagline: "ひよこを正しく配置", description: "数独の領域とマインスイーパー風の推理を融合した純粋ロジックパズル。怒ったひよこたちに専用テリトリーを — 100レベル、デイリーチャレンジ、オフライン対応。" },
       loomnote: { tagline: "アイデアを明晰に紡ぐ", description: "クリエイター向けのエレガントなノートアプリ。思考を記録し、整理し、デバイス間で同期 — 専用Web版付き。" },
       "sms-forwarder": { tagline: "必要な場所へメッセージを", description: "SMSをメール、Webhook、他デバイスへリアルタイム転送。暗号化と強力なWebダッシュボード。" },
       "sms-forwarder-pro": { tagline: "スキャンして、Webですぐ確認", description: "Pro版はQRコードをスキャンするだけで、ブラウザ上にSMSや認証コードを即表示。スマホを手に取らずコピーできます。" },
@@ -193,6 +195,7 @@ export const translations: Record<Locale, Translations> = {
     products: { eyebrow: "작업물", title: "제품", description: "생산성 도구부터 AI, 엔터테인먼트까지 — 모든 제품을 정성껏 만듭니다.", learnMore: "자세히 보기", googlePlay: "Google Play에서 받기", githubRelease: "GitHub에서 다운로드", webAvailable: "웹 버전 제공" },
     categories: { Productivity: "생산성", Tools: "도구", AI: "AI", Games: "게임", Entertainment: "엔터테인먼트" },
     productItems: {
+      peckoku: { tagline: "병아리를 정확히 배치하세요", description: "스도쿠형 구역과 지뢰찾기식 추론을 섞은 순수 논리 퍼즐. 화난 병아리들에게 전용 영역을 — 100개 레벨, 일일 챌린지, 오프라인 플레이." },
       loomnote: { tagline: "아이디어를 명확하게", description: "창의적인 사람을 위한 우아한 노트 앱. 생각을 기록하고 정리하며 기기 간 동기화 — 전용 웹 버전 포함." },
       "sms-forwarder": { tagline: "필요한 곳으로 메시지", description: "SMS를 이메일, 웹훅, 다른 기기로 실시간 전달. 암호화와 강력한 웹 대시보드." },
       "sms-forwarder-pro": { tagline: "스캔 한 번, 웹에서 바로 확인", description: "Pro 버전은 QR 코드를 스캔하면 브라우저에서 SMS와 인증 코드를 즉시 확인할 수 있습니다. 폰을 들지 않고도 빠르게 복사하세요." },
@@ -219,6 +222,7 @@ export const translations: Record<Locale, Translations> = {
     products: { eyebrow: "Nos créations", title: "Produits", description: "Des outils de productivité à l'IA et au divertissement — chaque produit est soigneusement conçu.", learnMore: "En savoir plus", googlePlay: "Disponible sur Google Play", githubRelease: "Télécharger sur GitHub", webAvailable: "Version Web" },
     categories: { Productivity: "Productivité", Tools: "Outils", AI: "IA", Games: "Jeux", Entertainment: "Divertissement" },
     productItems: {
+      peckoku: { tagline: "Placez chaque poussin sans chevauchement", description: "Puzzle logique pur alliant régions façon sudoku et déduction façon démineur. Offrez un territoire exclusif à chaque poussin — 100 niveaux, défis quotidiens, hors ligne." },
       loomnote: { tagline: "Tisser les idées en clarté", description: "Une app de notes élégante pour les esprits créatifs. Capturez, organisez, synchronisez — avec version Web dédiée." },
       "sms-forwarder": { tagline: "Messages, où vous en avez besoin", description: "Transférez les SMS vers email, webhooks ou autres appareils en temps réel. Chiffrement et tableau de bord web." },
       "sms-forwarder-pro": { tagline: "Scannez, consultez sur le web", description: "La version Pro permet de scanner un QR code pour afficher instantanément SMS et codes de vérification dans le navigateur — copiez en quelques secondes." },
@@ -245,6 +249,7 @@ export const translations: Record<Locale, Translations> = {
     products: { eyebrow: "Nuestro trabajo", title: "Productos", description: "Desde herramientas de productividad hasta IA y entretenimiento — cada producto está cuidadosamente elaborado.", learnMore: "Saber más", googlePlay: "Disponible en Google Play", githubRelease: "Descargar en GitHub", webAvailable: "Versión Web" },
     categories: { Productivity: "Productividad", Tools: "Herramientas", AI: "IA", Games: "Juegos", Entertainment: "Entretenimiento" },
     productItems: {
+      peckoku: { tagline: "Coloca cada pollito sin solaparse", description: "Puzzle de lógica pura que mezcla regiones tipo sudoku con deducción tipo buscaminas. Dale territorio exclusivo a cada pollito — 100 niveles, desafíos diarios y juego sin conexión." },
       loomnote: { tagline: "Tejer ideas en claridad", description: "Una elegante app de notas para mentes creativas. Captura, organiza y sincroniza — con versión Web dedicada." },
       "sms-forwarder": { tagline: "Mensajes, donde los necesites", description: "Reenvía SMS a email, webhooks u otros dispositivos en tiempo real. Cifrado y panel web potente." },
       "sms-forwarder-pro": { tagline: "Escanea y mira en la web", description: "Pro permite escanear un código QR para ver al instante SMS y códigos de verificación en el navegador — copia en segundos sin coger el móvil." },
@@ -271,6 +276,7 @@ export const translations: Record<Locale, Translations> = {
     products: { eyebrow: "我们的作品", title: "产品", description: "从生产力工具到 AI 与娱乐，每一款产品都经过精心打磨。", learnMore: "了解更多", googlePlay: "在 Google Play 获取", githubRelease: "从 GitHub 下载", webAvailable: "Web 版可用" },
     categories: { Productivity: "生产力", Tools: "工具", AI: "人工智能", Games: "益智游戏", Entertainment: "娱乐" },
     productItems: {
+      peckoku: { tagline: "给每只小鸡独占领地", description: "融合数独分区与扫雷式推理的纯逻辑益智。为每只愤怒小鸡找到专属位置 — 100 关、每日挑战，支持离线。" },
       loomnote: { tagline: "将灵感编织成清晰", description: "为创意工作者打造的优雅笔记应用。记录想法、轻松整理、多端同步 — 配套 Web 版。" },
       "sms-forwarder": { tagline: "消息，送达你需要的地方", description: "实时将 SMS 转发至邮箱、Webhook 或其他设备。加密保护与强大的 Web 控制台。" },
       "sms-forwarder-pro": { tagline: "扫码即看，验证码不用等", description: "Pro 版本支持扫描二维码，在电脑浏览器上快速查看手机短信与验证码，无需拿起手机即可复制。" },
@@ -297,6 +303,7 @@ export const translations: Record<Locale, Translations> = {
     products: { eyebrow: "我們的作品", title: "產品", description: "從生產力工具到 AI 與娛樂，每一款產品都經過精心打磨。", learnMore: "了解更多", googlePlay: "在 Google Play 取得", githubRelease: "從 GitHub 下載", webAvailable: "Web 版可用" },
     categories: { Productivity: "生產力", Tools: "工具", AI: "人工智慧", Games: "益智遊戲", Entertainment: "娛樂" },
     productItems: {
+      peckoku: { tagline: "給每隻小雞獨占領地", description: "融合數獨分區與踩地雷式推理的純邏輯益智。為每隻憤怒小雞找到專屬位置 — 100 關、每日挑戰，支援離線。" },
       loomnote: { tagline: "將靈感編織成清晰", description: "為創意工作者打造的優雅筆記應用。記錄想法、輕鬆整理、多端同步 — 配套 Web 版。" },
       "sms-forwarder": { tagline: "訊息，送達你需要的地方", description: "即時將 SMS 轉發至信箱、Webhook 或其他裝置。加密保護與強大的 Web 控制台。" },
       "sms-forwarder-pro": { tagline: "掃碼即看，驗證碼不用等", description: "Pro 版本支援掃描 QR 碼，在電腦瀏覽器上快速查看手機簡訊與驗證碼，無需拿起手機即可複製。" },
@@ -323,6 +330,7 @@ export const translations: Record<Locale, Translations> = {
     products: { eyebrow: "أعمالنا", title: "المنتجات", description: "من أدوات الإنتاجية إلى الذكاء الاصطناعي والترفيه — كل منتج مصنوع بعناية.", learnMore: "اعرف المزيد", googlePlay: "احصل عليه من Google Play", githubRelease: "تحميل من GitHub", webAvailable: "نسخة ويب متاحة" },
     categories: { Productivity: "إنتاجية", Tools: "أدوات", AI: "ذكاء اصطناعي", Games: "ألعاب", Entertainment: "ترفيه" },
     productItems: {
+      peckoku: { tagline: "ضع كل كتكوت دون تداخل", description: "لغز منطقي خالص يمزج مناطق سودوكو مع استنتاج ألغام. امنح كل كتكوت غاضب منطقة حصرية — 100 مستوى وتحديات يومية ولعب دون اتصال." },
       loomnote: { tagline: "نسج الأفكار في وضوح", description: "تطبيق ملاحظات أنيق للعقول المبدعة. سجّل أفكارك، نظّمها، وزامنها — مع نسخة ويب مخصصة." },
       "sms-forwarder": { tagline: "رسائل، حيث تحتاجها", description: "إعادة توجيه SMS إلى البريد أو webhooks أو أجهزة أخرى في الوقت الفعلي. تشفير ولوحة تحكم ويب." },
       "sms-forwarder-pro": { tagline: "امسح واعرض على الويب", description: "نسخة Pro تتيح مسح رمز QR لعرض SMS ورموز التحقق فوراً في المتصفح — انسخ الرموز في ثوانٍ دون لمس هاتفك." },
@@ -349,6 +357,7 @@ export const translations: Record<Locale, Translations> = {
     products: { eyebrow: "हमारा काम", title: "उत्पाद", description: "उत्पादकता टूल्स से AI और मनोरंजन तक — हर उत्पाद सावधानी से बनाया गया।", learnMore: "और जानें", googlePlay: "Google Play पर प्राप्त करें", githubRelease: "GitHub से डाउनलोड करें", webAvailable: "वेब संस्करण उपलब्ध" },
     categories: { Productivity: "उत्पादकता", Tools: "टूल्स", AI: "AI", Games: "गेम्स", Entertainment: "मनोरंजन" },
     productItems: {
+      peckoku: { tagline: "हर चूज़े को अपनी जगह दें", description: "सुडोकू-शैली क्षेत्रों और माइन्सवीपर जैसी डिडक्शन वाला शुद्ध लॉजिक पज़ल। हर गुस्सैल चूज़े को अपना क्षेत्र — 100 लेवल, डेली चैलेंज, ऑफ़लाइन प्ले।" },
       loomnote: { tagline: "विचारों को स्पष्टता में बुनें", description: "रचनात्मक दिमाग के लिए सुंदर नोट ऐप। विचार कैप्चर करें, व्यवस्थित करें, सिंक करें — समर्पित Web संस्करण।" },
       "sms-forwarder": { tagline: "संदेश, जहाँ चाहिए", description: "SMS को ईमेल, webhooks या अन्य डिवाइस पर real-time में फ़ॉरवर्ड करें।" },
       "sms-forwarder-pro": { tagline: "स्कैन करें, वेब पर देखें", description: "Pro संस्करण QR कोड स्कैन करके ब्राउज़र में SMS और सत्यापन कोड तुरंत दिखाता है — फ़ोन उठाए बिना सेकंडों में कॉपी करें।" },
