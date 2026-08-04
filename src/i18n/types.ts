@@ -25,7 +25,9 @@ export type ProductId =
   | "brain-fit"
   | "arrow-puzzle"
   | "block-hero"
-  | "dramatube";
+  | "dramatube"
+  | "gutty"
+  | "reactor-guice";
 
 export interface Translations {
   meta: { description: string };
