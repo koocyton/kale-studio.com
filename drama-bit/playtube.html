@@ -102,17 +102,18 @@
             currentVideoId = videoId;
 
             if (videoId) {
-                const base = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(videoId);
-                const params = new URLSearchParams({
-                    enablejsapi: '1',
-                    rel: '0',
-                    modestbranding: '1',
-                    playsinline: '1',
-                    autoplay: '1',
-                    controls: '1',
-                    origin: location.origin
-                });
-                player.src = `${base}?${params}`;
+                // const base = 'https://www.youtube-nocookie.com/embed/' + encodeURIComponent(videoId);
+                // const params = new URLSearchParams({
+                //     enablejsapi: '1',
+                //     rel: '0',
+                //     modestbranding: '1',
+                //     playsinline: '1',
+                //     autoplay: '1',
+                //     controls: '1',
+                //     origin: location.origin
+                // });
+                // player.src = `${base}?${params}`;
+                player.src = `https://www.youtube.com/watch?v=${videoId}`
                 player.style.display = 'block';
                 error.classList.remove('show');
             } else {
